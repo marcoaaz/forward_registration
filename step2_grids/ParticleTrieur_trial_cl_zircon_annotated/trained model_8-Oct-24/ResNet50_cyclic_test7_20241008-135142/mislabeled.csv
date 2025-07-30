@@ -1,0 +1,2000 @@
+filename, label, predicted_label
+ECU_030_032_CL_inverted_439_[x=12527,y=5424,w=85,h=63].tif,blank-blank,metamict
+ECU_030_032_CL_inverted_587_[x=7445,y=10999,w=208,h=142].tif,blank-blank,sector-sector
+ECU_903_904_CL_inverted_177_[x=13543,y=4249,w=163,h=258].tif,blank-blank,sector-sector
+ECU_903_904_CL_inverted_390_[x=13616,y=7191,w=172,h=126].tif,blank-blank,sector-sector
+ECU_903_904_CL_inverted_556_[x=14487,y=9719,w=301,h=290].tif,blank-blank,sector-sector
+ECU_903_904_CL_inverted_744_[x=15366,y=12348,w=175,h=219].tif,blank-blank,metamict
+ECU_905_906_CL_inverted_132_[x=7745,y=2281,w=156,h=114].tif,blank-blank,metamict
+ECU_919_920_CL_inverted_681_[x=4003,y=12818,w=66,h=79].tif,blank-blank,metamict
+ECU_927_928_CL_inverted_469_[x=7246,y=8290,w=94,h=87].tif,blank-blank,stripy-stripy
+ECU_927_928_CL_inverted_501_[x=2864,y=8672,w=167,h=125].tif,blank-blank,sector-sector
+ECU_927_928_CL_inverted_778_[x=10497,y=12778,w=147,h=154].tif,blank-blank,sector-sector
+ECU_927_928_CL_inverted_803_[x=15006,y=13213,w=205,h=184].tif,blank-blank,metamict
+ECU_933_934_CL_inverted_1207_[x=9455,y=16241,w=85,h=97].tif,blank-blank,metamict
+ECU_933_934_CL_inverted_1218_[x=8922,y=16313,w=93,h=88].tif,blank-blank,sector-sector
+ECU_968_969_CL_inverted_423_[x=13183,y=5498,w=109,h=78].tif,blank-blank,metamict
+ECU_998_999_CL_inverted_318_[x=2216,y=7004,w=90,h=136].tif,blank-blank,metamict
+ECU_998_999_CL_inverted_323_[x=2808,y=7053,w=99,h=89].tif,blank-blank,metamict
+ECU_998_999_CL_inverted_381_[x=2910,y=7366,w=93,h=77].tif,blank-blank,metamict
+ECU_1087_1088_CL_inverted_109_[x=5329,y=3290,w=265,h=267].tif,blank-blank,oscillatory-sector op
+ECU_1087_1088_CL_inverted_111_[x=10976,y=3348,w=104,h=90].tif,blank-blank,metamict
+ECU_1087_1088_CL_inverted_121_[x=2885,y=3509,w=162,h=257].tif,blank-blank,metamict
+ECU_1087_1088_CL_inverted_125_[x=8929,y=3582,w=160,h=191].tif,blank-blank,metamict
+ECU_1087_1088_CL_inverted_380_[x=3172,y=9692,w=148,h=301].tif,blank-blank,sector-sector
+ECU_1087_1088_CL_inverted_393_[x=3432,y=9800,w=181,h=192].tif,blank-blank,stripy-stripy
+ECU_1087_1088_CL_inverted_588_[x=10198,y=13382,w=207,h=187].tif,blank-blank,sector-sector
+ECU_1087_1088_CL_inverted_67_[x=11654,y=2722,w=163,h=102].tif,blank-blank,sector-sector
+ECU_1087_1088_CL_inverted_68_[x=6821,y=2734,w=196,h=174].tif,blank-blank,metamict
+ECU_1164_1166_CL_inverted_213_[x=10067,y=6509,w=196,h=150].tif,blank-blank,sector-sector
+ECU_1164_1166_CL_inverted_322_[x=9747,y=7406,w=89,h=123].tif,blank-blank,sector-sector
+ECU_1164_1166_CL_inverted_78_[x=6786,y=5395,w=297,h=194].tif,blank-blank,stripy-stripy
+ECU_1164_1166_CL_inverted_88_[x=4116,y=5439,w=72,h=82].tif,blank-blank,metamict
+ECU_1776_1777_CL_inverted_785_[x=10601,y=11797,w=159,h=170].tif,blank-blank,sector-sector
+ECU_353_357_CL_inverted_252_[x=7977,y=3137,w=106,h=104].tif,blank-blank,sector-sector
+ECU_909_910_CL_inverted_419_[x=4565,y=5291,w=178,h=148].tif,blank-blank,stripy-stripy
+ECU_909_910_CL_inverted_553_[x=2183,y=8578,w=197,h=156].tif,blank-blank,sector-sector
+ECU_909_910_CL_inverted_555_[x=3484,y=8658,w=194,h=111].tif,blank-blank,metamict
+ECU_909_910_CL_inverted_718_[x=8303,y=11626,w=251,h=238].tif,blank-blank,metamict
+ECU_909_910_CL_inverted_736_[x=10659,y=11869,w=199,h=260].tif,blank-blank,sector-sector
+ECU_909_910_CL_inverted_798_[x=8307,y=12683,w=207,h=172].tif,blank-blank,sector-sector
+ECU_909_910_CL_inverted_800_[x=8828,y=12713,w=253,h=178].tif,blank-blank,sector-sector
+ECU_909_910_CL_inverted_827_[x=9857,y=13186,w=190,h=275].tif,blank-blank,sector-sector
+ECU_909_910_CL_inverted_93_[x=3907,y=2234,w=77,h=88].tif,blank-blank,sector-sector
+ECU_909_910_CL_inverted_988_[x=4418,y=15393,w=89,h=102].tif,blank-blank,sector-sector
+ECU_911_912_CL_inverted_643_[x=12422,y=10838,w=153,h=222].tif,blank-blank,sector-sector
+ECU_911_912_CL_inverted_669_[x=4601,y=11590,w=227,h=110].tif,blank-blank,metamict
+ECU_911_912_CL_inverted_707_[x=2797,y=11763,w=97,h=112].tif,blank-blank,sector-sector
+ECU_917_918_CL_inverted_136_[x=13023,y=7136,w=221,h=174].tif,blank-blank,oscillatory-sector op
+ECU_917_918_CL_inverted_147_[x=16038,y=7219,w=230,h=179].tif,blank-blank,oscillatory-sector op
+ECU_917_918_CL_inverted_213_[x=6187,y=7958,w=159,h=158].tif,blank-blank,sector-sector
+ECU_917_918_CL_inverted_218_[x=14194,y=8006,w=239,h=329].tif,blank-blank,metamict
+ECU_917_918_CL_inverted_249_[x=12572,y=8333,w=181,h=176].tif,blank-blank,sector-sector
+ECU_917_918_CL_inverted_54_[x=6848,y=6174,w=84,h=118].tif,blank-blank,sector-sector
+ECU_937_938_CL_inverted_1127_[x=11840,y=14005,w=98,h=93].tif,blank-blank,sector-sector
+ECU_937_938_CL_inverted_291_[x=12009,y=5513,w=136,h=215].tif,blank-blank,sector-sector
+ECU_937_938_CL_inverted_306_[x=5730,y=5654,w=164,h=279].tif,blank-blank,stripy-stripy
+ECU_030_032_CL_inverted_124_[x=10277,y=2321,w=210,h=128].tif,blank-oscillatory,oscillatory-sector op
+ECU_030_032_CL_inverted_126_[x=11641,y=2335,w=118,h=180].tif,blank-oscillatory,sector-sector
+ECU_030_032_CL_inverted_150_[x=10498,y=2475,w=111,h=153].tif,blank-oscillatory,oscillatory-sector op
+ECU_030_032_CL_inverted_480_[x=3721,y=8207,w=385,h=351].tif,blank-oscillatory,oscillatory-sector op
+ECU_030_032_CL_inverted_568_[x=11692,y=10767,w=355,h=553].tif,blank-oscillatory,oscillatory-sector op
+ECU_903_904_CL_inverted_477_[x=3625,y=8566,w=146,h=215].tif,blank-oscillatory,oscillatory-sector op
+ECU_919_920_CL_inverted_302_[x=13354,y=6925,w=235,h=292].tif,blank-oscillatory,oscillatory-sector op
+ECU_919_920_CL_inverted_9_[x=4664,y=1770,w=147,h=190].tif,blank-oscillatory,sector-sector
+ECU_927_928_CL_inverted_299_[x=5217,y=6171,w=278,h=318].tif,blank-oscillatory,sector-sector
+ECU_933_934_CL_inverted_1071_[x=10423,y=15007,w=263,h=183].tif,blank-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_117_[x=4268,y=3451,w=232,h=154].tif,blank-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_153_[x=4862,y=3993,w=193,h=287].tif,blank-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_29_[x=6702,y=2064,w=146,h=306].tif,blank-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_383_[x=13444,y=9731,w=180,h=214].tif,blank-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_397_[x=10084,y=9853,w=263,h=458].tif,blank-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_422_[x=12118,y=10391,w=152,h=270].tif,blank-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_515_[x=10773,y=12164,w=202,h=232].tif,blank-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_549_[x=5126,y=12771,w=329,h=356].tif,blank-oscillatory,stripy-stripy
+ECU_1087_1088_CL_inverted_569_[x=1817,y=13119,w=264,h=439].tif,blank-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_574_[x=2271,y=13190,w=248,h=242].tif,blank-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_601_[x=8042,y=13763,w=453,h=293].tif,blank-oscillatory,sector-sector
+ECU_1087_1088_CL_inverted_609_[x=5074,y=13910,w=320,h=431].tif,blank-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_635_[x=4600,y=14364,w=346,h=262].tif,blank-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_647_[x=6142,y=14933,w=286,h=304].tif,blank-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_80_[x=2178,y=2949,w=457,h=284].tif,blank-oscillatory,sector-sector
+ECU_1164_1166_CL_inverted_113_[x=9865,y=5607,w=194,h=264].tif,blank-oscillatory,oscillatory-sector op
+ECU_1164_1166_CL_inverted_353_[x=7057,y=7898,w=207,h=204].tif,blank-oscillatory,oscillatory-sector op
+ECU_1164_1166_CL_inverted_376_[x=6164,y=8035,w=258,h=185].tif,blank-oscillatory,oscillatory-sector op
+ECU_1164_1166_CL_inverted_420_[x=4522,y=8691,w=232,h=320].tif,blank-oscillatory,oscillatory-sector op
+ECU_1164_1166_CL_inverted_503_[x=6878,y=9918,w=132,h=150].tif,blank-oscillatory,sector-sector
+ECU_1164_1166_CL_inverted_56_[x=2080,y=5264,w=124,h=214].tif,blank-oscillatory,oscillatory-sector op
+ECU_1776_1777_CL_inverted_372_[x=7658,y=3391,w=167,h=217].tif,blank-oscillatory,stripy-stripy
+ECU_1776_1777_CL_inverted_458_[x=2174,y=8151,w=327,h=287].tif,blank-oscillatory,sector-sector
+ECU_1776_1777_CL_inverted_783_[x=5919,y=11789,w=274,h=236].tif,blank-oscillatory,sector-sector
+ECU_1776_1777_CL_inverted_833_[x=6781,y=12372,w=141,h=148].tif,blank-oscillatory,sector-sector
+ECU_353_357_CL_inverted_535_[x=6974,y=8545,w=295,h=326].tif,blank-oscillatory,oscillatory-sector op
+ECU_353_357_CL_inverted_741_[x=10644,y=10158,w=340,h=287].tif,blank-oscillatory,oscillatory-sector op
+ECU_353_357_CL_inverted_753_[x=1605,y=10211,w=202,h=182].tif,blank-oscillatory,oscillatory-sector op
+ECU_353_357_CL_inverted_828_[x=5210,y=11089,w=262,h=468].tif,blank-oscillatory,oscillatory-sector op
+ECU_353_357_CL_inverted_831_[x=1719,y=11125,w=193,h=356].tif,blank-oscillatory,oscillatory-sector op
+ECU_353_357_CL_inverted_832_[x=6018,y=11126,w=185,h=170].tif,blank-oscillatory,oscillatory-sector op
+ECU_353_357_CL_inverted_838_[x=6385,y=11152,w=291,h=271].tif,blank-oscillatory,oscillatory-sector op
+ECU_353_357_CL_inverted_857_[x=1235,y=11197,w=224,h=410].tif,blank-oscillatory,oscillatory-sector op
+ECU_353_357_CL_inverted_880_[x=2246,y=11365,w=183,h=276].tif,blank-oscillatory,oscillatory-sector op
+ECU_353_357_CL_inverted_903_[x=7517,y=11931,w=170,h=140].tif,blank-oscillatory,oscillatory-sector op
+ECU_353_357_CL_inverted_913_[x=7733,y=11966,w=80,h=281].tif,blank-oscillatory,stripy-stripy
+ECU_353_357_CL_inverted_934_[x=2833,y=12047,w=183,h=341].tif,blank-oscillatory,oscillatory-sector op
+ECU_909_910_CL_inverted_222_[x=2412,y=3629,w=259,h=123].tif,blank-oscillatory,oscillatory-sector op
+ECU_909_910_CL_inverted_35_[x=8921,y=1454,w=198,h=288].tif,blank-oscillatory,oscillatory-sector op
+ECU_909_910_CL_inverted_623_[x=8900,y=10152,w=194,h=346].tif,blank-oscillatory,oscillatory-sector op
+ECU_909_910_CL_inverted_986_[x=2279,y=15321,w=219,h=197].tif,blank-oscillatory,oscillatory-sector op
+ECU_911_912_CL_inverted_379_[x=2309,y=8320,w=142,h=217].tif,blank-oscillatory,oscillatory-sector op
+ECU_911_912_CL_inverted_384_[x=5777,y=8339,w=219,h=204].tif,blank-oscillatory,oscillatory-sector op
+ECU_911_912_CL_inverted_583_[x=10300,y=10607,w=262,h=190].tif,blank-oscillatory,oscillatory-sector op
+ECU_911_912_CL_inverted_663_[x=4065,y=11546,w=140,h=150].tif,blank-oscillatory,oscillatory-sector op
+ECU_911_912_CL_inverted_666_[x=3049,y=11561,w=353,h=277].tif,blank-oscillatory,oscillatory-sector op
+ECU_911_912_CL_inverted_724_[x=9390,y=11847,w=152,h=201].tif,blank-oscillatory,sector-sector
+ECU_917_918_CL_inverted_152_[x=12364,y=7274,w=208,h=115].tif,blank-oscillatory,oscillatory-sector op
+ECU_917_918_CL_inverted_24_[x=12956,y=5640,w=191,h=229].tif,blank-oscillatory,sector-sector
+ECU_917_918_CL_inverted_430_[x=6673,y=10296,w=145,h=167].tif,blank-oscillatory,sector-sector
+ECU_917_918_CL_inverted_466_[x=14711,y=10651,w=216,h=308].tif,blank-oscillatory,oscillatory-sector op
+ECU_917_918_CL_inverted_492_[x=15554,y=10983,w=255,h=196].tif,blank-oscillatory,oscillatory-sector op
+ECU_917_918_CL_inverted_534_[x=15593,y=11431,w=218,h=232].tif,blank-oscillatory,oscillatory-sector op
+ECU_917_918_CL_inverted_587_[x=13184,y=11988,w=201,h=316].tif,blank-oscillatory,oscillatory-sector op
+ECU_944_945_CL_highres_inverted_825_[x=7593,y=11683,w=214,h=99].tif,blank-oscillatory,sector-sector
+ECU_966_967_CL_inverted_561_[x=11091,y=9072,w=190,h=141].tif,blank-oscillatory,metamict
+ECU_980_981_CL_inverted_306_[x=5052,y=4127,w=228,h=185].tif,blank-oscillatory,oscillatory-sector op
+ECU_994_995_CL_inverted_1003_[x=5056,y=12157,w=338,h=471].tif,blank-oscillatory,oscillatory-sector op
+ECU_030_032_CL_inverted_105_[x=6936,y=1710,w=113,h=216].tif,metamict,sector-sector
+ECU_030_032_CL_inverted_421_[x=7986,y=5331,w=153,h=75].tif,metamict,sector-sector
+ECU_030_032_CL_inverted_71_[x=7011,y=1547,w=241,h=126].tif,metamict,oscillatory-sector op
+ECU_1160_1161_CL_inverted_708_[x=7728,y=10423,w=96,h=151].tif,metamict,oscillatory-sector op
+ECU_927_928_CL_inverted_689_[x=15693,y=11168,w=272,h=229].tif,metamict,oscillatory-sector op
+ECU_1087_1088_CL_inverted_143_[x=1113,y=3853,w=203,h=188].tif,metamict,sector-sector
+ECU_1087_1088_CL_inverted_177_[x=11581,y=4348,w=172,h=73].tif,metamict,oscillatory-sector op
+ECU_1087_1088_CL_inverted_247_[x=9277,y=5310,w=183,h=139].tif,metamict,sector-sector
+ECU_1087_1088_CL_inverted_259_[x=8189,y=5513,w=130,h=90].tif,metamict,oscillatory-sector op
+ECU_1164_1166_CL_inverted_124_[x=8708,y=5691,w=72,h=207].tif,metamict,stripy-stripy
+ECU_1164_1166_CL_inverted_153_[x=3276,y=6186,w=88,h=108].tif,metamict,oscillatory-sector op
+ECU_1164_1166_CL_inverted_235_[x=5542,y=6988,w=61,h=82].tif,metamict,oscillatory-sector op
+ECU_1164_1166_CL_inverted_318_[x=9950,y=7380,w=93,h=65].tif,metamict,oscillatory-sector op
+ECU_1164_1166_CL_inverted_374_[x=3678,y=8024,w=83,h=176].tif,metamict,oscillatory-sector op
+ECU_1164_1166_CL_inverted_399_[x=10144,y=8434,w=89,h=106].tif,metamict,oscillatory-sector op
+ECU_1164_1166_CL_inverted_415_[x=2102,y=8654,w=152,h=182].tif,metamict,oscillatory-sector op
+ECU_1776_1777_CL_inverted_104_[x=6472,y=1498,w=166,h=265].tif,metamict,sector-sector
+ECU_1776_1777_CL_inverted_138_[x=4248,y=1721,w=155,h=193].tif,metamict,sector-sector
+ECU_1776_1777_CL_inverted_283_[x=7661,y=2798,w=243,h=288].tif,metamict,sector-sector
+ECU_1776_1777_CL_inverted_302_[x=7208,y=2909,w=118,h=164].tif,metamict,sector-sector
+ECU_1776_1777_CL_inverted_33_[x=4152,y=788,w=164,h=136].tif,metamict,oscillatory-sector op
+ECU_1776_1777_CL_inverted_389_[x=10677,y=3655,w=134,h=152].tif,metamict,wavy-wavy
+ECU_1776_1777_CL_inverted_401_[x=12388,y=3829,w=172,h=205].tif,metamict,sector-sector
+ECU_1776_1777_CL_inverted_415_[x=11189,y=4109,w=158,h=186].tif,metamict,sector-sector
+ECU_1776_1777_CL_inverted_460_[x=7341,y=8177,w=383,h=265].tif,metamict,stripy-stripy
+ECU_1776_1777_CL_inverted_482_[x=4258,y=8447,w=206,h=168].tif,metamict,sector-sector
+ECU_1776_1777_CL_inverted_490_[x=4471,y=8500,w=237,h=157].tif,metamict,sector-sector
+ECU_1776_1777_CL_inverted_524_[x=8607,y=9011,w=242,h=200].tif,metamict,stripy-stripy
+ECU_1776_1777_CL_inverted_52_[x=12020,y=926,w=208,h=239].tif,metamict,oscillatory-sector op
+ECU_1776_1777_CL_inverted_54_[x=11886,y=955,w=126,h=196].tif,metamict,oscillatory-sector op
+ECU_1776_1777_CL_inverted_592_[x=10304,y=9751,w=238,h=247].tif,metamict,sector-sector
+ECU_1776_1777_CL_inverted_611_[x=3605,y=9969,w=238,h=260].tif,metamict,stripy-stripy
+ECU_1776_1777_CL_inverted_89_[x=5146,y=1355,w=198,h=147].tif,metamict,sector-sector
+ECU_1776_1777_CL_inverted_99_[x=5581,y=1433,w=142,h=193].tif,metamict,sector-sector
+ECU_353_357_CL_inverted_15_[x=10279,y=950,w=89,h=109].tif,metamict,sector-sector
+ECU_353_357_CL_inverted_707_[x=3098,y=9564,w=132,h=131].tif,metamict,oscillatory-sector op
+ECU_353_357_CL_inverted_716_[x=2141,y=9624,w=91,h=171].tif,metamict,oscillatory-sector op
+ECU_353_357_CL_inverted_729_[x=2761,y=9682,w=208,h=193].tif,metamict,oscillatory-sector op
+ECU_353_357_CL_inverted_814_[x=1973,y=10553,w=195,h=138].tif,metamict,oscillatory-sector op
+ECU_353_357_CL_inverted_935_[x=1072,y=12049,w=145,h=170].tif,metamict,oscillatory-sector op
+ECU_909_910_CL_inverted_544_[x=656,y=8344,w=316,h=265].tif,metamict,sector-sector
+ECU_909_910_CL_inverted_562_[x=2109,y=8810,w=152,h=154].tif,metamict,sector-sector
+ECU_909_910_CL_inverted_568_[x=4735,y=8935,w=268,h=345].tif,metamict,stripy-stripy
+ECU_909_910_CL_inverted_616_[x=3736,y=10087,w=219,h=224].tif,metamict,oscillatory-sector op
+ECU_909_910_CL_inverted_729_[x=10823,y=11760,w=205,h=216].tif,metamict,sector-sector
+ECU_909_910_CL_inverted_886_[x=8766,y=13972,w=132,h=118].tif,metamict,sector-sector
+ECU_909_910_CL_inverted_904_[x=4520,y=14208,w=240,h=182].tif,metamict,sector-sector
+ECU_909_910_CL_inverted_928_[x=5475,y=14469,w=234,h=198].tif,metamict,sector-sector
+ECU_911_912_CL_inverted_165_[x=13979,y=2849,w=110,h=90].tif,metamict,sector-sector
+ECU_911_912_CL_inverted_24_[x=5293,y=767,w=121,h=85].tif,metamict,sector-sector
+ECU_911_912_CL_inverted_261_[x=2684,y=3910,w=130,h=155].tif,metamict,sector-sector
+ECU_917_918_CL_inverted_36_[x=12996,y=5932,w=186,h=162].tif,metamict,oscillatory-sector op
+ECU_917_918_CL_inverted_74_[x=7661,y=6460,w=231,h=117].tif,metamict,stripy-stripy
+ECU_921_922_CL_inverted_321_[x=7336,y=8111,w=98,h=67].tif,metamict,oscillatory-sector op
+ECU_921_922_CL_inverted_455_[x=11230,y=11008,w=147,h=98].tif,metamict,oscillatory-sector op
+ECU_921_922_CL_inverted_459_[x=15018,y=11090,w=138,h=165].tif,metamict,oscillatory-sector op
+ECU_921_922_CL_inverted_501_[x=15950,y=11616,w=97,h=185].tif,metamict,stripy-stripy
+ECU_921_922_CL_inverted_504_[x=9839,y=11679,w=178,h=163].tif,metamict,stripy-stripy
+ECU_921_922_CL_inverted_550_[x=13502,y=12272,w=150,h=140].tif,metamict,stripy-stripy
+ECU_921_922_CL_inverted_657_[x=11007,y=13635,w=133,h=114].tif,metamict,stripy-stripy
+ECU_921_922_CL_inverted_703_[x=7672,y=14401,w=219,h=158].tif,metamict,stripy-stripy
+ECU_931_932_CL_inverted_945_[x=11452,y=12871,w=65,h=68].tif,metamict,sector-sector
+ECU_937_938_CL_inverted_1087_[x=7685,y=13550,w=191,h=168].tif,metamict,stripy-stripy
+ECU_937_938_CL_inverted_1091_[x=7983,y=13578,w=115,h=150].tif,metamict,sector-sector
+ECU_937_938_CL_inverted_1112_[x=7754,y=13836,w=154,h=179].tif,metamict,oscillatory-sector op
+ECU_937_938_CL_inverted_1156_[x=8747,y=14403,w=98,h=99].tif,metamict,sector-sector
+ECU_937_938_CL_inverted_1187_[x=7228,y=14911,w=143,h=147].tif,metamict,oscillatory-sector op
+ECU_937_938_CL_inverted_152_[x=13228,y=3665,w=173,h=190].tif,metamict,sector-sector
+ECU_937_938_CL_inverted_244_[x=13625,y=4944,w=111,h=157].tif,metamict,oscillatory-sector op
+ECU_937_938_CL_inverted_280_[x=15043,y=5425,w=185,h=112].tif,metamict,oscillatory-sector op
+ECU_937_938_CL_inverted_396_[x=12945,y=6581,w=117,h=168].tif,metamict,oscillatory-sector op
+ECU_937_938_CL_inverted_40_[x=8311,y=1660,w=85,h=63].tif,metamict,oscillatory-sector op
+ECU_937_938_CL_inverted_434_[x=7210,y=6981,w=531,h=482].tif,metamict,sector-sector
+ECU_937_938_CL_inverted_440_[x=13312,y=7036,w=268,h=308].tif,metamict,oscillatory-sector op
+ECU_937_938_CL_inverted_460_[x=12554,y=7264,w=143,h=103].tif,metamict,oscillatory-sector op
+ECU_937_938_CL_inverted_496_[x=11104,y=7695,w=201,h=72].tif,metamict,oscillatory-sector op
+ECU_937_938_CL_inverted_516_[x=11180,y=7854,w=179,h=114].tif,metamict,oscillatory-sector op
+ECU_937_938_CL_inverted_531_[x=16092,y=7974,w=196,h=140].tif,metamict,sector-sector
+ECU_937_938_CL_inverted_533_[x=16292,y=7984,w=111,h=178].tif,metamict,stripy-stripy
+ECU_937_938_CL_inverted_536_[x=12797,y=8002,w=149,h=157].tif,metamict,oscillatory-sector op
+ECU_937_938_CL_inverted_549_[x=10756,y=8107,w=218,h=172].tif,metamict,sector-sector
+ECU_937_938_CL_inverted_59_[x=8713,y=1997,w=101,h=111].tif,metamict,sector-sector
+ECU_937_938_CL_inverted_5_[x=8724,y=759,w=238,h=202].tif,metamict,sector-sector
+ECU_937_938_CL_inverted_602_[x=15713,y=8586,w=108,h=70].tif,metamict,oscillatory-oscillatory
+ECU_937_938_CL_inverted_620_[x=11767,y=8753,w=113,h=152].tif,metamict,oscillatory-sector op
+ECU_937_938_CL_inverted_621_[x=11588,y=8754,w=183,h=100].tif,metamict,oscillatory-oscillatory
+ECU_937_938_CL_inverted_663_[x=12311,y=9184,w=129,h=143].tif,metamict,sector-sector
+ECU_937_938_CL_inverted_680_[x=15687,y=9297,w=118,h=127].tif,metamict,sector-sector
+ECU_937_938_CL_inverted_692_[x=12044,y=9387,w=125,h=163].tif,metamict,stripy-stripy
+ECU_937_938_CL_inverted_697_[x=11309,y=9474,w=137,h=175].tif,metamict,sector-sector
+ECU_937_938_CL_inverted_737_[x=13355,y=9826,w=106,h=112].tif,metamict,sector-sector
+ECU_937_938_CL_inverted_860_[x=9279,y=11082,w=280,h=139].tif,metamict,oscillatory-sector op
+ECU_937_938_CL_inverted_889_[x=9269,y=11355,w=131,h=137].tif,metamict,oscillatory-sector op
+ECU_937_938_CL_inverted_926_[x=8791,y=11725,w=131,h=187].tif,metamict,oscillatory-sector op
+ECU_937_938_CL_inverted_946_[x=9677,y=11963,w=163,h=174].tif,metamict,oscillatory-sector op
+ECU_937_938_CL_inverted_950_[x=9917,y=11996,w=140,h=109].tif,metamict,sector-sector
+ECU_937_938_CL_inverted_99_[x=5074,y=2762,w=134,h=62].tif,metamict,stripy-stripy
+ECU_944_945_CL_highres_inverted_44_[x=4580,y=879,w=123,h=93].tif,metamict,oscillatory-oscillatory
+ECU_966_967_CL_inverted_210_[x=11390,y=2763,w=232,h=210].tif,metamict,oscillatory-sector op
+ECU_970_971_CL_inverted_115_[x=1423,y=1930,w=202,h=80].tif,metamict,stripy-stripy
+ECU_978_979_CL_inverted_123_[x=4241,y=2450,w=335,h=240].tif,metamict,sector-sector
+ECU_978_979_CL_inverted_125_[x=2367,y=2474,w=447,h=429].tif,metamict,stripy-stripy
+ECU_978_979_CL_inverted_137_[x=9148,y=2564,w=158,h=441].tif,metamict,stripy-stripy
+ECU_978_979_CL_inverted_139_[x=3589,y=2587,w=367,h=454].tif,metamict,stripy-stripy
+ECU_978_979_CL_inverted_272_[x=1790,y=3745,w=182,h=130].tif,metamict,stripy-stripy
+ECU_978_979_CL_inverted_294_[x=8732,y=3914,w=196,h=185].tif,metamict,sector-sector
+ECU_978_979_CL_inverted_328_[x=11411,y=4379,w=158,h=191].tif,metamict,sector-sector
+ECU_978_979_CL_inverted_329_[x=10935,y=4398,w=91,h=151].tif,metamict,wavy-wavy
+ECU_978_979_CL_inverted_330_[x=5406,y=4399,w=140,h=180].tif,metamict,stripy-stripy
+ECU_978_979_CL_inverted_357_[x=9882,y=4589,w=288,h=315].tif,metamict,stripy-stripy
+ECU_978_979_CL_inverted_408_[x=1665,y=4961,w=157,h=93].tif,metamict,stripy-stripy
+ECU_978_979_CL_inverted_414_[x=8739,y=5020,w=95,h=100].tif,metamict,sector-sector
+ECU_978_979_CL_inverted_41_[x=7126,y=1440,w=202,h=119].tif,metamict,stripy-stripy
+ECU_978_979_CL_inverted_425_[x=12853,y=5195,w=159,h=196].tif,metamict,sector-sector
+ECU_978_979_CL_inverted_445_[x=5782,y=5363,w=220,h=206].tif,metamict,stripy-stripy
+ECU_978_979_CL_inverted_454_[x=2140,y=5434,w=143,h=303].tif,metamict,stripy-stripy
+ECU_978_979_CL_inverted_47_[x=2878,y=1511,w=206,h=549].tif,metamict,stripy-stripy
+ECU_978_979_CL_inverted_496_[x=1347,y=5647,w=199,h=143].tif,metamict,stripy-stripy
+ECU_978_979_CL_inverted_500_[x=2003,y=5669,w=170,h=237].tif,metamict,stripy-stripy
+ECU_978_979_CL_inverted_517_[x=1593,y=5839,w=211,h=219].tif,metamict,sector-sector
+ECU_978_979_CL_inverted_587_[x=3901,y=6691,w=97,h=127].tif,metamict,oscillatory-sector op
+ECU_978_979_CL_inverted_69_[x=3201,y=1734,w=152,h=121].tif,metamict,stripy-stripy
+ECU_978_979_CL_inverted_897_[x=1558,y=11923,w=82,h=308].tif,metamict,stripy-stripy
+ECU_980_981_CL_inverted_106_[x=3602,y=1892,w=191,h=221].tif,metamict,sector-sector
+ECU_980_981_CL_inverted_109_[x=8844,y=1918,w=144,h=156].tif,metamict,sector-sector
+ECU_980_981_CL_inverted_13_[x=10099,y=521,w=308,h=261].tif,metamict,stripy-stripy
+ECU_980_981_CL_inverted_293_[x=12475,y=4027,w=155,h=216].tif,metamict,stripy-stripy
+ECU_980_981_CL_inverted_5_[x=11065,y=453,w=156,h=254].tif,metamict,sector-sector
+ECU_980_981_CL_inverted_6_[x=12118,y=462,w=202,h=248].tif,metamict,oscillatory-sector op
+ECU_980_981_CL_inverted_89_[x=10840,y=1825,w=248,h=154].tif,metamict,stripy-stripy
+ECU_980_981_CL_inverted_8_[x=6337,y=492,w=206,h=236].tif,metamict,sector-sector
+ECU_980_981_CL_inverted_96_[x=10012,y=1854,w=145,h=137].tif,metamict,sector-sector
+ECU_994_995_CL_inverted_221_[x=5270,y=1936,w=87,h=130].tif,metamict,oscillatory-sector op
+ECU_994_995_CL_inverted_284_[x=12593,y=2636,w=144,h=151].tif,metamict,oscillatory-sector op
+ECU_030_032_CL_inverted_100_[x=9319,y=1694,w=160,h=190].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_030_032_CL_inverted_101_[x=5361,y=1697,w=168,h=365].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_030_032_CL_inverted_139_[x=8725,y=2397,w=177,h=191].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_030_032_CL_inverted_172_[x=9282,y=2615,w=184,h=139].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_030_032_CL_inverted_191_[x=4855,y=2846,w=258,h=184].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_030_032_CL_inverted_205_[x=10797,y=3221,w=142,h=77].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_030_032_CL_inverted_217_[x=9596,y=3328,w=202,h=234].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_030_032_CL_inverted_220_[x=7332,y=3338,w=147,h=173].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_030_032_CL_inverted_251_[x=8396,y=3511,w=88,h=124].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_030_032_CL_inverted_281_[x=11182,y=4005,w=109,h=114].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_030_032_CL_inverted_297_[x=9222,y=4128,w=207,h=161].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_030_032_CL_inverted_349_[x=8918,y=4397,w=127,h=93].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_030_032_CL_inverted_354_[x=7059,y=4432,w=155,h=204].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_030_032_CL_inverted_372_[x=1820,y=4598,w=60,h=101].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_030_032_CL_inverted_392_[x=9389,y=5143,w=99,h=167].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_030_032_CL_inverted_433_[x=7421,y=5398,w=112,h=99].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_030_032_CL_inverted_629_[x=6184,y=12038,w=151,h=129].tif,oscillatory-oscillatory,stripy-stripy
+ECU_030_032_CL_inverted_778_[x=10989,y=13051,w=332,h=262].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_030_032_CL_inverted_80_[x=8331,y=1577,w=104,h=146].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1154_1155_1167_CL_inverted_128_[x=4327,y=12134,w=124,h=269].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1154_1155_1167_CL_inverted_75_[x=9989,y=5964,w=132,h=132].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_105_[x=5568,y=1833,w=157,h=100].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_149_[x=10652,y=2054,w=149,h=93].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_182_[x=7820,y=2530,w=157,h=200].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_185_[x=6837,y=2560,w=119,h=171].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_187_[x=6276,y=2588,w=123,h=190].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_189_[x=8382,y=2593,w=156,h=94].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_236_[x=12097,y=3023,w=149,h=89].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_249_[x=4430,y=3210,w=205,h=164].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_266_[x=7493,y=3328,w=137,h=228].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_272_[x=7227,y=3393,w=101,h=172].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_295_[x=9354,y=3479,w=108,h=167].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_303_[x=7545,y=3549,w=101,h=117].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_30_[x=10557,y=919,w=232,h=146].tif,oscillatory-oscillatory,stripy-stripy
+ECU_1160_1161_CL_inverted_313_[x=9060,y=3634,w=173,h=93].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_320_[x=12166,y=3790,w=90,h=167].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_321_[x=11748,y=3795,w=146,h=77].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_343_[x=6656,y=4221,w=149,h=155].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_344_[x=5975,y=4232,w=132,h=187].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_362_[x=10803,y=4441,w=99,h=63].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_366_[x=7422,y=4516,w=88,h=84].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_368_[x=10160,y=4595,w=59,h=81].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_403_[x=10818,y=5103,w=85,h=164].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_409_[x=6028,y=5164,w=252,h=126].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_415_[x=9565,y=5210,w=149,h=150].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_418_[x=8672,y=5220,w=102,h=199].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_444_[x=3799,y=8349,w=217,h=121].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_447_[x=5119,y=8367,w=154,h=155].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_489_[x=11222,y=8553,w=144,h=112].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_492_[x=11486,y=8563,w=147,h=104].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_502_[x=5126,y=8613,w=138,h=99].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_505_[x=9381,y=8624,w=129,h=154].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_508_[x=6060,y=8640,w=113,h=102].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_514_[x=8311,y=8664,w=145,h=212].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_52_[x=6490,y=1016,w=131,h=97].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_534_[x=6171,y=8748,w=81,h=100].tif,oscillatory-oscillatory,metamict
+ECU_1160_1161_CL_inverted_536_[x=12093,y=8765,w=79,h=103].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_542_[x=11909,y=8874,w=125,h=147].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_549_[x=872,y=9076,w=257,h=163].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_552_[x=3347,y=9153,w=136,h=293].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_575_[x=8150,y=9265,w=154,h=224].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_596_[x=6837,y=9367,w=113,h=124].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_600_[x=7261,y=9386,w=139,h=107].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_608_[x=8627,y=9418,w=109,h=124].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_609_[x=1001,y=9438,w=106,h=210].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_616_[x=10779,y=9470,w=203,h=240].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_622_[x=11823,y=9501,w=198,h=106].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_623_[x=6144,y=9507,w=166,h=138].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_632_[x=8563,y=9620,w=127,h=119].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_652_[x=818,y=10112,w=149,h=149].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_666_[x=2131,y=10179,w=222,h=181].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_673_[x=11613,y=10193,w=278,h=128].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_677_[x=1312,y=10203,w=169,h=193].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_678_[x=3859,y=10203,w=176,h=190].tif,oscillatory-oscillatory,sector-sector
+ECU_1160_1161_CL_inverted_679_[x=6828,y=10203,w=188,h=198].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_688_[x=5626,y=10244,w=180,h=180].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_700_[x=11327,y=10326,w=96,h=119].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_71_[x=11767,y=1148,w=91,h=146].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_723_[x=2537,y=10921,w=155,h=114].tif,oscillatory-oscillatory,sector-sector
+ECU_1160_1161_CL_inverted_724_[x=5420,y=10921,w=165,h=295].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_726_[x=1955,y=10925,w=118,h=111].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_749_[x=8495,y=11025,w=142,h=189].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_754_[x=4622,y=11036,w=175,h=292].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_75_[x=4302,y=1612,w=349,h=171].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_761_[x=9149,y=11052,w=86,h=225].tif,oscillatory-oscillatory,stripy-stripy
+ECU_1160_1161_CL_inverted_766_[x=1992,y=11071,w=132,h=114].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_775_[x=11633,y=11103,w=152,h=208].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_796_[x=3881,y=11165,w=129,h=162].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_798_[x=1065,y=11169,w=119,h=112].tif,oscillatory-oscillatory,sector-sector
+ECU_1160_1161_CL_inverted_802_[x=10339,y=11186,w=175,h=276].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_825_[x=11532,y=11357,w=168,h=158].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_827_[x=8722,y=11364,w=156,h=171].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_82_[x=5838,y=1691,w=136,h=194].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_847_[x=7571,y=11880,w=88,h=144].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_853_[x=6860,y=11904,w=110,h=150].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_858_[x=4103,y=11921,w=147,h=75].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_914_[x=6096,y=12154,w=81,h=55].tif,oscillatory-oscillatory,metamict
+ECU_1160_1161_CL_inverted_91_[x=4754,y=1768,w=119,h=170].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_903_904_CL_inverted_120_[x=2593,y=3532,w=298,h=201].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_903_904_CL_inverted_255_[x=4814,y=5484,w=166,h=81].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_903_904_CL_inverted_257_[x=5785,y=5539,w=194,h=406].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_903_904_CL_inverted_267_[x=7074,y=5591,w=101,h=147].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_903_904_CL_inverted_294_[x=13209,y=5951,w=355,h=266].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_903_904_CL_inverted_422_[x=14782,y=7646,w=202,h=143].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_903_904_CL_inverted_528_[x=15493,y=9304,w=130,h=142].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_903_904_CL_inverted_578_[x=7535,y=10046,w=106,h=137].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_903_904_CL_inverted_631_[x=13463,y=10722,w=226,h=189].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_903_904_CL_inverted_882_[x=8355,y=15079,w=92,h=117].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_905_906_CL_inverted_449_[x=5164,y=5889,w=159,h=226].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_905_906_CL_inverted_518_[x=6102,y=9866,w=122,h=115].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_905_906_CL_inverted_543_[x=2278,y=10284,w=252,h=177].tif,oscillatory-oscillatory,sector-oscillatory sector op
+ECU_905_906_CL_inverted_556_[x=12950,y=10488,w=252,h=162].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_905_906_CL_inverted_923_[x=3988,y=14910,w=192,h=224].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_913_914_CL_inverted_108_[x=7325,y=1987,w=177,h=149].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_913_914_CL_inverted_12_[x=10211,y=780,w=161,h=133].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_913_914_CL_inverted_14_[x=9452,y=784,w=114,h=134].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_913_914_CL_inverted_207_[x=4289,y=3012,w=235,h=134].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_913_914_CL_inverted_346_[x=3485,y=4311,w=125,h=109].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_913_914_CL_inverted_369_[x=10854,y=4496,w=155,h=102].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_913_914_CL_inverted_62_[x=5264,y=1275,w=85,h=101].tif,oscillatory-oscillatory,metamict
+ECU_913_914_CL_inverted_968_[x=5516,y=16620,w=197,h=220].tif,oscillatory-oscillatory,sector-sector
+ECU_913_914_CL_inverted_98_[x=8778,y=1912,w=265,h=229].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_919_920_CL_inverted_103_[x=1696,y=4115,w=104,h=108].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_919_920_CL_inverted_168_[x=1691,y=4872,w=228,h=282].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_927_928_CL_inverted_218_[x=15055,y=4859,w=240,h=194].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_927_928_CL_inverted_301_[x=13623,y=6212,w=153,h=96].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_927_928_CL_inverted_346_[x=5200,y=6777,w=167,h=155].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_927_928_CL_inverted_374_[x=13071,y=7124,w=111,h=106].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_927_928_CL_inverted_388_[x=15232,y=7279,w=93,h=144].tif,oscillatory-oscillatory,metamict
+ECU_927_928_CL_inverted_494_[x=13431,y=8546,w=108,h=77].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_927_928_CL_inverted_625_[x=12537,y=10231,w=127,h=142].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_927_928_CL_inverted_671_[x=4541,y=10836,w=259,h=290].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_927_928_CL_inverted_731_[x=10940,y=11842,w=110,h=107].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_927_928_CL_inverted_739_[x=13936,y=11965,w=134,h=92].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_927_928_CL_inverted_781_[x=10594,y=12901,w=107,h=109].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_927_928_CL_inverted_816_[x=12105,y=13489,w=91,h=128].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_927_928_CL_inverted_81_[x=6842,y=2621,w=299,h=253].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_927_928_CL_inverted_822_[x=12178,y=13593,w=145,h=139].tif,oscillatory-oscillatory,stripy-stripy
+ECU_927_928_CL_inverted_839_[x=10176,y=13968,w=156,h=106].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_942_943_CL_inverted_621_[x=634,y=7731,w=265,h=173].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_942_943_CL_inverted_632_[x=2627,y=8219,w=159,h=198].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_942_943_CL_inverted_665_[x=4756,y=8724,w=212,h=297].tif,oscillatory-oscillatory,sector-oscillatory sector op
+ECU_942_943_CL_inverted_700_[x=3196,y=9224,w=155,h=140].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_942_943_CL_inverted_723_[x=6560,y=9536,w=162,h=140].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_942_943_CL_inverted_754_[x=7509,y=9985,w=183,h=122].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_942_943_CL_inverted_913_[x=10842,y=11669,w=225,h=204].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_962_963_CL_highres_inverted_99_[x=9709,y=2101,w=156,h=170].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_968_969_CL_inverted_344_[x=7561,y=4622,w=139,h=201].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_968_969_CL_inverted_383_[x=3921,y=4829,w=84,h=108].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_968_969_CL_inverted_546_[x=8694,y=6103,w=122,h=66].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_974_975_CL_inverted_187_[x=4337,y=1949,w=235,h=177].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_974_975_CL_inverted_188_[x=2647,y=1950,w=92,h=136].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_974_975_CL_inverted_189_[x=3218,y=1956,w=131,h=149].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_982_983_CL_inverted_429_[x=8391,y=5915,w=260,h=153].tif,oscillatory-oscillatory,stripy-stripy
+ECU_998_999_CL_inverted_490_[x=9211,y=8721,w=164,h=160].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_13_[x=10305,y=1418,w=181,h=405].tif,oscillatory-oscillatory,metamict
+ECU_1087_1088_CL_inverted_14_[x=10714,y=1437,w=192,h=202].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_183_[x=6551,y=4380,w=87,h=149].tif,oscillatory-oscillatory,metamict
+ECU_1087_1088_CL_inverted_209_[x=12390,y=4773,w=149,h=177].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_249_[x=3099,y=5334,w=124,h=110].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_284_[x=2896,y=6063,w=75,h=184].tif,oscillatory-oscillatory,metamict
+ECU_1087_1088_CL_inverted_296_[x=7309,y=6365,w=120,h=161].tif,oscillatory-oscillatory,stripy-stripy
+ECU_1087_1088_CL_inverted_303_[x=3752,y=6691,w=225,h=253].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_329_[x=12935,y=8585,w=235,h=258].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_334_[x=10518,y=8831,w=202,h=223].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_337_[x=9814,y=8911,w=163,h=160].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_351_[x=12352,y=9232,w=208,h=258].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_379_[x=3908,y=9674,w=111,h=169].tif,oscillatory-oscillatory,sector-sector
+ECU_1087_1088_CL_inverted_392_[x=2549,y=9793,w=149,h=233].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_406_[x=9016,y=10169,w=135,h=214].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_425_[x=7371,y=10530,w=222,h=188].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_428_[x=6764,y=10579,w=233,h=167].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_449_[x=7601,y=11020,w=158,h=245].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_527_[x=3051,y=12400,w=211,h=197].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_537_[x=1523,y=12572,w=324,h=325].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_53_[x=7220,y=2471,w=169,h=223].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_568_[x=7810,y=13108,w=235,h=199].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_622_[x=5334,y=14098,w=170,h=188].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_626_[x=4783,y=14197,w=142,h=152].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_627_[x=6400,y=14197,w=232,h=175].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_637_[x=3198,y=14451,w=139,h=165].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_653_[x=6680,y=15051,w=267,h=231].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1087_1088_CL_inverted_657_[x=5037,y=15239,w=185,h=182].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1164_1166_CL_inverted_112_[x=9337,y=5602,w=128,h=89].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1164_1166_CL_inverted_134_[x=4431,y=6085,w=220,h=123].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1164_1166_CL_inverted_159_[x=4436,y=6206,w=208,h=223].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1164_1166_CL_inverted_186_[x=6921,y=6315,w=166,h=232].tif,oscillatory-oscillatory,sector-sector
+ECU_1164_1166_CL_inverted_20_[x=1907,y=1041,w=215,h=215].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1164_1166_CL_inverted_243_[x=7255,y=7024,w=86,h=104].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1164_1166_CL_inverted_266_[x=4020,y=7113,w=153,h=165].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1164_1166_CL_inverted_313_[x=7326,y=7308,w=100,h=88].tif,oscillatory-oscillatory,stripy-stripy
+ECU_1164_1166_CL_inverted_327_[x=9607,y=7502,w=57,h=98].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1164_1166_CL_inverted_351_[x=1284,y=7890,w=87,h=93].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1164_1166_CL_inverted_356_[x=1851,y=7908,w=78,h=114].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1164_1166_CL_inverted_357_[x=6046,y=7909,w=176,h=190].tif,oscillatory-oscillatory,sector-sector
+ECU_1164_1166_CL_inverted_363_[x=4764,y=7967,w=146,h=133].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1164_1166_CL_inverted_366_[x=7636,y=7988,w=89,h=172].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1164_1166_CL_inverted_385_[x=5560,y=8125,w=135,h=154].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1164_1166_CL_inverted_388_[x=5696,y=8135,w=122,h=140].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1164_1166_CL_inverted_398_[x=8336,y=8337,w=215,h=141].tif,oscillatory-oscillatory,stripy-stripy
+ECU_1164_1166_CL_inverted_438_[x=6520,y=8836,w=91,h=148].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1164_1166_CL_inverted_450_[x=7414,y=8952,w=110,h=89].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1164_1166_CL_inverted_462_[x=2359,y=9398,w=152,h=164].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1164_1166_CL_inverted_463_[x=3175,y=9431,w=126,h=525].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1164_1166_CL_inverted_472_[x=3498,y=9542,w=164,h=112].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1164_1166_CL_inverted_62_[x=5905,y=5289,w=173,h=298].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1164_1166_CL_inverted_64_[x=3988,y=5295,w=143,h=284].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1164_1166_CL_inverted_84_[x=2624,y=5419,w=87,h=206].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1776_1777_CL_inverted_101_[x=9884,y=1448,w=201,h=152].tif,oscillatory-oscillatory,metamict
+ECU_1776_1777_CL_inverted_108_[x=2877,y=1534,w=262,h=257].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1776_1777_CL_inverted_10_[x=6188,y=509,w=196,h=285].tif,oscillatory-oscillatory,stripy-stripy
+ECU_1776_1777_CL_inverted_11_[x=7128,y=536,w=279,h=139].tif,oscillatory-oscillatory,metamict
+ECU_1776_1777_CL_inverted_146_[x=9410,y=1833,w=145,h=189].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1776_1777_CL_inverted_154_[x=10268,y=1938,w=231,h=213].tif,oscillatory-oscillatory,sector-sector
+ECU_1776_1777_CL_inverted_158_[x=11691,y=1952,w=199,h=142].tif,oscillatory-oscillatory,metamict
+ECU_1776_1777_CL_inverted_16_[x=6574,y=593,w=107,h=252].tif,oscillatory-oscillatory,metamict
+ECU_1776_1777_CL_inverted_175_[x=6336,y=2041,w=198,h=84].tif,oscillatory-oscillatory,metamict
+ECU_1776_1777_CL_inverted_178_[x=2574,y=2062,w=143,h=138].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1776_1777_CL_inverted_185_[x=8721,y=2127,w=273,h=179].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1776_1777_CL_inverted_187_[x=4316,y=2152,w=106,h=185].tif,oscillatory-oscillatory,metamict
+ECU_1776_1777_CL_inverted_202_[x=6113,y=2280,w=179,h=309].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1776_1777_CL_inverted_241_[x=3257,y=2564,w=167,h=115].tif,oscillatory-oscillatory,metamict
+ECU_1776_1777_CL_inverted_256_[x=3647,y=2643,w=211,h=110].tif,oscillatory-oscillatory,metamict
+ECU_1776_1777_CL_inverted_276_[x=6728,y=2755,w=179,h=273].tif,oscillatory-oscillatory,metamict
+ECU_1776_1777_CL_inverted_277_[x=5213,y=2756,w=128,h=249].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1776_1777_CL_inverted_307_[x=3059,y=2963,w=103,h=131].tif,oscillatory-oscillatory,metamict
+ECU_1776_1777_CL_inverted_368_[x=7009,y=3358,w=87,h=221].tif,oscillatory-oscillatory,metamict
+ECU_1776_1777_CL_inverted_394_[x=11437,y=3743,w=108,h=193].tif,oscillatory-oscillatory,stripy-stripy
+ECU_1776_1777_CL_inverted_39_[x=4643,y=825,w=180,h=193].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1776_1777_CL_inverted_420_[x=11063,y=4171,w=142,h=180].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1776_1777_CL_inverted_426_[x=11831,y=4204,w=161,h=120].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1776_1777_CL_inverted_438_[x=2386,y=7650,w=290,h=235].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1776_1777_CL_inverted_59_[x=6235,y=1022,w=283,h=157].tif,oscillatory-oscillatory,sector-sector
+ECU_1776_1777_CL_inverted_675_[x=8884,y=10672,w=195,h=233].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1776_1777_CL_inverted_761_[x=4332,y=11563,w=203,h=166].tif,oscillatory-oscillatory,metamict
+ECU_1776_1777_CL_inverted_765_[x=3882,y=11612,w=235,h=205].tif,oscillatory-oscillatory,sector-sector
+ECU_1776_1777_CL_inverted_803_[x=3647,y=11986,w=160,h=301].tif,oscillatory-oscillatory,stripy-stripy
+ECU_1776_1777_CL_inverted_820_[x=4676,y=12074,w=213,h=260].tif,oscillatory-oscillatory,sector-sector
+ECU_1776_1777_CL_inverted_825_[x=8467,y=12179,w=216,h=114].tif,oscillatory-oscillatory,stripy-stripy
+ECU_1776_1777_CL_inverted_830_[x=10569,y=12334,w=112,h=118].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_1776_1777_CL_inverted_835_[x=10984,y=12379,w=108,h=208].tif,oscillatory-oscillatory,metamict
+ECU_1776_1777_CL_inverted_848_[x=8574,y=12571,w=183,h=120].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_353_357_CL_inverted_387_[x=7060,y=4190,w=125,h=127].tif,oscillatory-oscillatory,sector-sector
+ECU_353_357_CL_inverted_490_[x=3695,y=4975,w=250,h=254].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_353_357_CL_inverted_631_[x=3425,y=8872,w=145,h=94].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_353_357_CL_inverted_736_[x=10945,y=10038,w=210,h=305].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_353_357_CL_inverted_820_[x=6927,y=11015,w=199,h=188].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_353_357_CL_inverted_842_[x=2686,y=11160,w=154,h=204].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_909_910_CL_inverted_115_[x=5582,y=2469,w=158,h=170].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_909_910_CL_inverted_216_[x=12034,y=3588,w=171,h=129].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_909_910_CL_inverted_239_[x=3103,y=3779,w=203,h=162].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_909_910_CL_inverted_245_[x=12310,y=3803,w=422,h=250].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_909_910_CL_inverted_351_[x=6744,y=4791,w=174,h=115].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_909_910_CL_inverted_363_[x=7350,y=4854,w=157,h=178].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_909_910_CL_inverted_420_[x=8965,y=5305,w=192,h=112].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_909_910_CL_inverted_500_[x=8278,y=6318,w=84,h=91].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_909_910_CL_inverted_993_[x=10019,y=15441,w=249,h=204].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_911_912_CL_inverted_16_[x=10666,y=711,w=204,h=241].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_911_912_CL_inverted_407_[x=6555,y=8467,w=304,h=363].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_911_912_CL_inverted_416_[x=1298,y=8495,w=166,h=205].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_911_912_CL_inverted_419_[x=2796,y=8518,w=180,h=147].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_911_912_CL_inverted_569_[x=3131,y=10477,w=207,h=166].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_911_912_CL_inverted_606_[x=2106,y=10675,w=251,h=195].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_911_912_CL_inverted_640_[x=5403,y=10828,w=193,h=160].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_911_912_CL_inverted_664_[x=2774,y=11554,w=188,h=172].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_911_912_CL_inverted_694_[x=11500,y=11717,w=150,h=180].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_911_912_CL_inverted_734_[x=2862,y=11878,w=135,h=147].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_911_912_CL_inverted_763_[x=4285,y=12704,w=180,h=124].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_917_918_CL_inverted_11_[x=11173,y=5397,w=105,h=209].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_917_918_CL_inverted_230_[x=16438,y=8137,w=177,h=289].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_917_918_CL_inverted_23_[x=11184,y=5624,w=174,h=258].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_917_918_CL_inverted_359_[x=15265,y=9584,w=229,h=157].tif,oscillatory-oscillatory,stripy-stripy
+ECU_917_918_CL_inverted_570_[x=13166,y=11802,w=173,h=181].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_921_922_CL_inverted_720_[x=7064,y=14765,w=139,h=151].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_923_924_CL_inverted_338_[x=3138,y=6548,w=180,h=179].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_923_924_CL_inverted_469_[x=3675,y=8717,w=192,h=174].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_931_932_CL_inverted_14_[x=4247,y=921,w=165,h=82].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_931_932_CL_inverted_724_[x=2895,y=9496,w=135,h=155].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_931_932_CL_inverted_989_[x=10078,y=14220,w=243,h=195].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_937_938_CL_inverted_299_[x=15168,y=5607,w=99,h=127].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_937_938_CL_inverted_688_[x=4998,y=9361,w=90,h=82].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_944_945_CL_highres_inverted_465_[x=10743,y=5195,w=90,h=126].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_944_945_CL_highres_inverted_682_[x=11936,y=10618,w=141,h=164].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_966_967_CL_inverted_29_[x=10265,y=637,w=159,h=152].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_966_967_CL_inverted_345_[x=12973,y=3848,w=218,h=151].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_966_967_CL_inverted_560_[x=6256,y=9065,w=112,h=75].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_966_967_CL_inverted_616_[x=2841,y=9898,w=157,h=170].tif,oscillatory-oscillatory,metamict
+ECU_966_967_CL_inverted_838_[x=9099,y=11737,w=131,h=236].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_966_967_CL_inverted_841_[x=10083,y=11772,w=123,h=107].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_966_967_CL_inverted_947_[x=9111,y=12827,w=199,h=135].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_966_967_CL_inverted_99_[x=5576,y=1608,w=201,h=405].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_970_971_CL_inverted_1170_[x=8231,y=12353,w=398,h=430].tif,oscillatory-oscillatory,sector-sector
+ECU_970_971_CL_inverted_246_[x=4832,y=2868,w=195,h=234].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_978_979_CL_inverted_1051_[x=7355,y=12900,w=122,h=101].tif,oscillatory-oscillatory,sector-sector
+ECU_978_979_CL_inverted_40_[x=6382,y=1419,w=156,h=171].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_978_979_CL_inverted_458_[x=13187,y=5442,w=91,h=114].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_978_979_CL_inverted_476_[x=4616,y=5538,w=168,h=146].tif,oscillatory-oscillatory,metamict
+ECU_978_979_CL_inverted_490_[x=10243,y=5622,w=243,h=214].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_978_979_CL_inverted_542_[x=7374,y=6238,w=131,h=155].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_980_981_CL_inverted_130_[x=11843,y=2560,w=159,h=119].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_980_981_CL_inverted_197_[x=9549,y=3093,w=222,h=171].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_980_981_CL_inverted_493_[x=7800,y=5996,w=194,h=199].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_980_981_CL_inverted_534_[x=7904,y=6198,w=153,h=172].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_980_981_CL_inverted_616_[x=5740,y=9351,w=176,h=326].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_994_995_CL_inverted_323_[x=8985,y=2822,w=204,h=91].tif,oscillatory-oscillatory,oscillatory-sector op
+ECU_030_032_CL_inverted_116_[x=11947,y=2216,w=117,h=191].tif,oscillatory-sector op,sector-sector
+ECU_030_032_CL_inverted_143_[x=7994,y=2450,w=175,h=214].tif,oscillatory-sector op,sector-sector
+ECU_030_032_CL_inverted_202_[x=11266,y=3202,w=194,h=139].tif,oscillatory-sector op,sector-sector
+ECU_030_032_CL_inverted_214_[x=7917,y=3308,w=132,h=168].tif,oscillatory-sector op,oscillatory-oscillatory
+ECU_030_032_CL_inverted_221_[x=8436,y=3341,w=200,h=124].tif,oscillatory-sector op,sector-sector
+ECU_030_032_CL_inverted_27_[x=7401,y=556,w=137,h=138].tif,oscillatory-sector op,sector-sector
+ECU_030_032_CL_inverted_28_[x=7711,y=569,w=143,h=138].tif,oscillatory-sector op,sector-sector
+ECU_030_032_CL_inverted_295_[x=10387,y=4119,w=140,h=127].tif,oscillatory-sector op,sector-sector
+ECU_030_032_CL_inverted_301_[x=11339,y=4188,w=390,h=153].tif,oscillatory-sector op,sector-sector
+ECU_030_032_CL_inverted_306_[x=8984,y=4212,w=208,h=197].tif,oscillatory-sector op,sector-sector
+ECU_030_032_CL_inverted_307_[x=12826,y=4223,w=198,h=110].tif,oscillatory-sector op,sector-sector
+ECU_030_032_CL_inverted_310_[x=5753,y=4233,w=177,h=135].tif,oscillatory-sector op,sector-sector
+ECU_030_032_CL_inverted_319_[x=2165,y=4276,w=171,h=175].tif,oscillatory-sector op,oscillatory-oscillatory
+ECU_030_032_CL_inverted_335_[x=7706,y=4342,w=97,h=164].tif,oscillatory-sector op,sector-sector
+ECU_030_032_CL_inverted_362_[x=6152,y=4478,w=106,h=119].tif,oscillatory-sector op,oscillatory-oscillatory
+ECU_030_032_CL_inverted_384_[x=10039,y=5086,w=191,h=131].tif,oscillatory-sector op,sector-sector
+ECU_030_032_CL_inverted_40_[x=8351,y=662,w=189,h=151].tif,oscillatory-sector op,sector-sector
+ECU_030_032_CL_inverted_45_[x=7495,y=704,w=223,h=180].tif,oscillatory-sector op,sector-sector
+ECU_030_032_CL_inverted_50_[x=11985,y=1273,w=150,h=111].tif,oscillatory-sector op,sector-sector
+ECU_030_032_CL_inverted_621_[x=9285,y=11990,w=73,h=133].tif,oscillatory-sector op,stripy-stripy
+ECU_030_032_CL_inverted_658_[x=9716,y=12155,w=95,h=105].tif,oscillatory-sector op,oscillatory-oscillatory
+ECU_030_032_CL_inverted_65_[x=3730,y=1497,w=212,h=162].tif,oscillatory-sector op,sector-sector
+ECU_030_032_CL_inverted_661_[x=12251,y=12164,w=141,h=114].tif,oscillatory-sector op,sector-oscillatory sector op
+ECU_030_032_CL_inverted_69_[x=8736,y=1536,w=112,h=193].tif,oscillatory-sector op,sector-sector
+ECU_030_032_CL_inverted_72_[x=12241,y=1550,w=160,h=193].tif,oscillatory-sector op,sector-sector
+ECU_030_032_CL_inverted_73_[x=8856,y=1561,w=104,h=259].tif,oscillatory-sector op,stripy-stripy
+ECU_030_032_CL_inverted_749_[x=4430,y=12531,w=98,h=72].tif,oscillatory-sector op,stripy-stripy
+ECU_1154_1155_1167_CL_inverted_148_[x=9669,y=12272,w=114,h=224].tif,oscillatory-sector op,stripy-stripy
+ECU_1154_1155_1167_CL_inverted_160_[x=8380,y=12429,w=127,h=131].tif,oscillatory-sector op,sector-sector
+ECU_1154_1155_1167_CL_inverted_184_[x=8264,y=12940,w=186,h=159].tif,oscillatory-sector op,sector-sector
+ECU_1154_1155_1167_CL_inverted_190_[x=3046,y=13012,w=128,h=226].tif,oscillatory-sector op,stripy-stripy
+ECU_1154_1155_1167_CL_inverted_226_[x=6846,y=13334,w=99,h=106].tif,oscillatory-sector op,sector-sector
+ECU_1154_1155_1167_CL_inverted_233_[x=1655,y=14057,w=210,h=343].tif,oscillatory-sector op,sector-sector
+ECU_1154_1155_1167_CL_inverted_5_[x=2138,y=1213,w=62,h=95].tif,oscillatory-sector op,metamict
+ECU_1160_1161_CL_inverted_142_[x=9585,y=1994,w=168,h=151].tif,oscillatory-sector op,sector-sector
+ECU_1160_1161_CL_inverted_150_[x=11243,y=2060,w=105,h=116].tif,oscillatory-sector op,sector-sector
+ECU_1160_1161_CL_inverted_160_[x=4121,y=2206,w=270,h=224].tif,oscillatory-sector op,stripy-stripy
+ECU_1160_1161_CL_inverted_184_[x=5672,y=2545,w=121,h=144].tif,oscillatory-sector op,sector-sector
+ECU_1160_1161_CL_inverted_329_[x=3831,y=3965,w=156,h=288].tif,oscillatory-sector op,sector-oscillatory
+ECU_1160_1161_CL_inverted_332_[x=4632,y=4036,w=179,h=153].tif,oscillatory-sector op,sector-sector
+ECU_1160_1161_CL_inverted_338_[x=5647,y=4168,w=181,h=137].tif,oscillatory-sector op,sector-sector
+ECU_1160_1161_CL_inverted_384_[x=7115,y=5001,w=253,h=165].tif,oscillatory-sector op,sector-sector
+ECU_1160_1161_CL_inverted_396_[x=10639,y=5059,w=103,h=147].tif,oscillatory-sector op,oscillatory-oscillatory
+ECU_1160_1161_CL_inverted_425_[x=6713,y=5303,w=173,h=100].tif,oscillatory-sector op,oscillatory-oscillatory
+ECU_1160_1161_CL_inverted_44_[x=7721,y=990,w=160,h=124].tif,oscillatory-sector op,sector-sector
+ECU_1160_1161_CL_inverted_501_[x=3760,y=8588,w=111,h=131].tif,oscillatory-sector op,sector-sector
+ECU_1160_1161_CL_inverted_521_[x=11911,y=8690,w=58,h=123].tif,oscillatory-sector op,sector-sector
+ECU_1160_1161_CL_inverted_531_[x=10856,y=8730,w=176,h=65].tif,oscillatory-sector op,stripy-stripy
+ECU_1160_1161_CL_inverted_55_[x=10833,y=1030,w=233,h=140].tif,oscillatory-sector op,stripy-stripy
+ECU_1160_1161_CL_inverted_58_[x=8634,y=1033,w=84,h=142].tif,oscillatory-sector op,sector-sector
+ECU_1160_1161_CL_inverted_590_[x=11422,y=9335,w=156,h=201].tif,oscillatory-sector op,stripy-stripy
+ECU_1160_1161_CL_inverted_780_[x=2204,y=11119,w=130,h=145].tif,oscillatory-sector op,metamict
+ECU_1160_1161_CL_inverted_787_[x=8297,y=11135,w=214,h=201].tif,oscillatory-sector op,sector-sector
+ECU_1160_1161_CL_inverted_824_[x=11718,y=11322,w=147,h=156].tif,oscillatory-sector op,sector-sector
+ECU_1160_1161_CL_inverted_840_[x=5716,y=11860,w=73,h=178].tif,oscillatory-sector op,stripy-stripy
+ECU_903_904_CL_inverted_122_[x=15351,y=3540,w=126,h=221].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_132_[x=5370,y=3687,w=191,h=206].tif,oscillatory-sector op,blank-oscillatory
+ECU_903_904_CL_inverted_139_[x=2783,y=3803,w=209,h=150].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_163_[x=8383,y=4046,w=219,h=269].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_171_[x=5734,y=4177,w=131,h=165].tif,oscillatory-sector op,stripy-stripy
+ECU_903_904_CL_inverted_172_[x=10337,y=4182,w=156,h=291].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_179_[x=12417,y=4268,w=263,h=150].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_183_[x=4264,y=4350,w=414,h=128].tif,oscillatory-sector op,stripy-stripy
+ECU_903_904_CL_inverted_186_[x=15578,y=4421,w=274,h=153].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_197_[x=5656,y=4604,w=286,h=388].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_216_[x=3293,y=4827,w=183,h=233].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_218_[x=2268,y=4868,w=173,h=152].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_227_[x=10567,y=5074,w=257,h=210].tif,oscillatory-sector op,stripy-stripy
+ECU_903_904_CL_inverted_250_[x=5627,y=5384,w=248,h=282].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_256_[x=15615,y=5503,w=178,h=256].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_277_[x=10549,y=5696,w=479,h=346].tif,oscillatory-sector op,stripy-stripy
+ECU_903_904_CL_inverted_27_[x=10398,y=1401,w=273,h=376].tif,oscillatory-sector op,stripy-stripy
+ECU_903_904_CL_inverted_283_[x=7448,y=5775,w=86,h=157].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_295_[x=11931,y=5953,w=235,h=140].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_300_[x=8923,y=5993,w=322,h=223].tif,oscillatory-sector op,stripy-stripy
+ECU_903_904_CL_inverted_312_[x=5265,y=6166,w=301,h=248].tif,oscillatory-sector op,stripy-stripy
+ECU_903_904_CL_inverted_320_[x=2694,y=6245,w=265,h=306].tif,oscillatory-sector op,blank-oscillatory
+ECU_903_904_CL_inverted_336_[x=16057,y=6457,w=469,h=265].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_33_[x=11360,y=1582,w=195,h=188].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_340_[x=12284,y=6489,w=277,h=215].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_345_[x=2787,y=6576,w=249,h=145].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_381_[x=11226,y=7044,w=160,h=295].tif,oscillatory-sector op,stripy-stripy
+ECU_903_904_CL_inverted_383_[x=7628,y=7060,w=216,h=179].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_391_[x=12507,y=7217,w=174,h=319].tif,oscillatory-sector op,blank-oscillatory
+ECU_903_904_CL_inverted_395_[x=9550,y=7247,w=251,h=247].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_402_[x=12649,y=7353,w=317,h=321].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_407_[x=16235,y=7429,w=308,h=194].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_417_[x=5763,y=7602,w=274,h=316].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_418_[x=15241,y=7605,w=215,h=180].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_430_[x=16448,y=7830,w=228,h=141].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_434_[x=9567,y=7857,w=423,h=357].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_436_[x=14871,y=7911,w=218,h=179].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_448_[x=15264,y=8180,w=241,h=157].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_458_[x=9714,y=8292,w=351,h=325].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_470_[x=12859,y=8470,w=209,h=147].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_481_[x=11557,y=8600,w=171,h=399].tif,oscillatory-sector op,stripy-stripy
+ECU_903_904_CL_inverted_487_[x=17008,y=8646,w=169,h=249].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_491_[x=7118,y=8711,w=222,h=195].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_493_[x=12878,y=8749,w=257,h=264].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_495_[x=17163,y=8826,w=129,h=215].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_507_[x=10050,y=8998,w=165,h=280].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_511_[x=6872,y=9049,w=140,h=110].tif,oscillatory-sector op,stripy-stripy
+ECU_903_904_CL_inverted_51_[x=9739,y=2122,w=304,h=183].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_521_[x=14059,y=9170,w=317,h=235].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_526_[x=7318,y=9250,w=151,h=174].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_52_[x=14721,y=2159,w=154,h=262].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_535_[x=12335,y=9426,w=150,h=329].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_552_[x=10051,y=9594,w=391,h=277].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_590_[x=8435,y=10182,w=268,h=222].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_633_[x=10666,y=10769,w=426,h=375].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_642_[x=5774,y=10918,w=193,h=187].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_649_[x=7689,y=11009,w=145,h=111].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_657_[x=6822,y=11114,w=114,h=203].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_663_[x=13998,y=11160,w=150,h=258].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_669_[x=14767,y=11251,w=128,h=80].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_671_[x=3356,y=11263,w=158,h=138].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_682_[x=6121,y=11444,w=126,h=163].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_685_[x=12624,y=11450,w=189,h=240].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_698_[x=16634,y=11652,w=292,h=430].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_711_[x=6961,y=11790,w=202,h=239].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_717_[x=17921,y=11855,w=151,h=121].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_71_[x=11913,y=2661,w=221,h=172].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_727_[x=4852,y=12101,w=157,h=279].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_745_[x=7199,y=12367,w=226,h=277].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_763_[x=4930,y=12730,w=398,h=267].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_764_[x=6584,y=12737,w=145,h=248].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_779_[x=15430,y=13052,w=272,h=145].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_793_[x=7767,y=13236,w=176,h=218].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_804_[x=6738,y=13448,w=256,h=77].tif,oscillatory-sector op,stripy-stripy
+ECU_903_904_CL_inverted_805_[x=13173,y=13448,w=196,h=161].tif,oscillatory-sector op,blank-oscillatory
+ECU_903_904_CL_inverted_806_[x=7571,y=13472,w=259,h=120].tif,oscillatory-sector op,stripy-stripy
+ECU_903_904_CL_inverted_808_[x=15722,y=13490,w=189,h=151].tif,oscillatory-sector op,stripy-stripy
+ECU_903_904_CL_inverted_828_[x=12976,y=13858,w=277,h=246].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_830_[x=7578,y=13909,w=111,h=307].tif,oscillatory-sector op,stripy-stripy
+ECU_903_904_CL_inverted_835_[x=7904,y=13969,w=223,h=119].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_847_[x=4390,y=14241,w=293,h=247].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_857_[x=4276,y=14504,w=420,h=370].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_880_[x=8552,y=15033,w=202,h=194].tif,oscillatory-sector op,stripy-stripy
+ECU_903_904_CL_inverted_886_[x=9579,y=15258,w=198,h=278].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_902_[x=8596,y=15731,w=129,h=177].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_93_[x=11006,y=3096,w=221,h=206].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_99_[x=5023,y=3192,w=127,h=192].tif,oscillatory-sector op,sector-sector
+ECU_903_904_CL_inverted_9_[x=14185,y=882,w=120,h=266].tif,oscillatory-sector op,stripy-stripy
+ECU_905_906_CL_inverted_276_[x=2423,y=3610,w=273,h=158].tif,oscillatory-sector op,stripy-stripy
+ECU_905_906_CL_inverted_298_[x=13196,y=4084,w=146,h=172].tif,oscillatory-sector op,sector-sector
+ECU_905_906_CL_inverted_323_[x=8810,y=4282,w=340,h=268].tif,oscillatory-sector op,stripy-stripy
+ECU_905_906_CL_inverted_35_[x=11278,y=914,w=87,h=110].tif,oscillatory-sector op,metamict
+ECU_905_906_CL_inverted_362_[x=8570,y=4608,w=221,h=101].tif,oscillatory-sector op,sector-sector
+ECU_905_906_CL_inverted_389_[x=12019,y=5254,w=324,h=219].tif,oscillatory-sector op,sector-sector
+ECU_905_906_CL_inverted_402_[x=11726,y=5404,w=257,h=318].tif,oscillatory-sector op,stripy-stripy
+ECU_905_906_CL_inverted_406_[x=13739,y=5507,w=270,h=133].tif,oscillatory-sector op,sector-sector
+ECU_905_906_CL_inverted_453_[x=7898,y=5936,w=210,h=129].tif,oscillatory-sector op,sector-sector
+ECU_905_906_CL_inverted_454_[x=2134,y=5943,w=230,h=245].tif,oscillatory-sector op,stripy-stripy
+ECU_905_906_CL_inverted_48_[x=3559,y=1036,w=162,h=129].tif,oscillatory-sector op,metamict
+ECU_905_906_CL_inverted_49_[x=5301,y=1047,w=119,h=83].tif,oscillatory-sector op,metamict
+ECU_905_906_CL_inverted_511_[x=9482,y=9707,w=175,h=233].tif,oscillatory-sector op,sector-sector
+ECU_905_906_CL_inverted_528_[x=4899,y=10073,w=194,h=130].tif,oscillatory-sector op,sector-sector
+ECU_905_906_CL_inverted_553_[x=10346,y=10439,w=154,h=125].tif,oscillatory-sector op,sector-sector
+ECU_905_906_CL_inverted_563_[x=12519,y=10614,w=282,h=143].tif,oscillatory-sector op,stripy-stripy
+ECU_905_906_CL_inverted_633_[x=14049,y=11347,w=123,h=317].tif,oscillatory-sector op,stripy-stripy
+ECU_905_906_CL_inverted_638_[x=4664,y=11369,w=117,h=168].tif,oscillatory-sector op,sector-sector
+ECU_905_906_CL_inverted_657_[x=12705,y=11571,w=203,h=129].tif,oscillatory-sector op,stripy-stripy
+ECU_905_906_CL_inverted_665_[x=12986,y=11639,w=106,h=143].tif,oscillatory-sector op,sector-sector
+ECU_905_906_CL_inverted_69_[x=2091,y=1293,w=126,h=99].tif,oscillatory-sector op,metamict
+ECU_905_906_CL_inverted_6_[x=11612,y=501,w=158,h=140].tif,oscillatory-sector op,metamict
+ECU_905_906_CL_inverted_709_[x=9089,y=12076,w=166,h=154].tif,oscillatory-sector op,sector-sector
+ECU_905_906_CL_inverted_71_[x=5021,y=1331,w=141,h=249].tif,oscillatory-sector op,stripy-stripy
+ECU_905_906_CL_inverted_762_[x=11581,y=12622,w=141,h=183].tif,oscillatory-sector op,stripy-stripy
+ECU_905_906_CL_inverted_765_[x=14727,y=12636,w=126,h=254].tif,oscillatory-sector op,sector-sector
+ECU_905_906_CL_inverted_769_[x=14411,y=12700,w=249,h=196].tif,oscillatory-sector op,sector-sector
+ECU_905_906_CL_inverted_779_[x=1362,y=12805,w=243,h=210].tif,oscillatory-sector op,sector-sector
+ECU_905_906_CL_inverted_780_[x=11469,y=12809,w=148,h=164].tif,oscillatory-sector op,sector-sector
+ECU_905_906_CL_inverted_782_[x=1892,y=12848,w=180,h=140].tif,oscillatory-sector op,sector-sector
+ECU_905_906_CL_inverted_811_[x=9316,y=13346,w=164,h=201].tif,oscillatory-sector op,sector-sector
+ECU_905_906_CL_inverted_831_[x=8097,y=13553,w=219,h=150].tif,oscillatory-sector op,sector-sector
+ECU_905_906_CL_inverted_861_[x=2730,y=13944,w=187,h=145].tif,oscillatory-sector op,sector-sector
+ECU_905_906_CL_inverted_896_[x=8070,y=14685,w=219,h=163].tif,oscillatory-sector op,sector-sector
+ECU_905_906_CL_inverted_925_[x=6748,y=14936,w=144,h=178].tif,oscillatory-sector op,sector-sector
+ECU_905_906_CL_inverted_936_[x=4097,y=15056,w=194,h=237].tif,oscillatory-sector op,stripy-stripy
+ECU_913_914_CL_inverted_173_[x=9276,y=2719,w=199,h=132].tif,oscillatory-sector op,sector-sector
+ECU_913_914_CL_inverted_196_[x=8086,y=2917,w=205,h=132].tif,oscillatory-sector op,sector-sector
+ECU_913_914_CL_inverted_214_[x=6788,y=3028,w=91,h=117].tif,oscillatory-sector op,sector-sector
+ECU_913_914_CL_inverted_26_[x=9880,y=944,w=165,h=148].tif,oscillatory-sector op,sector-sector
+ECU_913_914_CL_inverted_278_[x=9963,y=3745,w=159,h=129].tif,oscillatory-sector op,sector-sector
+ECU_913_914_CL_inverted_440_[x=6722,y=4965,w=152,h=87].tif,oscillatory-sector op,sector-sector
+ECU_913_914_CL_inverted_462_[x=4240,y=5122,w=140,h=103].tif,oscillatory-sector op,sector-sector
+ECU_913_914_CL_inverted_508_[x=10494,y=9263,w=274,h=165].tif,oscillatory-sector op,sector-sector
+ECU_913_914_CL_inverted_527_[x=6959,y=9668,w=319,h=283].tif,oscillatory-sector op,sector-sector
+ECU_913_914_CL_inverted_56_[x=6472,y=1198,w=64,h=170].tif,oscillatory-sector op,stripy-stripy
+ECU_913_914_CL_inverted_600_[x=10000,y=10737,w=207,h=131].tif,oscillatory-sector op,sector-sector
+ECU_913_914_CL_inverted_637_[x=3815,y=11256,w=154,h=260].tif,oscillatory-sector op,sector-sector
+ECU_913_914_CL_inverted_658_[x=3694,y=11547,w=259,h=175].tif,oscillatory-sector op,stripy-stripy
+ECU_913_914_CL_inverted_693_[x=5189,y=12093,w=215,h=294].tif,oscillatory-sector op,sector-sector
+ECU_913_914_CL_inverted_694_[x=7787,y=12116,w=246,h=189].tif,oscillatory-sector op,sector-sector
+ECU_913_914_CL_inverted_730_[x=11234,y=12657,w=233,h=117].tif,oscillatory-sector op,sector-sector
+ECU_913_914_CL_inverted_731_[x=11989,y=12657,w=174,h=233].tif,oscillatory-sector op,sector-sector
+ECU_913_914_CL_inverted_741_[x=11210,y=12773,w=103,h=154].tif,oscillatory-sector op,sector-sector
+ECU_913_914_CL_inverted_743_[x=2634,y=12794,w=265,h=275].tif,oscillatory-sector op,stripy-stripy
+ECU_913_914_CL_inverted_750_[x=7552,y=12876,w=292,h=246].tif,oscillatory-sector op,stripy-stripy
+ECU_913_914_CL_inverted_799_[x=2150,y=13709,w=241,h=226].tif,oscillatory-sector op,sector-sector
+ECU_913_914_CL_inverted_79_[x=10157,y=1668,w=197,h=183].tif,oscillatory-sector op,metamict
+ECU_913_914_CL_inverted_804_[x=11962,y=13746,w=282,h=283].tif,oscillatory-sector op,sector-sector
+ECU_913_914_CL_inverted_807_[x=2586,y=13780,w=161,h=206].tif,oscillatory-sector op,sector-sector
+ECU_913_914_CL_inverted_835_[x=6894,y=14189,w=230,h=310].tif,oscillatory-sector op,sector-sector
+ECU_913_914_CL_inverted_891_[x=8463,y=15172,w=216,h=249].tif,oscillatory-sector op,sector-sector
+ECU_913_914_CL_inverted_962_[x=7873,y=16544,w=296,h=159].tif,oscillatory-sector op,sector-sector
+ECU_913_914_CL_inverted_975_[x=4170,y=16796,w=145,h=154].tif,oscillatory-sector op,sector-sector
+ECU_919_920_CL_inverted_108_[x=4063,y=4178,w=171,h=222].tif,oscillatory-sector op,metamict
+ECU_919_920_CL_inverted_117_[x=4387,y=4256,w=155,h=192].tif,oscillatory-sector op,sector-sector
+ECU_919_920_CL_inverted_154_[x=6628,y=4653,w=158,h=97].tif,oscillatory-sector op,sector-sector
+ECU_919_920_CL_inverted_225_[x=1388,y=5813,w=100,h=77].tif,oscillatory-sector op,sector-sector
+ECU_919_920_CL_inverted_229_[x=2605,y=5868,w=104,h=135].tif,oscillatory-sector op,sector-sector
+ECU_919_920_CL_inverted_251_[x=1379,y=6193,w=173,h=196].tif,oscillatory-sector op,sector-sector
+ECU_919_920_CL_inverted_25_[x=7026,y=2672,w=225,h=329].tif,oscillatory-sector op,sector-sector
+ECU_919_920_CL_inverted_269_[x=9615,y=6430,w=144,h=166].tif,oscillatory-sector op,sector-sector
+ECU_919_920_CL_inverted_270_[x=1125,y=6439,w=199,h=155].tif,oscillatory-sector op,sector-sector
+ECU_919_920_CL_inverted_274_[x=2339,y=6456,w=321,h=264].tif,oscillatory-sector op,sector-sector
+ECU_919_920_CL_inverted_352_[x=3524,y=7724,w=261,h=253].tif,oscillatory-sector op,stripy-stripy
+ECU_919_920_CL_inverted_354_[x=4608,y=7777,w=153,h=125].tif,oscillatory-sector op,sector-sector
+ECU_919_920_CL_inverted_372_[x=6238,y=8063,w=165,h=122].tif,oscillatory-sector op,sector-sector
+ECU_919_920_CL_inverted_397_[x=5806,y=8450,w=175,h=189].tif,oscillatory-sector op,sector-sector
+ECU_919_920_CL_inverted_431_[x=5767,y=8839,w=176,h=313].tif,oscillatory-sector op,sector-sector
+ECU_919_920_CL_inverted_456_[x=4464,y=9206,w=250,h=176].tif,oscillatory-sector op,sector-sector
+ECU_919_920_CL_inverted_462_[x=817,y=9303,w=192,h=285].tif,oscillatory-sector op,blank-oscillatory
+ECU_919_920_CL_inverted_483_[x=3096,y=9622,w=232,h=372].tif,oscillatory-sector op,sector-sector
+ECU_919_920_CL_inverted_495_[x=4027,y=9872,w=244,h=157].tif,oscillatory-sector op,sector-sector
+ECU_919_920_CL_inverted_574_[x=2755,y=11000,w=171,h=206].tif,oscillatory-sector op,sector-sector
+ECU_919_920_CL_inverted_57_[x=1773,y=3274,w=150,h=67].tif,oscillatory-sector op,metamict
+ECU_919_920_CL_inverted_593_[x=5368,y=11260,w=83,h=136].tif,oscillatory-sector op,sector-sector
+ECU_919_920_CL_inverted_595_[x=5514,y=11307,w=205,h=137].tif,oscillatory-sector op,stripy-stripy
+ECU_919_920_CL_inverted_61_[x=3188,y=3336,w=89,h=196].tif,oscillatory-sector op,metamict
+ECU_919_920_CL_inverted_623_[x=1661,y=11791,w=117,h=91].tif,oscillatory-sector op,sector-sector
+ECU_919_920_CL_inverted_646_[x=8908,y=12190,w=208,h=136].tif,oscillatory-sector op,sector-sector
+ECU_919_920_CL_inverted_65_[x=7046,y=3461,w=114,h=133].tif,oscillatory-sector op,sector-sector
+ECU_919_920_CL_inverted_661_[x=1425,y=12514,w=443,h=314].tif,oscillatory-sector op,sector-sector
+ECU_919_920_CL_inverted_685_[x=5194,y=12914,w=348,h=192].tif,oscillatory-sector op,sector-sector
+ECU_919_920_CL_inverted_713_[x=1407,y=13432,w=80,h=109].tif,oscillatory-sector op,sector-sector
+ECU_919_920_CL_inverted_742_[x=2719,y=13858,w=180,h=271].tif,oscillatory-sector op,sector-sector
+ECU_919_920_CL_inverted_776_[x=3722,y=14389,w=257,h=239].tif,oscillatory-sector op,sector-sector
+ECU_919_920_CL_inverted_785_[x=3497,y=14524,w=241,h=208].tif,oscillatory-sector op,sector-sector
+ECU_919_920_CL_inverted_792_[x=5069,y=14614,w=159,h=188].tif,oscillatory-sector op,sector-sector
+ECU_919_920_CL_inverted_864_[x=13082,y=16184,w=384,h=185].tif,oscillatory-sector op,sector-sector
+ECU_927_928_CL_inverted_120_[x=5197,y=3322,w=166,h=146].tif,oscillatory-sector op,sector-sector
+ECU_927_928_CL_inverted_122_[x=7964,y=3389,w=136,h=81].tif,oscillatory-sector op,sector-sector
+ECU_927_928_CL_inverted_166_[x=9079,y=4122,w=116,h=80].tif,oscillatory-sector op,sector-sector
+ECU_927_928_CL_inverted_17_[x=6399,y=973,w=187,h=299].tif,oscillatory-sector op,sector-sector
+ECU_927_928_CL_inverted_253_[x=7223,y=5463,w=197,h=163].tif,oscillatory-sector op,sector-sector
+ECU_927_928_CL_inverted_272_[x=6945,y=5720,w=181,h=223].tif,oscillatory-sector op,sector-sector
+ECU_927_928_CL_inverted_29_[x=6048,y=1316,w=123,h=129].tif,oscillatory-sector op,sector-sector
+ECU_927_928_CL_inverted_308_[x=3644,y=6268,w=139,h=160].tif,oscillatory-sector op,stripy-stripy
+ECU_927_928_CL_inverted_358_[x=16764,y=6939,w=78,h=60].tif,oscillatory-sector op,metamict
+ECU_927_928_CL_inverted_364_[x=2166,y=7008,w=163,h=319].tif,oscillatory-sector op,sector-sector
+ECU_927_928_CL_inverted_404_[x=7719,y=7477,w=111,h=131].tif,oscillatory-sector op,metamict
+ECU_927_928_CL_inverted_45_[x=8538,y=1725,w=185,h=170].tif,oscillatory-sector op,sector-sector
+ECU_927_928_CL_inverted_476_[x=2791,y=8359,w=123,h=164].tif,oscillatory-sector op,sector-sector
+ECU_927_928_CL_inverted_489_[x=15836,y=8491,w=152,h=246].tif,oscillatory-sector op,sector-sector
+ECU_927_928_CL_inverted_503_[x=16873,y=8715,w=213,h=406].tif,oscillatory-sector op,sector-sector
+ECU_927_928_CL_inverted_514_[x=5599,y=8831,w=134,h=149].tif,oscillatory-sector op,sector-sector
+ECU_927_928_CL_inverted_555_[x=6651,y=9370,w=335,h=236].tif,oscillatory-sector op,sector-sector
+ECU_927_928_CL_inverted_559_[x=12026,y=9409,w=121,h=182].tif,oscillatory-sector op,sector-sector
+ECU_927_928_CL_inverted_562_[x=3731,y=9475,w=307,h=219].tif,oscillatory-sector op,sector-sector
+ECU_927_928_CL_inverted_575_[x=6701,y=9641,w=206,h=268].tif,oscillatory-sector op,sector-sector
+ECU_927_928_CL_inverted_586_[x=841,y=9761,w=259,h=132].tif,oscillatory-sector op,sector-sector
+ECU_927_928_CL_inverted_588_[x=16456,y=9815,w=133,h=133].tif,oscillatory-sector op,sector-sector
+ECU_927_928_CL_inverted_602_[x=16377,y=9943,w=142,h=251].tif,oscillatory-sector op,sector-sector
+ECU_927_928_CL_inverted_615_[x=15060,y=10106,w=153,h=114].tif,oscillatory-sector op,stripy-stripy
+ECU_927_928_CL_inverted_634_[x=4521,y=10338,w=542,h=443].tif,oscillatory-sector op,sector-sector
+ECU_927_928_CL_inverted_635_[x=14772,y=10338,w=193,h=243].tif,oscillatory-sector op,sector-sector
+ECU_927_928_CL_inverted_652_[x=6089,y=10588,w=133,h=223].tif,oscillatory-sector op,stripy-stripy
+ECU_927_928_CL_inverted_66_[x=8618,y=2251,w=135,h=188].tif,oscillatory-sector op,sector-sector
+ECU_927_928_CL_inverted_6_[x=8266,y=618,w=269,h=433].tif,oscillatory-sector op,sector-sector
+ECU_927_928_CL_inverted_702_[x=15604,y=11390,w=364,h=364].tif,oscillatory-sector op,stripy-stripy
+ECU_927_928_CL_inverted_70_[x=7058,y=2282,w=227,h=169].tif,oscillatory-sector op,sector-sector
+ECU_927_928_CL_inverted_762_[x=11567,y=12409,w=91,h=82].tif,oscillatory-sector op,oscillatory-oscillatory
+ECU_927_928_CL_inverted_821_[x=15025,y=13572,w=195,h=372].tif,oscillatory-sector op,sector-sector
+ECU_927_928_CL_inverted_97_[x=8171,y=2926,w=332,h=159].tif,oscillatory-sector op,sector-sector
+ECU_933_934_CL_inverted_1075_[x=8359,y=15055,w=170,h=116].tif,oscillatory-sector op,sector-sector
+ECU_933_934_CL_inverted_1095_[x=9921,y=15699,w=97,h=74].tif,oscillatory-sector op,sector-sector
+ECU_933_934_CL_inverted_1116_[x=6721,y=15886,w=101,h=106].tif,oscillatory-sector op,sector-sector
+ECU_933_934_CL_inverted_1121_[x=5228,y=15899,w=106,h=149].tif,oscillatory-sector op,sector-sector
+ECU_933_934_CL_inverted_1145_[x=12247,y=15978,w=212,h=219].tif,oscillatory-sector op,stripy-stripy
+ECU_933_934_CL_inverted_1173_[x=6960,y=16113,w=150,h=145].tif,oscillatory-sector op,sector-sector
+ECU_933_934_CL_inverted_135_[x=15317,y=2641,w=140,h=189].tif,oscillatory-sector op,sector-sector
+ECU_942_943_CL_inverted_517_[x=12757,y=5067,w=150,h=93].tif,oscillatory-sector op,sector-sector
+ECU_942_943_CL_inverted_518_[x=9491,y=5074,w=78,h=78].tif,oscillatory-sector op,oscillatory-oscillatory
+ECU_942_943_CL_inverted_662_[x=4230,y=8704,w=136,h=213].tif,oscillatory-sector op,sector-sector
+ECU_942_943_CL_inverted_679_[x=4567,y=8946,w=192,h=186].tif,oscillatory-sector op,sector-sector
+ECU_942_943_CL_inverted_841_[x=5993,y=10894,w=279,h=466].tif,oscillatory-sector op,sector-sector
+ECU_942_943_CL_inverted_879_[x=1733,y=11364,w=259,h=383].tif,oscillatory-sector op,stripy-stripy
+ECU_942_943_CL_inverted_890_[x=10540,y=11445,w=163,h=391].tif,oscillatory-sector op,sector-sector
+ECU_968_969_CL_inverted_367_[x=5437,y=4769,w=253,h=228].tif,oscillatory-sector op,sector-sector
+ECU_968_969_CL_inverted_434_[x=12012,y=5597,w=47,h=95].tif,oscillatory-sector op,metamict
+ECU_968_969_CL_inverted_449_[x=11577,y=5738,w=66,h=82].tif,oscillatory-sector op,metamict
+ECU_968_969_CL_inverted_478_[x=4512,y=5862,w=138,h=135].tif,oscillatory-sector op,stripy-stripy
+ECU_968_969_CL_inverted_480_[x=6480,y=5863,w=154,h=80].tif,oscillatory-sector op,metamict
+ECU_968_969_CL_inverted_494_[x=10096,y=5899,w=103,h=65].tif,oscillatory-sector op,metamict
+ECU_968_969_CL_inverted_533_[x=3482,y=6034,w=248,h=395].tif,oscillatory-sector op,stripy-stripy
+ECU_968_969_CL_inverted_541_[x=1453,y=6063,w=111,h=140].tif,oscillatory-sector op,oscillatory-oscillatory
+ECU_968_969_CL_inverted_544_[x=6304,y=6081,w=96,h=236].tif,oscillatory-sector op,stripy-stripy
+ECU_968_969_CL_inverted_787_[x=12285,y=11538,w=310,h=198].tif,oscillatory-sector op,sector-sector
+ECU_968_969_CL_inverted_799_[x=11337,y=11668,w=267,h=328].tif,oscillatory-sector op,sector-sector
+ECU_974_975_CL_inverted_14_[x=6232,y=618,w=96,h=91].tif,oscillatory-sector op,sector-sector
+ECU_974_975_CL_inverted_169_[x=5109,y=1853,w=175,h=118].tif,oscillatory-sector op,stripy-stripy
+ECU_982_983_CL_inverted_406_[x=11510,y=5828,w=233,h=303].tif,oscillatory-sector op,blank-oscillatory
+ECU_990_991_CL_inverted_279_[x=4106,y=3764,w=270,h=166].tif,oscillatory-sector op,sector-sector
+ECU_990_991_CL_inverted_301_[x=7582,y=3917,w=248,h=277].tif,oscillatory-sector op,sector-sector
+ECU_990_991_CL_inverted_307_[x=9364,y=3975,w=177,h=317].tif,oscillatory-sector op,stripy-stripy
+ECU_992_993_CL_inverted_478_[x=4932,y=8736,w=246,h=389].tif,oscillatory-sector op,sector-sector
+ECU_998_999_CL_inverted_444_[x=2633,y=8033,w=70,h=173].tif,oscillatory-sector op,stripy-stripy
+ECU_998_999_CL_inverted_542_[x=2081,y=8946,w=125,h=183].tif,oscillatory-sector op,sector-sector
+ECU_1087_1088_CL_inverted_204_[x=3067,y=4678,w=290,h=177].tif,oscillatory-sector op,sector-sector
+ECU_1087_1088_CL_inverted_219_[x=1725,y=4917,w=160,h=119].tif,oscillatory-sector op,metamict
+ECU_1087_1088_CL_inverted_239_[x=4640,y=5202,w=171,h=116].tif,oscillatory-sector op,metamict
+ECU_1087_1088_CL_inverted_361_[x=10286,y=9398,w=222,h=171].tif,oscillatory-sector op,oscillatory-oscillatory
+ECU_1087_1088_CL_inverted_375_[x=5695,y=9649,w=123,h=108].tif,oscillatory-sector op,metamict
+ECU_1087_1088_CL_inverted_405_[x=6139,y=10125,w=259,h=246].tif,oscillatory-sector op,sector-sector
+ECU_1087_1088_CL_inverted_409_[x=4560,y=10211,w=247,h=234].tif,oscillatory-sector op,sector-sector
+ECU_1087_1088_CL_inverted_412_[x=8570,y=10249,w=166,h=239].tif,oscillatory-sector op,stripy-stripy
+ECU_1087_1088_CL_inverted_458_[x=6657,y=11223,w=190,h=126].tif,oscillatory-sector op,metamict
+ECU_1087_1088_CL_inverted_46_[x=2801,y=2364,w=278,h=180].tif,oscillatory-sector op,sector-sector
+ECU_1087_1088_CL_inverted_486_[x=3962,y=11523,w=140,h=199].tif,oscillatory-sector op,sector-sector
+ECU_1087_1088_CL_inverted_501_[x=6918,y=11898,w=251,h=280].tif,oscillatory-sector op,sector-sector
+ECU_1087_1088_CL_inverted_510_[x=3514,y=12039,w=338,h=244].tif,oscillatory-sector op,sector-sector
+ECU_1087_1088_CL_inverted_561_[x=8339,y=12968,w=294,h=250].tif,oscillatory-sector op,blank-oscillatory
+ECU_1087_1088_CL_inverted_598_[x=4328,y=13613,w=195,h=127].tif,oscillatory-sector op,sector-sector
+ECU_1087_1088_CL_inverted_623_[x=10921,y=14121,w=370,h=230].tif,oscillatory-sector op,blank-oscillatory
+ECU_1087_1088_CL_inverted_628_[x=11696,y=14198,w=141,h=171].tif,oscillatory-sector op,oscillatory-oscillatory
+ECU_1164_1166_CL_inverted_131_[x=3797,y=6020,w=161,h=279].tif,oscillatory-sector op,sector-oscillatory
+ECU_1164_1166_CL_inverted_232_[x=2830,y=6975,w=181,h=154].tif,oscillatory-sector op,sector-sector
+ECU_1164_1166_CL_inverted_283_[x=6779,y=7165,w=91,h=97].tif,oscillatory-sector op,stripy-stripy
+ECU_1164_1166_CL_inverted_329_[x=4688,y=7707,w=125,h=186].tif,oscillatory-sector op,sector-sector
+ECU_1164_1166_CL_inverted_411_[x=2243,y=8629,w=246,h=156].tif,oscillatory-sector op,sector-sector
+ECU_1164_1166_CL_inverted_465_[x=4087,y=9467,w=108,h=151].tif,oscillatory-sector op,sector-sector
+ECU_1164_1166_CL_inverted_490_[x=4277,y=9726,w=335,h=186].tif,oscillatory-sector op,stripy-stripy
+ECU_1164_1166_CL_inverted_55_[x=6291,y=5261,w=174,h=166].tif,oscillatory-sector op,sector-sector
+ECU_1164_1166_CL_inverted_67_[x=3726,y=5307,w=104,h=149].tif,oscillatory-sector op,sector-sector
+ECU_1776_1777_CL_inverted_124_[x=3785,y=1600,w=216,h=177].tif,oscillatory-sector op,metamict
+ECU_1776_1777_CL_inverted_164_[x=7166,y=1977,w=153,h=178].tif,oscillatory-sector op,sector-sector
+ECU_1776_1777_CL_inverted_201_[x=6506,y=2277,w=114,h=206].tif,oscillatory-sector op,blank-oscillatory
+ECU_1776_1777_CL_inverted_215_[x=10263,y=2393,w=142,h=197].tif,oscillatory-sector op,metamict
+ECU_1776_1777_CL_inverted_226_[x=11768,y=2456,w=140,h=247].tif,oscillatory-sector op,metamict
+ECU_1776_1777_CL_inverted_233_[x=11613,y=2492,w=130,h=119].tif,oscillatory-sector op,metamict
+ECU_1776_1777_CL_inverted_280_[x=10740,y=2781,w=165,h=166].tif,oscillatory-sector op,stripy-stripy
+ECU_1776_1777_CL_inverted_312_[x=3250,y=3002,w=242,h=83].tif,oscillatory-sector op,metamict
+ECU_1776_1777_CL_inverted_342_[x=6031,y=3189,w=140,h=107].tif,oscillatory-sector op,metamict
+ECU_1776_1777_CL_inverted_38_[x=9595,y=822,w=116,h=205].tif,oscillatory-sector op,metamict
+ECU_1776_1777_CL_inverted_413_[x=11761,y=4074,w=149,h=106].tif,oscillatory-sector op,metamict
+ECU_1776_1777_CL_inverted_42_[x=4522,y=853,w=158,h=145].tif,oscillatory-sector op,metamict
+ECU_1776_1777_CL_inverted_53_[x=5358,y=939,w=137,h=169].tif,oscillatory-sector op,metamict
+ECU_1776_1777_CL_inverted_660_[x=3871,y=10510,w=144,h=152].tif,oscillatory-sector op,sector-sector
+ECU_1776_1777_CL_inverted_719_[x=8499,y=11155,w=184,h=140].tif,oscillatory-sector op,metamict
+ECU_1776_1777_CL_inverted_742_[x=10388,y=11314,w=301,h=308].tif,oscillatory-sector op,sector-sector
+ECU_1776_1777_CL_inverted_745_[x=3270,y=11336,w=238,h=204].tif,oscillatory-sector op,sector-sector
+ECU_1776_1777_CL_inverted_747_[x=11358,y=11358,w=175,h=296].tif,oscillatory-sector op,sector-sector
+ECU_1776_1777_CL_inverted_808_[x=7334,y=12008,w=262,h=188].tif,oscillatory-sector op,oscillatory-oscillatory
+ECU_1776_1777_CL_inverted_80_[x=4948,y=1268,w=180,h=158].tif,oscillatory-sector op,sector-sector
+ECU_1776_1777_CL_inverted_815_[x=7133,y=12044,w=148,h=169].tif,oscillatory-sector op,sector-sector
+ECU_1776_1777_CL_inverted_824_[x=5291,y=12167,w=383,h=327].tif,oscillatory-sector op,stripy-stripy
+ECU_1776_1777_CL_inverted_83_[x=8343,y=1307,w=91,h=131].tif,oscillatory-sector op,metamict
+ECU_1776_1777_CL_inverted_857_[x=9566,y=12697,w=127,h=188].tif,oscillatory-sector op,sector-sector
+ECU_1776_1777_CL_inverted_90_[x=4218,y=1356,w=160,h=98].tif,oscillatory-sector op,metamict
+ECU_353_357_CL_inverted_148_[x=5810,y=2136,w=265,h=336].tif,oscillatory-sector op,blank-oscillatory
+ECU_353_357_CL_inverted_155_[x=9023,y=2160,w=223,h=185].tif,oscillatory-sector op,sector-sector
+ECU_353_357_CL_inverted_178_[x=9814,y=2249,w=216,h=245].tif,oscillatory-sector op,sector-sector
+ECU_353_357_CL_inverted_309_[x=1673,y=3857,w=238,h=183].tif,oscillatory-sector op,sector-sector
+ECU_353_357_CL_inverted_456_[x=12178,y=4879,w=147,h=85].tif,oscillatory-sector op,sector-sector
+ECU_353_357_CL_inverted_491_[x=5324,y=4979,w=117,h=114].tif,oscillatory-sector op,sector-sector
+ECU_353_357_CL_inverted_498_[x=3951,y=5003,w=225,h=269].tif,oscillatory-sector op,sector-sector
+ECU_353_357_CL_inverted_510_[x=8820,y=5087,w=117,h=107].tif,oscillatory-sector op,sector-sector
+ECU_353_357_CL_inverted_613_[x=4578,y=8809,w=120,h=122].tif,oscillatory-sector op,sector-oscillatory sector op
+ECU_353_357_CL_inverted_706_[x=9008,y=9552,w=291,h=207].tif,oscillatory-sector op,sector-sector
+ECU_353_357_CL_inverted_747_[x=8796,y=10193,w=120,h=171].tif,oscillatory-sector op,sector-sector
+ECU_353_357_CL_inverted_83_[x=7577,y=1230,w=134,h=119].tif,oscillatory-sector op,sector-sector
+ECU_909_910_CL_inverted_1002_[x=3790,y=15581,w=145,h=153].tif,oscillatory-sector op,sector-sector
+ECU_909_910_CL_inverted_1010_[x=4544,y=15714,w=150,h=230].tif,oscillatory-sector op,sector-sector
+ECU_909_910_CL_inverted_136_[x=2434,y=2746,w=185,h=132].tif,oscillatory-sector op,sector-sector
+ECU_909_910_CL_inverted_295_[x=8878,y=4238,w=117,h=133].tif,oscillatory-sector op,sector-sector
+ECU_909_910_CL_inverted_349_[x=5848,y=4745,w=206,h=98].tif,oscillatory-sector op,stripy-stripy
+ECU_909_910_CL_inverted_40_[x=2431,y=1527,w=174,h=136].tif,oscillatory-sector op,sector-sector
+ECU_909_910_CL_inverted_48_[x=10450,y=1661,w=118,h=211].tif,oscillatory-sector op,sector-sector
+ECU_909_910_CL_inverted_5_[x=3371,y=752,w=140,h=90].tif,oscillatory-sector op,stripy-stripy
+ECU_909_910_CL_inverted_657_[x=5338,y=10658,w=188,h=319].tif,oscillatory-sector op,sector-sector
+ECU_909_910_CL_inverted_84_[x=10839,y=2150,w=230,h=137].tif,oscillatory-sector op,sector-sector
+ECU_909_910_CL_inverted_949_[x=1770,y=14792,w=165,h=208].tif,oscillatory-sector op,sector-sector
+ECU_911_912_CL_inverted_153_[x=9317,y=2310,w=130,h=152].tif,oscillatory-sector op,sector-sector
+ECU_911_912_CL_inverted_216_[x=7816,y=3095,w=116,h=104].tif,oscillatory-sector op,sector-sector
+ECU_911_912_CL_inverted_350_[x=7056,y=4341,w=111,h=145].tif,oscillatory-sector op,sector-sector
+ECU_911_912_CL_inverted_414_[x=7704,y=8493,w=300,h=208].tif,oscillatory-sector op,sector-sector
+ECU_911_912_CL_inverted_528_[x=12811,y=9750,w=123,h=129].tif,oscillatory-sector op,sector-sector
+ECU_911_912_CL_inverted_558_[x=13133,y=9920,w=185,h=187].tif,oscillatory-sector op,sector-sector
+ECU_911_912_CL_inverted_562_[x=12017,y=9971,w=142,h=144].tif,oscillatory-sector op,sector-sector
+ECU_911_912_CL_inverted_585_[x=9759,y=10609,w=306,h=214].tif,oscillatory-sector op,sector-sector
+ECU_911_912_CL_inverted_832_[x=9819,y=12992,w=130,h=98].tif,oscillatory-sector op,sector-sector
+ECU_917_918_CL_inverted_261_[x=14170,y=8470,w=142,h=262].tif,oscillatory-sector op,sector-sector
+ECU_917_918_CL_inverted_320_[x=16047,y=9144,w=227,h=160].tif,oscillatory-sector op,sector-sector
+ECU_917_918_CL_inverted_324_[x=11861,y=9175,w=204,h=147].tif,oscillatory-sector op,sector-sector
+ECU_917_918_CL_inverted_334_[x=13342,y=9292,w=219,h=154].tif,oscillatory-sector op,sector-sector
+ECU_917_918_CL_inverted_337_[x=15203,y=9312,w=187,h=191].tif,oscillatory-sector op,sector-sector
+ECU_917_918_CL_inverted_342_[x=15342,y=9386,w=150,h=197].tif,oscillatory-sector op,sector-sector
+ECU_917_918_CL_inverted_356_[x=13475,y=9539,w=307,h=196].tif,oscillatory-sector op,sector-sector
+ECU_917_918_CL_inverted_475_[x=13805,y=10790,w=258,h=165].tif,oscillatory-sector op,sector-sector
+ECU_917_918_CL_inverted_525_[x=14032,y=11368,w=147,h=208].tif,oscillatory-sector op,sector-sector
+ECU_917_918_CL_inverted_52_[x=13216,y=6141,w=156,h=106].tif,oscillatory-sector op,sector-sector
+ECU_917_918_CL_inverted_563_[x=14092,y=11737,w=173,h=122].tif,oscillatory-sector op,stripy-stripy
+ECU_921_922_CL_inverted_134_[x=8891,y=5418,w=128,h=130].tif,oscillatory-sector op,sector-sector
+ECU_923_924_CL_inverted_253_[x=4235,y=5179,w=423,h=199].tif,oscillatory-sector op,sector-sector
+ECU_923_924_CL_inverted_284_[x=10397,y=5717,w=210,h=215].tif,oscillatory-sector op,sector-sector
+ECU_923_924_CL_inverted_324_[x=5319,y=6358,w=192,h=206].tif,oscillatory-sector op,sector-sector
+ECU_923_924_CL_inverted_750_[x=9220,y=13233,w=109,h=249].tif,oscillatory-sector op,stripy-stripy
+ECU_931_932_CL_inverted_522_[x=11020,y=7301,w=130,h=173].tif,oscillatory-sector op,sector-oscillatory sector op
+ECU_931_932_CL_inverted_612_[x=4065,y=8236,w=266,h=168].tif,oscillatory-sector op,sector-sector
+ECU_931_932_CL_inverted_663_[x=12820,y=8839,w=103,h=140].tif,oscillatory-sector op,sector-sector
+ECU_937_938_CL_inverted_560_[x=5678,y=8189,w=126,h=174].tif,oscillatory-sector op,sector-sector
+ECU_937_938_CL_inverted_576_[x=10868,y=8378,w=151,h=126].tif,oscillatory-sector op,sector-sector
+ECU_944_945_CL_highres_inverted_426_[x=10680,y=4629,w=165,h=103].tif,oscillatory-sector op,sector-sector
+ECU_966_967_CL_inverted_323_[x=5006,y=3678,w=162,h=158].tif,oscillatory-sector op,sector-sector
+ECU_966_967_CL_inverted_325_[x=12904,y=3684,w=213,h=181].tif,oscillatory-sector op,sector-sector
+ECU_966_967_CL_inverted_382_[x=4858,y=4251,w=176,h=268].tif,oscillatory-sector op,sector-sector
+ECU_966_967_CL_inverted_413_[x=12075,y=4367,w=125,h=119].tif,oscillatory-sector op,sector-sector
+ECU_966_967_CL_inverted_421_[x=6706,y=4385,w=133,h=135].tif,oscillatory-sector op,sector-sector
+ECU_966_967_CL_inverted_475_[x=11894,y=4576,w=110,h=113].tif,oscillatory-sector op,sector-sector
+ECU_966_967_CL_inverted_486_[x=4491,y=4626,w=95,h=117].tif,oscillatory-sector op,sector-sector
+ECU_966_967_CL_inverted_624_[x=6881,y=10024,w=141,h=230].tif,oscillatory-sector op,stripy-stripy
+ECU_966_967_CL_inverted_638_[x=5722,y=10135,w=231,h=136].tif,oscillatory-sector op,sector-sector
+ECU_966_967_CL_inverted_649_[x=6649,y=10225,w=275,h=134].tif,oscillatory-sector op,stripy-stripy
+ECU_966_967_CL_inverted_704_[x=5104,y=10750,w=212,h=250].tif,oscillatory-sector op,stripy-stripy
+ECU_966_967_CL_inverted_779_[x=2208,y=11320,w=201,h=140].tif,oscillatory-sector op,sector-sector
+ECU_966_967_CL_inverted_819_[x=6893,y=11583,w=127,h=232].tif,oscillatory-sector op,sector-sector
+ECU_966_967_CL_inverted_894_[x=12095,y=12278,w=215,h=142].tif,oscillatory-sector op,sector-sector
+ECU_966_967_CL_inverted_913_[x=6780,y=12654,w=138,h=239].tif,oscillatory-sector op,sector-sector
+ECU_970_971_CL_inverted_1002_[x=5502,y=9994,w=144,h=172].tif,oscillatory-sector op,sector-sector
+ECU_970_971_CL_inverted_1047_[x=11530,y=10138,w=196,h=128].tif,oscillatory-sector op,sector-sector
+ECU_970_971_CL_inverted_1064_[x=12407,y=10262,w=196,h=150].tif,oscillatory-sector op,stripy-stripy
+ECU_970_971_CL_inverted_156_[x=1767,y=2036,w=149,h=269].tif,oscillatory-sector op,stripy-stripy
+ECU_970_971_CL_inverted_224_[x=511,y=2788,w=97,h=150].tif,oscillatory-sector op,sector-sector
+ECU_970_971_CL_inverted_349_[x=2797,y=3089,w=85,h=86].tif,oscillatory-sector op,stripy-stripy
+ECU_970_971_CL_inverted_422_[x=4287,y=3849,w=101,h=112].tif,oscillatory-sector op,sector-sector
+ECU_970_971_CL_inverted_53_[x=6926,y=997,w=179,h=105].tif,oscillatory-sector op,sector-sector
+ECU_970_971_CL_inverted_839_[x=12845,y=8893,w=113,h=166].tif,oscillatory-sector op,sector-oscillatory sector op
+ECU_970_971_CL_inverted_901_[x=12714,y=9067,w=200,h=185].tif,oscillatory-sector op,sector-sector
+ECU_970_971_CL_inverted_992_[x=7294,y=9965,w=116,h=172].tif,oscillatory-sector op,sector-sector
+ECU_970_971_CL_inverted_9_[x=4238,y=785,w=216,h=138].tif,oscillatory-sector op,sector-sector
+ECU_978_979_CL_inverted_1017_[x=2210,y=12582,w=116,h=177].tif,oscillatory-sector op,sector-sector
+ECU_978_979_CL_inverted_1025_[x=1747,y=12654,w=121,h=90].tif,oscillatory-sector op,sector-sector
+ECU_978_979_CL_inverted_1074_[x=4170,y=13256,w=121,h=100].tif,oscillatory-sector op,sector-sector
+ECU_978_979_CL_inverted_1102_[x=2282,y=13597,w=96,h=86].tif,oscillatory-sector op,wavy-wavy
+ECU_978_979_CL_inverted_1106_[x=1826,y=13693,w=101,h=117].tif,oscillatory-sector op,sector-sector
+ECU_978_979_CL_inverted_1112_[x=1977,y=13781,w=108,h=91].tif,oscillatory-sector op,sector-sector
+ECU_978_979_CL_inverted_1114_[x=2569,y=13834,w=109,h=63].tif,oscillatory-sector op,sector-sector
+ECU_978_979_CL_inverted_149_[x=5032,y=2711,w=337,h=125].tif,oscillatory-sector op,metamict
+ECU_978_979_CL_inverted_253_[x=2396,y=3649,w=129,h=150].tif,oscillatory-sector op,sector-sector
+ECU_978_979_CL_inverted_405_[x=1355,y=4955,w=158,h=150].tif,oscillatory-sector op,stripy-stripy
+ECU_978_979_CL_inverted_637_[x=9639,y=9507,w=150,h=233].tif,oscillatory-sector op,sector-sector
+ECU_978_979_CL_inverted_650_[x=9512,y=9684,w=159,h=108].tif,oscillatory-sector op,sector-sector
+ECU_978_979_CL_inverted_669_[x=6657,y=9979,w=215,h=202].tif,oscillatory-sector op,sector-sector
+ECU_978_979_CL_inverted_679_[x=6795,y=10275,w=165,h=127].tif,oscillatory-sector op,sector-sector
+ECU_978_979_CL_inverted_734_[x=4054,y=10686,w=219,h=211].tif,oscillatory-sector op,sector-sector
+ECU_978_979_CL_inverted_854_[x=3580,y=11646,w=182,h=131].tif,oscillatory-sector op,sector-sector
+ECU_978_979_CL_inverted_949_[x=4339,y=12281,w=71,h=114].tif,oscillatory-sector op,sector-sector
+ECU_978_979_CL_inverted_951_[x=10786,y=12295,w=152,h=94].tif,oscillatory-sector op,sector-sector
+ECU_980_981_CL_inverted_1014_[x=3570,y=12862,w=186,h=183].tif,oscillatory-sector op,sector-sector
+ECU_980_981_CL_inverted_1047_[x=6865,y=13682,w=145,h=271].tif,oscillatory-sector op,sector-sector
+ECU_980_981_CL_inverted_1065_[x=5830,y=13856,w=176,h=179].tif,oscillatory-sector op,sector-sector
+ECU_980_981_CL_inverted_1100_[x=8624,y=14060,w=155,h=116].tif,oscillatory-sector op,sector-sector
+ECU_980_981_CL_inverted_1111_[x=10645,y=14168,w=169,h=175].tif,oscillatory-sector op,sector-sector
+ECU_980_981_CL_inverted_156_[x=9437,y=2848,w=349,h=154].tif,oscillatory-sector op,stripy-stripy
+ECU_980_981_CL_inverted_203_[x=6961,y=3145,w=204,h=135].tif,oscillatory-sector op,sector-sector
+ECU_980_981_CL_inverted_215_[x=4728,y=3230,w=148,h=179].tif,oscillatory-sector op,sector-sector
+ECU_980_981_CL_inverted_533_[x=13518,y=6194,w=125,h=218].tif,oscillatory-sector op,sector-sector
+ECU_980_981_CL_inverted_653_[x=2402,y=9524,w=157,h=236].tif,oscillatory-sector op,stripy-stripy
+ECU_980_981_CL_inverted_656_[x=5245,y=9538,w=178,h=303].tif,oscillatory-sector op,stripy-stripy
+ECU_980_981_CL_inverted_822_[x=3970,y=10933,w=138,h=217].tif,oscillatory-sector op,sector-sector
+ECU_980_981_CL_inverted_830_[x=6605,y=11427,w=223,h=213].tif,oscillatory-sector op,sector-sector
+ECU_980_981_CL_inverted_884_[x=1542,y=11719,w=160,h=148].tif,oscillatory-sector op,sector-sector
+ECU_988_989_CL_inverted_151_[x=1673,y=3734,w=123,h=176].tif,oscillatory-sector op,sector-sector
+ECU_988_989_CL_inverted_271_[x=8811,y=10772,w=173,h=215].tif,oscillatory-sector op,stripy-stripy
+ECU_988_989_CL_inverted_42_[x=2946,y=2048,w=376,h=283].tif,oscillatory-sector op,sector-sector
+ECU_994_995_CL_inverted_1009_[x=4364,y=12276,w=181,h=275].tif,oscillatory-sector op,sector-sector
+ECU_994_995_CL_inverted_528_[x=2045,y=4108,w=217,h=158].tif,oscillatory-sector op,sector-sector
+ECU_994_995_CL_inverted_689_[x=9536,y=7991,w=109,h=137].tif,oscillatory-sector op,sector-sector
+ECU_994_995_CL_inverted_699_[x=6744,y=8041,w=118,h=91].tif,oscillatory-sector op,wavy-wavy
+ECU_994_995_CL_inverted_809_[x=5379,y=9016,w=141,h=118].tif,oscillatory-sector op,sector-sector
+ECU_994_995_CL_inverted_865_[x=9408,y=9741,w=233,h=172].tif,oscillatory-sector op,sector-sector
+ECU_030_032_CL_inverted_112_[x=3553,y=1801,w=160,h=200].tif,sector-oscillatory,sector-sector
+ECU_030_032_CL_inverted_117_[x=10584,y=2230,w=209,h=242].tif,sector-oscillatory,sector-sector
+ECU_030_032_CL_inverted_171_[x=6048,y=2604,w=138,h=209].tif,sector-oscillatory,oscillatory-sector op
+ECU_030_032_CL_inverted_192_[x=13113,y=2849,w=246,h=270].tif,sector-oscillatory,sector-sector
+ECU_030_032_CL_inverted_21_[x=11328,y=485,w=129,h=260].tif,sector-oscillatory,oscillatory-sector op
+ECU_030_032_CL_inverted_239_[x=3685,y=3442,w=236,h=250].tif,sector-oscillatory,sector-sector
+ECU_030_032_CL_inverted_314_[x=9371,y=4249,w=175,h=152].tif,sector-oscillatory,oscillatory-sector op
+ECU_030_032_CL_inverted_562_[x=11403,y=10700,w=310,h=397].tif,sector-oscillatory,oscillatory-sector op
+ECU_030_032_CL_inverted_622_[x=9132,y=11991,w=127,h=191].tif,sector-oscillatory,sector-sector
+ECU_030_032_CL_inverted_640_[x=8112,y=12095,w=74,h=133].tif,sector-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_209_[x=11023,y=2695,w=140,h=101].tif,sector-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_230_[x=8357,y=2906,w=177,h=117].tif,sector-oscillatory,sector-sector
+ECU_1160_1161_CL_inverted_720_[x=4979,y=10896,w=180,h=196].tif,sector-oscillatory,sector-sector
+ECU_1160_1161_CL_inverted_750_[x=5224,y=11030,w=164,h=121].tif,sector-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_797_[x=11484,y=11168,w=97,h=124].tif,sector-oscillatory,sector-sector
+ECU_1160_1161_CL_inverted_823_[x=7177,y=11300,w=216,h=124].tif,sector-oscillatory,oscillatory-sector op
+ECU_1160_1161_CL_inverted_95_[x=7698,y=1800,w=173,h=98].tif,sector-oscillatory,oscillatory-sector op
+ECU_903_904_CL_inverted_144_[x=1706,y=3866,w=133,h=124].tif,sector-oscillatory,oscillatory-sector op
+ECU_905_906_CL_inverted_413_[x=8858,y=5543,w=203,h=164].tif,sector-oscillatory,sector-sector
+ECU_905_906_CL_inverted_582_[x=11156,y=10890,w=248,h=145].tif,sector-oscillatory,sector-sector
+ECU_919_920_CL_inverted_297_[x=11362,y=6857,w=293,h=224].tif,sector-oscillatory,sector-sector
+ECU_927_928_CL_inverted_155_[x=6480,y=3935,w=215,h=146].tif,sector-oscillatory,oscillatory-sector op
+ECU_927_928_CL_inverted_309_[x=2503,y=6270,w=224,h=286].tif,sector-oscillatory,sector-sector
+ECU_927_928_CL_inverted_691_[x=11135,y=11187,w=100,h=116].tif,sector-oscillatory,oscillatory-sector op
+ECU_927_928_CL_inverted_820_[x=12257,y=13568,w=141,h=108].tif,sector-oscillatory,sector-sector
+ECU_933_934_CL_inverted_1088_[x=8424,y=15260,w=205,h=101].tif,sector-oscillatory,oscillatory-sector op
+ECU_942_943_CL_inverted_542_[x=14380,y=5355,w=165,h=169].tif,sector-oscillatory,sector-sector
+ECU_942_943_CL_inverted_623_[x=876,y=7808,w=188,h=243].tif,sector-oscillatory,oscillatory-sector op
+ECU_968_969_CL_inverted_484_[x=6648,y=5873,w=206,h=114].tif,sector-oscillatory,oscillatory-sector op
+ECU_974_975_CL_inverted_159_[x=10507,y=1819,w=103,h=86].tif,sector-oscillatory,oscillatory-sector op
+ECU_1164_1166_CL_inverted_116_[x=8942,y=5652,w=134,h=178].tif,sector-oscillatory,sector-sector
+ECU_1164_1166_CL_inverted_169_[x=7891,y=6239,w=171,h=162].tif,sector-oscillatory,oscillatory-sector op
+ECU_1164_1166_CL_inverted_29_[x=5022,y=1110,w=141,h=107].tif,sector-oscillatory,sector-sector
+ECU_1164_1166_CL_inverted_409_[x=2825,y=8576,w=213,h=407].tif,sector-oscillatory,oscillatory-sector op
+ECU_1164_1166_CL_inverted_426_[x=4749,y=8770,w=217,h=137].tif,sector-oscillatory,sector-sector
+ECU_1164_1166_CL_inverted_484_[x=7887,y=9667,w=335,h=344].tif,sector-oscillatory,oscillatory-sector op
+ECU_1164_1166_CL_inverted_98_[x=8099,y=5529,w=184,h=132].tif,sector-oscillatory,sector-sector
+ECU_1776_1777_CL_inverted_651_[x=3160,y=10412,w=185,h=126].tif,sector-oscillatory,sector-sector
+ECU_353_357_CL_inverted_316_[x=8982,y=3904,w=111,h=122].tif,sector-oscillatory,sector-sector
+ECU_353_357_CL_inverted_643_[x=1051,y=8966,w=89,h=122].tif,sector-oscillatory,oscillatory-sector op
+ECU_353_357_CL_inverted_653_[x=7123,y=9312,w=123,h=178].tif,sector-oscillatory,sector-sector
+ECU_353_357_CL_inverted_656_[x=9144,y=9331,w=152,h=215].tif,sector-oscillatory,oscillatory-sector op
+ECU_353_357_CL_inverted_65_[x=6870,y=1166,w=167,h=150].tif,sector-oscillatory,sector-sector
+ECU_353_357_CL_inverted_67_[x=7730,y=1172,w=136,h=142].tif,sector-oscillatory,sector-sector
+ECU_353_357_CL_inverted_946_[x=9112,y=12086,w=137,h=193].tif,sector-oscillatory,sector-sector
+ECU_909_910_CL_inverted_1050_[x=8181,y=16554,w=141,h=204].tif,sector-oscillatory,sector-sector
+ECU_909_910_CL_inverted_608_[x=1488,y=9919,w=210,h=168].tif,sector-oscillatory,oscillatory-sector op
+ECU_909_910_CL_inverted_735_[x=11147,y=11844,w=125,h=212].tif,sector-oscillatory,oscillatory-sector op
+ECU_909_910_CL_inverted_741_[x=4213,y=11929,w=206,h=119].tif,sector-oscillatory,sector-sector
+ECU_909_910_CL_inverted_759_[x=10998,y=12232,w=249,h=158].tif,sector-oscillatory,oscillatory-sector op
+ECU_909_910_CL_inverted_898_[x=3669,y=14130,w=125,h=205].tif,sector-oscillatory,sector-sector
+ECU_909_910_CL_inverted_952_[x=2502,y=14850,w=165,h=240].tif,sector-oscillatory,sector-sector
+ECU_911_912_CL_inverted_111_[x=8244,y=2050,w=195,h=152].tif,sector-oscillatory,sector-sector
+ECU_911_912_CL_inverted_123_[x=5266,y=2099,w=117,h=202].tif,sector-oscillatory,oscillatory-sector op
+ECU_911_912_CL_inverted_164_[x=12231,y=2843,w=173,h=171].tif,sector-oscillatory,sector-sector
+ECU_911_912_CL_inverted_180_[x=8184,y=2957,w=136,h=142].tif,sector-oscillatory,sector-sector
+ECU_911_912_CL_inverted_257_[x=3452,y=3856,w=157,h=114].tif,sector-oscillatory,sector-sector
+ECU_911_912_CL_inverted_292_[x=10213,y=4049,w=165,h=127].tif,sector-oscillatory,sector-sector
+ECU_911_912_CL_inverted_422_[x=2205,y=8536,w=170,h=176].tif,sector-oscillatory,oscillatory-sector op
+ECU_911_912_CL_inverted_51_[x=6662,y=965,w=171,h=112].tif,sector-oscillatory,sector-sector
+ECU_911_912_CL_inverted_548_[x=13310,y=9854,w=121,h=272].tif,sector-oscillatory,oscillatory-sector op
+ECU_911_912_CL_inverted_55_[x=11205,y=981,w=157,h=189].tif,sector-oscillatory,oscillatory-sector op
+ECU_911_912_CL_inverted_656_[x=10490,y=10919,w=159,h=147].tif,sector-oscillatory,sector-sector
+ECU_911_912_CL_inverted_94_[x=13729,y=1952,w=155,h=294].tif,sector-oscillatory,sector-sector
+ECU_917_918_CL_inverted_439_[x=11915,y=10385,w=91,h=124].tif,sector-oscillatory,sector-sector
+ECU_931_932_CL_inverted_116_[x=6074,y=2754,w=172,h=151].tif,sector-oscillatory,sector-sector
+ECU_931_932_CL_inverted_289_[x=2527,y=4879,w=101,h=136].tif,sector-oscillatory,oscillatory-sector op
+ECU_937_938_CL_inverted_200_[x=7396,y=4353,w=101,h=74].tif,sector-oscillatory,sector-sector
+ECU_944_945_CL_highres_inverted_350_[x=5049,y=4270,w=198,h=193].tif,sector-oscillatory,oscillatory-sector op
+ECU_966_967_CL_inverted_696_[x=3849,y=10711,w=100,h=196].tif,sector-oscillatory,oscillatory-sector op
+ECU_970_971_CL_inverted_722_[x=8006,y=7789,w=126,h=85].tif,sector-oscillatory,oscillatory-sector op
+ECU_988_989_CL_inverted_273_[x=8217,y=10798,w=133,h=175].tif,sector-oscillatory,sector-sector
+ECU_030_032_CL_inverted_102_[x=3812,y=1699,w=190,h=174].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_030_032_CL_inverted_127_[x=8620,y=2336,w=135,h=170].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_030_032_CL_inverted_151_[x=10826,y=2481,w=118,h=183].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_030_032_CL_inverted_155_[x=6220,y=2501,w=206,h=199].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_030_032_CL_inverted_174_[x=3741,y=2643,w=153,h=321].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_030_032_CL_inverted_268_[x=6921,y=3628,w=202,h=126].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_030_032_CL_inverted_274_[x=5646,y=3705,w=201,h=197].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_030_032_CL_inverted_331_[x=5170,y=4334,w=203,h=213].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_030_032_CL_inverted_33_[x=5618,y=602,w=151,h=154].tif,sector-oscillatory sector op,sector-sector
+ECU_030_032_CL_inverted_399_[x=6766,y=5197,w=120,h=106].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_030_032_CL_inverted_401_[x=11829,y=5220,w=121,h=164].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_030_032_CL_inverted_410_[x=6372,y=5251,w=87,h=167].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_030_032_CL_inverted_537_[x=8477,y=9734,w=275,h=356].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_030_032_CL_inverted_689_[x=11442,y=12267,w=142,h=138].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_030_032_CL_inverted_804_[x=4169,y=13357,w=186,h=330].tif,sector-oscillatory sector op,sector-sector
+ECU_030_032_CL_inverted_85_[x=3625,y=1585,w=130,h=195].tif,sector-oscillatory sector op,sector-sector
+ECU_030_032_CL_inverted_99_[x=9990,y=1692,w=488,h=116].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_1154_1155_1167_CL_inverted_107_[x=7623,y=11532,w=127,h=203].tif,sector-oscillatory sector op,sector-sector
+ECU_1154_1155_1167_CL_inverted_109_[x=6983,y=11542,w=149,h=122].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_1154_1155_1167_CL_inverted_130_[x=4465,y=12155,w=148,h=140].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_1154_1155_1167_CL_inverted_178_[x=2904,y=12908,w=125,h=243].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_1154_1155_1167_CL_inverted_187_[x=1848,y=12969,w=144,h=207].tif,sector-oscillatory sector op,sector-sector
+ECU_1154_1155_1167_CL_inverted_224_[x=8957,y=13274,w=253,h=149].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_1154_1155_1167_CL_inverted_260_[x=3273,y=14273,w=385,h=205].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_1154_1155_1167_CL_inverted_86_[x=6462,y=11268,w=192,h=243].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_1160_1161_CL_inverted_205_[x=7561,y=2685,w=132,h=171].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_1160_1161_CL_inverted_224_[x=10784,y=2827,w=123,h=165].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_1160_1161_CL_inverted_227_[x=10682,y=2858,w=106,h=172].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_1160_1161_CL_inverted_240_[x=5538,y=3118,w=182,h=204].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_1160_1161_CL_inverted_256_[x=6819,y=3245,w=119,h=174].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_1160_1161_CL_inverted_267_[x=8788,y=3361,w=184,h=223].tif,sector-oscillatory sector op,sector-sector
+ECU_1160_1161_CL_inverted_287_[x=7323,y=3436,w=88,h=110].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_1160_1161_CL_inverted_390_[x=9817,y=5023,w=132,h=182].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_1160_1161_CL_inverted_391_[x=10230,y=5024,w=193,h=123].tif,sector-oscillatory sector op,sector-sector
+ECU_1160_1161_CL_inverted_410_[x=12126,y=5165,w=135,h=250].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_1160_1161_CL_inverted_427_[x=1958,y=8160,w=142,h=282].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_1160_1161_CL_inverted_465_[x=9273,y=8464,w=76,h=190].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_1160_1161_CL_inverted_561_[x=4923,y=9214,w=157,h=212].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_1160_1161_CL_inverted_651_[x=5739,y=10090,w=210,h=196].tif,sector-oscillatory sector op,sector-sector
+ECU_1160_1161_CL_inverted_656_[x=3686,y=10139,w=124,h=159].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_1160_1161_CL_inverted_786_[x=6055,y=11134,w=114,h=200].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_1160_1161_CL_inverted_800_[x=1893,y=11176,w=85,h=88].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_1160_1161_CL_inverted_836_[x=7421,y=11848,w=116,h=211].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_1160_1161_CL_inverted_877_[x=10004,y=11975,w=90,h=142].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_1160_1161_CL_inverted_888_[x=9423,y=12001,w=155,h=120].tif,sector-oscillatory sector op,sector-sector
+ECU_903_904_CL_inverted_286_[x=3663,y=5790,w=266,h=236].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_903_904_CL_inverted_394_[x=4194,y=7247,w=230,h=227].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_903_904_CL_inverted_455_[x=8040,y=8255,w=128,h=183].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_903_904_CL_inverted_723_[x=8139,y=11982,w=113,h=174].tif,sector-oscillatory sector op,sector-sector
+ECU_903_904_CL_inverted_748_[x=3520,y=12403,w=280,h=209].tif,sector-oscillatory sector op,sector-sector
+ECU_903_904_CL_inverted_788_[x=16885,y=13177,w=147,h=243].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_903_904_CL_inverted_883_[x=8222,y=15093,w=84,h=126].tif,sector-oscillatory sector op,sector-sector
+ECU_903_904_CL_inverted_888_[x=8342,y=15308,w=160,h=141].tif,sector-oscillatory sector op,sector-sector
+ECU_905_906_CL_inverted_137_[x=6905,y=2293,w=146,h=343].tif,sector-oscillatory sector op,stripy-stripy
+ECU_905_906_CL_inverted_164_[x=1442,y=2519,w=163,h=307].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_905_906_CL_inverted_217_[x=2123,y=3242,w=293,h=286].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_905_906_CL_inverted_23_[x=7975,y=725,w=253,h=197].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_905_906_CL_inverted_307_[x=11750,y=4165,w=109,h=236].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_905_906_CL_inverted_321_[x=11318,y=4278,w=171,h=257].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_905_906_CL_inverted_382_[x=14997,y=5088,w=190,h=167].tif,sector-oscillatory sector op,sector-sector
+ECU_905_906_CL_inverted_403_[x=11412,y=5416,w=256,h=212].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_905_906_CL_inverted_404_[x=12326,y=5473,w=302,h=144].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_905_906_CL_inverted_405_[x=7601,y=5475,w=155,h=190].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_905_906_CL_inverted_414_[x=11247,y=5543,w=250,h=156].tif,sector-oscillatory sector op,sector-sector
+ECU_905_906_CL_inverted_458_[x=10237,y=6001,w=203,h=215].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_905_906_CL_inverted_482_[x=12303,y=9071,w=154,h=257].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_905_906_CL_inverted_534_[x=3231,y=10160,w=263,h=114].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_905_906_CL_inverted_570_[x=10617,y=10704,w=165,h=133].tif,sector-oscillatory sector op,sector-sector
+ECU_905_906_CL_inverted_593_[x=8237,y=11008,w=126,h=175].tif,sector-oscillatory sector op,sector-sector
+ECU_905_906_CL_inverted_595_[x=11131,y=11018,w=144,h=110].tif,sector-oscillatory sector op,sector-sector
+ECU_905_906_CL_inverted_597_[x=9699,y=11052,w=133,h=236].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_905_906_CL_inverted_614_[x=14406,y=11196,w=178,h=208].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_905_906_CL_inverted_615_[x=7482,y=11210,w=185,h=208].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_905_906_CL_inverted_620_[x=6995,y=11267,w=249,h=165].tif,sector-oscillatory sector op,sector-sector
+ECU_905_906_CL_inverted_632_[x=5517,y=11343,w=172,h=149].tif,sector-oscillatory sector op,sector-sector
+ECU_905_906_CL_inverted_635_[x=13129,y=11356,w=217,h=219].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_905_906_CL_inverted_655_[x=13850,y=11561,w=133,h=239].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_905_906_CL_inverted_680_[x=14859,y=11732,w=287,h=171].tif,sector-oscillatory sector op,sector-sector
+ECU_905_906_CL_inverted_716_[x=4964,y=12142,w=229,h=206].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_905_906_CL_inverted_729_[x=7028,y=12290,w=454,h=147].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_905_906_CL_inverted_7_[x=9351,y=503,w=153,h=228].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_905_906_CL_inverted_800_[x=8725,y=13117,w=327,h=152].tif,sector-oscillatory sector op,sector-sector
+ECU_905_906_CL_inverted_836_[x=3732,y=13601,w=156,h=242].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_905_906_CL_inverted_845_[x=3484,y=13722,w=211,h=204].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_905_906_CL_inverted_858_[x=2554,y=13889,w=221,h=127].tif,sector-oscillatory sector op,sector-sector
+ECU_905_906_CL_inverted_880_[x=13158,y=14295,w=178,h=179].tif,sector-oscillatory sector op,sector-sector
+ECU_905_906_CL_inverted_887_[x=11426,y=14460,w=154,h=246].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_905_906_CL_inverted_900_[x=5456,y=14726,w=206,h=289].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_905_906_CL_inverted_912_[x=10022,y=14830,w=180,h=175].tif,sector-oscillatory sector op,sector-sector
+ECU_905_906_CL_inverted_918_[x=8466,y=14880,w=162,h=131].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_913_914_CL_inverted_134_[x=8083,y=2206,w=202,h=178].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_913_914_CL_inverted_170_[x=9542,y=2685,w=148,h=127].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_913_914_CL_inverted_222_[x=3765,y=3160,w=120,h=133].tif,sector-oscillatory sector op,sector-sector
+ECU_913_914_CL_inverted_28_[x=8419,y=995,w=124,h=149].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_913_914_CL_inverted_413_[x=6050,y=4830,w=154,h=93].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_913_914_CL_inverted_420_[x=7734,y=4865,w=98,h=99].tif,sector-oscillatory sector op,sector-sector
+ECU_913_914_CL_inverted_433_[x=6488,y=4935,w=102,h=113].tif,sector-oscillatory sector op,sector-sector
+ECU_913_914_CL_inverted_46_[x=7730,y=1096,w=195,h=150].tif,sector-oscillatory sector op,sector-sector
+ECU_913_914_CL_inverted_52_[x=5617,y=1172,w=216,h=124].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_919_920_CL_inverted_172_[x=12765,y=4959,w=302,h=232].tif,sector-oscillatory sector op,sector-sector
+ECU_919_920_CL_inverted_299_[x=9726,y=6886,w=161,h=241].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_919_920_CL_inverted_301_[x=9924,y=6905,w=184,h=235].tif,sector-oscillatory sector op,sector-sector
+ECU_919_920_CL_inverted_366_[x=9882,y=7966,w=178,h=275].tif,sector-oscillatory sector op,sector-sector
+ECU_919_920_CL_inverted_4_[x=5888,y=1297,w=279,h=207].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_919_920_CL_inverted_501_[x=603,y=9968,w=338,h=214].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_919_920_CL_inverted_506_[x=4068,y=10016,w=241,h=148].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_919_920_CL_inverted_50_[x=5837,y=3176,w=172,h=355].tif,sector-oscillatory sector op,sector-sector
+ECU_919_920_CL_inverted_580_[x=3068,y=11043,w=211,h=233].tif,sector-oscillatory sector op,sector-sector
+ECU_919_920_CL_inverted_643_[x=4056,y=12135,w=241,h=306].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_919_920_CL_inverted_645_[x=13777,y=12183,w=193,h=186].tif,sector-oscillatory sector op,sector-sector
+ECU_919_920_CL_inverted_67_[x=6678,y=3474,w=335,h=201].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_919_920_CL_inverted_680_[x=8708,y=12806,w=412,h=275].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_919_920_CL_inverted_69_[x=1719,y=3487,w=257,h=154].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_919_920_CL_inverted_723_[x=13535,y=13547,w=253,h=222].tif,sector-oscillatory sector op,sector-sector
+ECU_919_920_CL_inverted_724_[x=11182,y=13554,w=276,h=221].tif,sector-oscillatory sector op,sector-sector
+ECU_919_920_CL_inverted_783_[x=4854,y=14487,w=264,h=301].tif,sector-oscillatory sector op,sector-sector
+ECU_919_920_CL_inverted_805_[x=3493,y=14810,w=236,h=201].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_919_920_CL_inverted_831_[x=9732,y=15377,w=161,h=227].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_919_920_CL_inverted_844_[x=11904,y=15681,w=141,h=240].tif,sector-oscillatory sector op,sector-sector
+ECU_919_920_CL_inverted_87_[x=10097,y=3806,w=207,h=151].tif,sector-oscillatory sector op,sector-sector
+ECU_927_928_CL_inverted_10_[x=6298,y=767,w=178,h=257].tif,sector-oscillatory sector op,sector-sector
+ECU_927_928_CL_inverted_111_[x=6707,y=3162,w=221,h=242].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_927_928_CL_inverted_113_[x=3897,y=3196,w=286,h=191].tif,sector-oscillatory sector op,sector-sector
+ECU_927_928_CL_inverted_121_[x=14812,y=3349,w=175,h=120].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_927_928_CL_inverted_186_[x=4614,y=4437,w=138,h=214].tif,sector-oscillatory sector op,sector-sector
+ECU_927_928_CL_inverted_214_[x=7367,y=4822,w=108,h=123].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_927_928_CL_inverted_255_[x=15127,y=5493,w=166,h=178].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_927_928_CL_inverted_279_[x=6719,y=5843,w=187,h=135].tif,sector-oscillatory sector op,sector-sector
+ECU_927_928_CL_inverted_285_[x=2423,y=5954,w=330,h=246].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_927_928_CL_inverted_316_[x=8154,y=6371,w=142,h=388].tif,sector-oscillatory sector op,sector-sector
+ECU_927_928_CL_inverted_362_[x=16557,y=7000,w=277,h=229].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_927_928_CL_inverted_438_[x=3177,y=7920,w=299,h=166].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_927_928_CL_inverted_449_[x=14795,y=8043,w=183,h=185].tif,sector-oscillatory sector op,sector-sector
+ECU_927_928_CL_inverted_451_[x=5958,y=8066,w=190,h=210].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_927_928_CL_inverted_485_[x=1380,y=8466,w=312,h=219].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_927_928_CL_inverted_510_[x=7079,y=8793,w=174,h=141].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_927_928_CL_inverted_52_[x=8706,y=1901,w=248,h=172].tif,sector-oscillatory sector op,sector-sector
+ECU_927_928_CL_inverted_581_[x=6464,y=9699,w=202,h=196].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_927_928_CL_inverted_613_[x=3004,y=10088,w=263,h=199].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_927_928_CL_inverted_627_[x=2928,y=10261,w=227,h=252].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_927_928_CL_inverted_684_[x=5710,y=11078,w=240,h=279].tif,sector-oscillatory sector op,sector-sector
+ECU_927_928_CL_inverted_704_[x=4277,y=11434,w=320,h=240].tif,sector-oscillatory sector op,sector-sector
+ECU_927_928_CL_inverted_711_[x=12082,y=11547,w=85,h=96].tif,sector-oscillatory sector op,sector-sector
+ECU_927_928_CL_inverted_858_[x=14609,y=14452,w=154,h=154].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_927_928_CL_inverted_87_[x=4211,y=2707,w=207,h=131].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_933_934_CL_inverted_109_[x=8452,y=1882,w=366,h=162].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_933_934_CL_inverted_1178_[x=11807,y=16124,w=140,h=177].tif,sector-oscillatory sector op,sector-sector
+ECU_933_934_CL_inverted_119_[x=9511,y=2012,w=256,h=144].tif,sector-oscillatory sector op,sector-sector
+ECU_933_934_CL_inverted_13_[x=5720,y=440,w=243,h=243].tif,sector-oscillatory sector op,sector-sector
+ECU_942_943_CL_inverted_540_[x=10501,y=5308,w=98,h=87].tif,sector-oscillatory sector op,sector-sector
+ECU_942_943_CL_inverted_598_[x=14485,y=6141,w=117,h=97].tif,sector-oscillatory sector op,sector-sector
+ECU_942_943_CL_inverted_616_[x=14846,y=6389,w=108,h=98].tif,sector-oscillatory sector op,sector-sector
+ECU_942_943_CL_inverted_650_[x=523,y=8520,w=162,h=166].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_942_943_CL_inverted_702_[x=5467,y=9238,w=187,h=250].tif,sector-oscillatory sector op,sector-sector
+ECU_942_943_CL_inverted_772_[x=10099,y=10188,w=159,h=252].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_942_943_CL_inverted_814_[x=4188,y=10646,w=284,h=161].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_942_943_CL_inverted_846_[x=12696,y=10992,w=198,h=231].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_942_943_CL_inverted_850_[x=3137,y=11026,w=237,h=203].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_942_943_CL_inverted_878_[x=12970,y=11351,w=171,h=156].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_942_943_CL_inverted_909_[x=2130,y=11613,w=224,h=201].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_942_943_CL_inverted_920_[x=9165,y=11761,w=239,h=145].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_968_969_CL_inverted_519_[x=4460,y=5975,w=179,h=186].tif,sector-oscillatory sector op,sector-sector
+ECU_982_983_CL_inverted_410_[x=6494,y=5839,w=223,h=291].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_982_983_CL_inverted_421_[x=7581,y=5892,w=233,h=152].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_990_991_CL_inverted_268_[x=6591,y=3670,w=172,h=220].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_990_991_CL_inverted_300_[x=9623,y=3913,w=200,h=303].tif,sector-oscillatory sector op,sector-sector
+ECU_990_991_CL_inverted_374_[x=4816,y=4732,w=254,h=276].tif,sector-oscillatory sector op,sector-sector
+ECU_998_999_CL_inverted_302_[x=12798,y=3457,w=188,h=160].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_998_999_CL_inverted_356_[x=9180,y=7177,w=141,h=133].tif,sector-oscillatory sector op,sector-sector
+ECU_998_999_CL_inverted_493_[x=8507,y=8733,w=141,h=185].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_998_999_CL_inverted_528_[x=1986,y=8870,w=138,h=187].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_998_999_CL_inverted_581_[x=3314,y=9568,w=178,h=187].tif,sector-oscillatory sector op,sector-sector
+ECU_998_999_CL_inverted_668_[x=9770,y=10531,w=117,h=217].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_998_999_CL_inverted_759_[x=6705,y=11864,w=114,h=227].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_1087_1088_CL_inverted_360_[x=6585,y=9356,w=242,h=221].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_1087_1088_CL_inverted_508_[x=9854,y=12014,w=259,h=408].tif,sector-oscillatory sector op,sector-sector
+ECU_1087_1088_CL_inverted_619_[x=12020,y=14052,w=123,h=206].tif,sector-oscillatory sector op,sector-sector
+ECU_1164_1166_CL_inverted_105_[x=9059,y=5567,w=105,h=173].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_1164_1166_CL_inverted_246_[x=5318,y=7050,w=91,h=135].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_1164_1166_CL_inverted_289_[x=7544,y=7190,w=83,h=133].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_1164_1166_CL_inverted_334_[x=2039,y=7778,w=80,h=190].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_1164_1166_CL_inverted_36_[x=1115,y=5093,w=113,h=222].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_1164_1166_CL_inverted_38_[x=905,y=5137,w=175,h=208].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_1164_1166_CL_inverted_498_[x=7362,y=9833,w=111,h=189].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_1776_1777_CL_inverted_429_[x=12366,y=4312,w=289,h=259].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_1776_1777_CL_inverted_488_[x=9209,y=8483,w=215,h=149].tif,sector-oscillatory sector op,sector-sector
+ECU_353_357_CL_inverted_163_[x=7454,y=2192,w=187,h=274].tif,sector-oscillatory sector op,sector-sector
+ECU_353_357_CL_inverted_170_[x=7191,y=2232,w=116,h=202].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_353_357_CL_inverted_211_[x=12067,y=2946,w=173,h=243].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_353_357_CL_inverted_230_[x=4633,y=3073,w=174,h=119].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_353_357_CL_inverted_254_[x=8953,y=3153,w=198,h=138].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_353_357_CL_inverted_275_[x=2612,y=3219,w=96,h=172].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_353_357_CL_inverted_294_[x=4958,y=3293,w=260,h=234].tif,sector-oscillatory sector op,sector-sector
+ECU_353_357_CL_inverted_295_[x=4050,y=3295,w=171,h=153].tif,sector-oscillatory sector op,sector-sector
+ECU_353_357_CL_inverted_372_[x=10420,y=4133,w=219,h=182].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_353_357_CL_inverted_394_[x=4098,y=4244,w=219,h=175].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_353_357_CL_inverted_44_[x=2486,y=1092,w=137,h=206].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_353_357_CL_inverted_544_[x=10232,y=8602,w=85,h=120].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_353_357_CL_inverted_645_[x=1857,y=8969,w=214,h=144].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_353_357_CL_inverted_662_[x=8939,y=9349,w=174,h=172].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_353_357_CL_inverted_670_[x=5747,y=9391,w=239,h=180].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_353_357_CL_inverted_684_[x=3256,y=9473,w=278,h=272].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_353_357_CL_inverted_685_[x=6035,y=9474,w=255,h=177].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_353_357_CL_inverted_702_[x=4591,y=9540,w=232,h=190].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_353_357_CL_inverted_710_[x=3819,y=9583,w=192,h=150].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_353_357_CL_inverted_721_[x=4343,y=9649,w=257,h=165].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_353_357_CL_inverted_735_[x=621,y=9846,w=252,h=134].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_353_357_CL_inverted_754_[x=7965,y=10217,w=133,h=160].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_353_357_CL_inverted_75_[x=9520,y=1197,w=238,h=187].tif,sector-oscillatory sector op,sector-sector
+ECU_353_357_CL_inverted_787_[x=10590,y=10393,w=170,h=142].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_353_357_CL_inverted_849_[x=3272,y=11174,w=185,h=115].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_353_357_CL_inverted_865_[x=3380,y=11277,w=113,h=181].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_353_357_CL_inverted_87_[x=3978,y=1253,w=146,h=145].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_353_357_CL_inverted_890_[x=7111,y=11872,w=139,h=172].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_353_357_CL_inverted_899_[x=9146,y=11913,w=155,h=189].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_353_357_CL_inverted_900_[x=9714,y=11913,w=98,h=175].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_353_357_CL_inverted_949_[x=4873,y=12093,w=277,h=165].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_909_910_CL_inverted_100_[x=12416,y=2276,w=177,h=130].tif,sector-oscillatory sector op,sector-sector
+ECU_909_910_CL_inverted_187_[x=4601,y=3322,w=140,h=155].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_909_910_CL_inverted_206_[x=11547,y=3490,w=194,h=153].tif,sector-oscillatory sector op,sector-sector
+ECU_909_910_CL_inverted_249_[x=6833,y=3850,w=209,h=134].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_909_910_CL_inverted_335_[x=5387,y=4635,w=184,h=148].tif,sector-oscillatory sector op,sector-sector
+ECU_909_910_CL_inverted_404_[x=12920,y=5115,w=176,h=93].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_909_910_CL_inverted_414_[x=4259,y=5237,w=121,h=188].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_909_910_CL_inverted_603_[x=2235,y=9874,w=256,h=223].tif,sector-oscillatory sector op,sector-sector
+ECU_909_910_CL_inverted_668_[x=12539,y=10856,w=177,h=311].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_909_910_CL_inverted_719_[x=9527,y=11635,w=343,h=156].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_909_910_CL_inverted_722_[x=3320,y=11661,w=168,h=185].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_909_910_CL_inverted_739_[x=5860,y=11923,w=192,h=275].tif,sector-oscillatory sector op,sector-sector
+ECU_909_910_CL_inverted_762_[x=6889,y=12276,w=220,h=152].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_909_910_CL_inverted_872_[x=1949,y=13859,w=195,h=163].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_909_910_CL_inverted_897_[x=9258,y=14115,w=209,h=122].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_911_912_CL_inverted_404_[x=9779,y=8457,w=160,h=207].tif,sector-oscillatory sector op,sector-sector
+ECU_911_912_CL_inverted_417_[x=2467,y=8496,w=227,h=217].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_917_918_CL_inverted_112_[x=13993,y=6864,w=106,h=190].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_917_918_CL_inverted_115_[x=13002,y=6939,w=248,h=152].tif,sector-oscillatory sector op,sector-sector
+ECU_917_918_CL_inverted_239_[x=14088,y=8221,w=203,h=153].tif,sector-oscillatory sector op,sector-sector
+ECU_917_918_CL_inverted_387_[x=6739,y=9873,w=170,h=150].tif,sector-oscillatory sector op,sector-sector
+ECU_917_918_CL_inverted_828_[x=13291,y=14516,w=192,h=133].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_917_918_CL_inverted_837_[x=15257,y=14594,w=185,h=157].tif,sector-oscillatory sector op,sector-sector
+ECU_921_922_CL_inverted_423_[x=14385,y=10438,w=164,h=164].tif,sector-oscillatory sector op,sector-sector
+ECU_921_922_CL_inverted_72_[x=10080,y=4653,w=106,h=212].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_923_924_CL_inverted_152_[x=10694,y=3522,w=144,h=251].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_923_924_CL_inverted_616_[x=3559,y=10803,w=237,h=167].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_931_932_CL_inverted_196_[x=10704,y=3872,w=126,h=160].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_931_932_CL_inverted_962_[x=8268,y=13246,w=215,h=161].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_944_945_CL_highres_inverted_932_[x=5089,y=12537,w=145,h=221].tif,sector-oscillatory sector op,sector-sector
+ECU_970_971_CL_inverted_1006_[x=8308,y=10006,w=167,h=233].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_970_971_CL_inverted_1204_[x=7717,y=12724,w=135,h=170].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_970_971_CL_inverted_952_[x=11268,y=9308,w=315,h=178].tif,sector-oscillatory sector op,sector-sector
+ECU_978_979_CL_inverted_693_[x=12366,y=10394,w=152,h=240].tif,sector-oscillatory sector op,sector-sector
+ECU_980_981_CL_inverted_1034_[x=11387,y=13010,w=222,h=134].tif,sector-oscillatory sector op,sector-sector
+ECU_980_981_CL_inverted_645_[x=11520,y=9497,w=229,h=162].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_988_989_CL_inverted_154_[x=2164,y=3738,w=114,h=150].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_988_989_CL_inverted_183_[x=9423,y=9448,w=217,h=170].tif,sector-oscillatory sector op,oscillatory-sector op
+ECU_988_989_CL_inverted_68_[x=7283,y=2583,w=250,h=187].tif,sector-oscillatory sector op,sector-sector
+ECU_030_032_CL_inverted_129_[x=6737,y=2344,w=129,h=239].tif,sector-sector,oscillatory-sector op
+ECU_030_032_CL_inverted_179_[x=3984,y=2664,w=127,h=151].tif,sector-sector,oscillatory-sector op
+ECU_030_032_CL_inverted_185_[x=5367,y=2698,w=241,h=140].tif,sector-sector,oscillatory-sector op
+ECU_030_032_CL_inverted_195_[x=9894,y=3078,w=760,h=283].tif,sector-sector,stripy-stripy
+ECU_030_032_CL_inverted_196_[x=12188,y=3126,w=90,h=149].tif,sector-sector,oscillatory-sector op
+ECU_030_032_CL_inverted_201_[x=11728,y=3193,w=115,h=159].tif,sector-sector,stripy-stripy
+ECU_030_032_CL_inverted_252_[x=2010,y=3514,w=110,h=258].tif,sector-sector,oscillatory-sector op
+ECU_030_032_CL_inverted_320_[x=9737,y=4281,w=135,h=143].tif,sector-sector,oscillatory-sector op
+ECU_030_032_CL_inverted_381_[x=8820,y=5054,w=189,h=274].tif,sector-sector,stripy-stripy
+ECU_030_032_CL_inverted_38_[x=6196,y=624,w=153,h=167].tif,sector-sector,stripy-stripy
+ECU_030_032_CL_inverted_444_[x=3476,y=5489,w=81,h=86].tif,sector-sector,oscillatory-sector op
+ECU_030_032_CL_inverted_465_[x=10581,y=7998,w=318,h=360].tif,sector-sector,blank-oscillatory
+ECU_030_032_CL_inverted_469_[x=8994,y=8136,w=283,h=347].tif,sector-sector,stripy-stripy
+ECU_030_032_CL_inverted_474_[x=3444,y=8183,w=305,h=425].tif,sector-sector,stripy-stripy
+ECU_030_032_CL_inverted_522_[x=3812,y=9604,w=256,h=261].tif,sector-sector,oscillatory-sector op
+ECU_030_032_CL_inverted_548_[x=3656,y=9904,w=194,h=317].tif,sector-sector,oscillatory-sector op
+ECU_030_032_CL_inverted_570_[x=9990,y=10780,w=248,h=375].tif,sector-sector,oscillatory-sector op
+ECU_030_032_CL_inverted_596_[x=1374,y=11097,w=294,h=554].tif,sector-sector,stripy-stripy
+ECU_030_032_CL_inverted_643_[x=10879,y=12100,w=83,h=127].tif,sector-sector,oscillatory-sector op
+ECU_030_032_CL_inverted_646_[x=11911,y=12117,w=118,h=183].tif,sector-sector,stripy-stripy
+ECU_030_032_CL_inverted_667_[x=5370,y=12185,w=162,h=147].tif,sector-sector,stripy-stripy
+ECU_030_032_CL_inverted_668_[x=9592,y=12191,w=106,h=91].tif,sector-sector,oscillatory-sector op
+ECU_030_032_CL_inverted_673_[x=8212,y=12215,w=84,h=83].tif,sector-sector,oscillatory-sector op
+ECU_030_032_CL_inverted_682_[x=4452,y=12256,w=189,h=205].tif,sector-sector,stripy-stripy
+ECU_030_032_CL_inverted_715_[x=7880,y=12370,w=97,h=78].tif,sector-sector,oscillatory-sector op
+ECU_030_032_CL_inverted_760_[x=3088,y=12637,w=90,h=122].tif,sector-sector,stripy-stripy
+ECU_030_032_CL_inverted_848_[x=3229,y=14486,w=343,h=305].tif,sector-sector,stripy-stripy
+ECU_030_032_CL_inverted_864_[x=8507,y=15284,w=186,h=206].tif,sector-sector,stripy-stripy
+ECU_030_032_CL_inverted_874_[x=6210,y=15378,w=285,h=308].tif,sector-sector,oscillatory-sector op
+ECU_1154_1155_1167_CL_inverted_131_[x=6815,y=12163,w=121,h=64].tif,sector-sector,stripy-stripy
+ECU_1154_1155_1167_CL_inverted_147_[x=7064,y=12268,w=84,h=129].tif,sector-sector,oscillatory-sector op
+ECU_1154_1155_1167_CL_inverted_168_[x=1704,y=12849,w=165,h=233].tif,sector-sector,oscillatory-sector op
+ECU_1154_1155_1167_CL_inverted_170_[x=2086,y=12858,w=153,h=230].tif,sector-sector,oscillatory-sector op
+ECU_1154_1155_1167_CL_inverted_173_[x=4843,y=12868,w=139,h=202].tif,sector-sector,oscillatory-sector op
+ECU_1154_1155_1167_CL_inverted_197_[x=5047,y=13042,w=169,h=240].tif,sector-sector,oscillatory-sector op
+ECU_1154_1155_1167_CL_inverted_213_[x=9179,y=13169,w=95,h=147].tif,sector-sector,oscillatory-sector op
+ECU_1154_1155_1167_CL_inverted_236_[x=2626,y=14079,w=237,h=333].tif,sector-sector,oscillatory-sector op
+ECU_1154_1155_1167_CL_inverted_264_[x=6977,y=14343,w=173,h=198].tif,sector-sector,stripy-stripy
+ECU_1154_1155_1167_CL_inverted_270_[x=7861,y=14471,w=170,h=242].tif,sector-sector,oscillatory-sector op
+ECU_1154_1155_1167_CL_inverted_69_[x=7650,y=5849,w=99,h=142].tif,sector-sector,oscillatory-sector op
+ECU_1160_1161_CL_inverted_111_[x=4375,y=1854,w=173,h=162].tif,sector-sector,oscillatory-sector op
+ECU_1160_1161_CL_inverted_141_[x=12231,y=1991,w=132,h=114].tif,sector-sector,oscillatory-sector op
+ECU_1160_1161_CL_inverted_161_[x=3801,y=2308,w=280,h=168].tif,sector-sector,stripy-stripy
+ECU_1160_1161_CL_inverted_326_[x=3613,y=3892,w=105,h=209].tif,sector-sector,oscillatory-sector op
+ECU_1160_1161_CL_inverted_378_[x=8427,y=4936,w=256,h=322].tif,sector-sector,oscillatory-sector op
+ECU_1160_1161_CL_inverted_436_[x=544,y=8311,w=116,h=154].tif,sector-sector,oscillatory-sector op
+ECU_1160_1161_CL_inverted_462_[x=9495,y=8457,w=200,h=171].tif,sector-sector,oscillatory-sector op
+ECU_1160_1161_CL_inverted_515_[x=6717,y=8665,w=163,h=122].tif,sector-sector,stripy-stripy
+ECU_1160_1161_CL_inverted_537_[x=12307,y=8773,w=75,h=100].tif,sector-sector,oscillatory-sector op
+ECU_1160_1161_CL_inverted_570_[x=3589,y=9247,w=244,h=144].tif,sector-sector,oscillatory-sector op
+ECU_1160_1161_CL_inverted_574_[x=3499,y=9265,w=89,h=152].tif,sector-sector,oscillatory-sector op
+ECU_1160_1161_CL_inverted_602_[x=8033,y=9398,w=96,h=146].tif,sector-sector,oscillatory-sector op
+ECU_1160_1161_CL_inverted_605_[x=9700,y=9405,w=117,h=182].tif,sector-sector,stripy-stripy
+ECU_1160_1161_CL_inverted_614_[x=8890,y=9460,w=233,h=314].tif,sector-sector,stripy-stripy
+ECU_1160_1161_CL_inverted_663_[x=3229,y=10173,w=171,h=198].tif,sector-sector,oscillatory-sector op
+ECU_1160_1161_CL_inverted_70_[x=7308,y=1138,w=89,h=132].tif,sector-sector,oscillatory-sector op
+ECU_1160_1161_CL_inverted_771_[x=7313,y=11092,w=221,h=228].tif,sector-sector,oscillatory-sector op
+ECU_1160_1161_CL_inverted_826_[x=5297,y=11360,w=89,h=123].tif,sector-sector,stripy-stripy
+ECU_1160_1161_CL_inverted_841_[x=5023,y=11862,w=100,h=152].tif,sector-sector,oscillatory-sector op
+ECU_1160_1161_CL_inverted_85_[x=7959,y=1742,w=177,h=155].tif,sector-sector,oscillatory-sector op
+ECU_1160_1161_CL_inverted_864_[x=7719,y=11936,w=147,h=216].tif,sector-sector,stripy-stripy
+ECU_1160_1161_CL_inverted_87_[x=4004,y=1748,w=109,h=155].tif,sector-sector,oscillatory-sector op
+ECU_903_904_CL_inverted_10_[x=10997,y=905,w=209,h=150].tif,sector-sector,oscillatory-sector op
+ECU_903_904_CL_inverted_22_[x=14079,y=1321,w=351,h=353].tif,sector-sector,oscillatory-sector op
+ECU_903_904_CL_inverted_237_[x=4923,y=5199,w=221,h=212].tif,sector-sector,oscillatory-sector op
+ECU_903_904_CL_inverted_249_[x=2363,y=5384,w=243,h=293].tif,sector-sector,oscillatory-sector op
+ECU_903_904_CL_inverted_305_[x=2664,y=6031,w=260,h=213].tif,sector-sector,oscillatory-sector op
+ECU_903_904_CL_inverted_367_[x=16147,y=6883,w=204,h=164].tif,sector-sector,oscillatory-sector op
+ECU_903_904_CL_inverted_377_[x=5565,y=7029,w=118,h=135].tif,sector-sector,oscillatory-sector op
+ECU_903_904_CL_inverted_446_[x=15011,y=8081,w=289,h=155].tif,sector-sector,stripy-stripy
+ECU_903_904_CL_inverted_463_[x=6709,y=8399,w=157,h=164].tif,sector-sector,metamict
+ECU_903_904_CL_inverted_46_[x=13083,y=2050,w=145,h=137].tif,sector-sector,stripy-stripy
+ECU_903_904_CL_inverted_471_[x=13114,y=8495,w=303,h=106].tif,sector-sector,stripy-stripy
+ECU_903_904_CL_inverted_486_[x=2298,y=8632,w=211,h=201].tif,sector-sector,oscillatory-sector op
+ECU_903_904_CL_inverted_594_[x=6461,y=10218,w=242,h=498].tif,sector-sector,stripy-stripy
+ECU_903_904_CL_inverted_749_[x=14985,y=12509,w=411,h=250].tif,sector-sector,oscillatory-sector op
+ECU_903_904_CL_inverted_822_[x=8854,y=13751,w=218,h=256].tif,sector-sector,oscillatory-sector op
+ECU_903_904_CL_inverted_901_[x=8357,y=15713,w=173,h=156].tif,sector-sector,oscillatory-sector op
+ECU_903_904_CL_inverted_90_[x=7916,y=3054,w=315,h=265].tif,sector-sector,oscillatory-sector op
+ECU_905_906_CL_inverted_136_[x=1351,y=2293,w=160,h=284].tif,sector-sector,stripy-stripy
+ECU_905_906_CL_inverted_146_[x=10341,y=2363,w=122,h=150].tif,sector-sector,oscillatory-sector op
+ECU_905_906_CL_inverted_151_[x=9136,y=2413,w=153,h=171].tif,sector-sector,stripy-stripy
+ECU_905_906_CL_inverted_192_[x=13653,y=2978,w=382,h=186].tif,sector-sector,stripy-stripy
+ECU_905_906_CL_inverted_209_[x=9000,y=3163,w=277,h=200].tif,sector-sector,oscillatory-sector op
+ECU_905_906_CL_inverted_216_[x=5053,y=3235,w=212,h=249].tif,sector-sector,oscillatory-sector op
+ECU_905_906_CL_inverted_243_[x=7974,y=3368,w=267,h=171].tif,sector-sector,oscillatory-sector op
+ECU_905_906_CL_inverted_265_[x=6425,y=3493,w=101,h=127].tif,sector-sector,oscillatory-sector op
+ECU_905_906_CL_inverted_266_[x=4309,y=3496,w=206,h=297].tif,sector-sector,oscillatory-sector op
+ECU_905_906_CL_inverted_350_[x=6985,y=4485,w=377,h=97].tif,sector-sector,stripy-stripy
+ECU_905_906_CL_inverted_378_[x=15325,y=4986,w=205,h=262].tif,sector-sector,oscillatory-sector op
+ECU_905_906_CL_inverted_470_[x=6402,y=6133,w=458,h=111].tif,sector-sector,stripy-stripy
+ECU_905_906_CL_inverted_479_[x=754,y=6441,w=401,h=187].tif,sector-sector,stripy-stripy
+ECU_905_906_CL_inverted_53_[x=3939,y=1070,w=178,h=103].tif,sector-sector,metamict
+ECU_905_906_CL_inverted_552_[x=12023,y=10424,w=167,h=119].tif,sector-sector,stripy-stripy
+ECU_905_906_CL_inverted_596_[x=7917,y=11035,w=149,h=225].tif,sector-sector,oscillatory-sector op
+ECU_905_906_CL_inverted_626_[x=16158,y=11314,w=104,h=201].tif,sector-sector,stripy-stripy
+ECU_905_906_CL_inverted_62_[x=2284,y=1214,w=234,h=195].tif,sector-sector,stripy-stripy
+ECU_905_906_CL_inverted_669_[x=1785,y=11665,w=189,h=178].tif,sector-sector,oscillatory-sector op
+ECU_905_906_CL_inverted_766_[x=2532,y=12662,w=165,h=217].tif,sector-sector,oscillatory-sector op
+ECU_905_906_CL_inverted_794_[x=11736,y=13049,w=147,h=235].tif,sector-sector,oscillatory-sector op
+ECU_905_906_CL_inverted_823_[x=6929,y=13492,w=207,h=194].tif,sector-sector,oscillatory-sector op
+ECU_905_906_CL_inverted_844_[x=4295,y=13717,w=187,h=164].tif,sector-sector,stripy-stripy
+ECU_905_906_CL_inverted_864_[x=13346,y=13988,w=184,h=126].tif,sector-sector,sector-oscillatory sector op
+ECU_905_906_CL_inverted_899_[x=7193,y=14722,w=144,h=145].tif,sector-sector,oscillatory-sector op
+ECU_905_906_CL_inverted_905_[x=5970,y=14793,w=251,h=156].tif,sector-sector,oscillatory-sector op
+ECU_905_906_CL_inverted_915_[x=7680,y=14846,w=126,h=264].tif,sector-sector,stripy-stripy
+ECU_905_906_CL_inverted_95_[x=12080,y=2018,w=138,h=217].tif,sector-sector,stripy-stripy
+ECU_913_914_CL_inverted_121_[x=7615,y=2114,w=169,h=102].tif,sector-sector,oscillatory-sector op
+ECU_913_914_CL_inverted_138_[x=3575,y=2254,w=224,h=299].tif,sector-sector,oscillatory-sector op
+ECU_913_914_CL_inverted_166_[x=10099,y=2617,w=131,h=204].tif,sector-sector,oscillatory-sector op
+ECU_913_914_CL_inverted_171_[x=9716,y=2691,w=109,h=202].tif,sector-sector,oscillatory-sector op
+ECU_913_914_CL_inverted_190_[x=6695,y=2881,w=150,h=107].tif,sector-sector,stripy-stripy
+ECU_913_914_CL_inverted_194_[x=8366,y=2906,w=233,h=153].tif,sector-sector,oscillatory-sector op
+ECU_913_914_CL_inverted_210_[x=5888,y=3020,w=112,h=131].tif,sector-sector,stripy-stripy
+ECU_913_914_CL_inverted_259_[x=11302,y=3603,w=89,h=96].tif,sector-sector,oscillatory-sector op
+ECU_913_914_CL_inverted_306_[x=7807,y=3884,w=151,h=118].tif,sector-sector,oscillatory-sector op
+ECU_913_914_CL_inverted_345_[x=3730,y=4309,w=85,h=166].tif,sector-sector,stripy-stripy
+ECU_913_914_CL_inverted_349_[x=12532,y=4326,w=142,h=112].tif,sector-sector,oscillatory-sector op
+ECU_913_914_CL_inverted_48_[x=7054,y=1110,w=227,h=240].tif,sector-sector,oscillatory-sector op
+ECU_913_914_CL_inverted_537_[x=5534,y=9935,w=223,h=230].tif,sector-sector,oscillatory-sector op
+ECU_913_914_CL_inverted_594_[x=1566,y=10694,w=498,h=353].tif,sector-sector,stripy-stripy
+ECU_913_914_CL_inverted_599_[x=8797,y=10731,w=349,h=218].tif,sector-sector,oscillatory-sector op
+ECU_913_914_CL_inverted_601_[x=6742,y=10763,w=127,h=303].tif,sector-sector,stripy-stripy
+ECU_913_914_CL_inverted_611_[x=6087,y=10889,w=266,h=261].tif,sector-sector,oscillatory-sector op
+ECU_913_914_CL_inverted_630_[x=4703,y=11153,w=336,h=351].tif,sector-sector,stripy-stripy
+ECU_913_914_CL_inverted_633_[x=12733,y=11197,w=286,h=162].tif,sector-sector,oscillatory-sector op
+ECU_913_914_CL_inverted_653_[x=3086,y=11494,w=173,h=270].tif,sector-sector,stripy-stripy
+ECU_913_914_CL_inverted_65_[x=3769,y=1358,w=254,h=127].tif,sector-sector,oscillatory-sector op
+ECU_913_914_CL_inverted_719_[x=11696,y=12598,w=322,h=330].tif,sector-sector,stripy-stripy
+ECU_913_914_CL_inverted_723_[x=3314,y=12612,w=218,h=457].tif,sector-sector,stripy-stripy
+ECU_913_914_CL_inverted_724_[x=2620,y=12615,w=331,h=210].tif,sector-sector,stripy-stripy
+ECU_913_914_CL_inverted_727_[x=9950,y=12641,w=205,h=369].tif,sector-sector,oscillatory-sector op
+ECU_913_914_CL_inverted_781_[x=5031,y=13539,w=116,h=80].tif,sector-sector,stripy-stripy
+ECU_913_914_CL_inverted_814_[x=1780,y=13833,w=432,h=214].tif,sector-sector,stripy-stripy
+ECU_913_914_CL_inverted_829_[x=9580,y=14101,w=271,h=220].tif,sector-sector,stripy-stripy
+ECU_913_914_CL_inverted_840_[x=6462,y=14310,w=287,h=176].tif,sector-sector,oscillatory-sector op
+ECU_913_914_CL_inverted_850_[x=6790,y=14457,w=214,h=206].tif,sector-sector,stripy-stripy
+ECU_913_914_CL_inverted_853_[x=3559,y=14498,w=153,h=367].tif,sector-sector,stripy-stripy
+ECU_913_914_CL_inverted_870_[x=2784,y=14801,w=277,h=178].tif,sector-sector,stripy-stripy
+ECU_913_914_CL_inverted_890_[x=10043,y=15159,w=111,h=459].tif,sector-sector,stripy-stripy
+ECU_913_914_CL_inverted_969_[x=5912,y=16650,w=128,h=188].tif,sector-sector,oscillatory-sector op
+ECU_913_914_CL_inverted_977_[x=5698,y=16828,w=305,h=270].tif,sector-sector,stripy-stripy
+ECU_919_920_CL_inverted_105_[x=10118,y=4118,w=198,h=128].tif,sector-sector,stripy-stripy
+ECU_919_920_CL_inverted_112_[x=1692,y=4220,w=101,h=97].tif,sector-sector,metamict
+ECU_919_920_CL_inverted_135_[x=5419,y=4459,w=109,h=126].tif,sector-sector,metamict
+ECU_919_920_CL_inverted_217_[x=14786,y=5636,w=302,h=304].tif,sector-sector,stripy-stripy
+ECU_919_920_CL_inverted_262_[x=12438,y=6364,w=239,h=233].tif,sector-sector,oscillatory-sector op
+ECU_919_920_CL_inverted_266_[x=6437,y=6400,w=199,h=173].tif,sector-sector,oscillatory-sector op
+ECU_919_920_CL_inverted_300_[x=11635,y=6888,w=442,h=553].tif,sector-sector,stripy-stripy
+ECU_919_920_CL_inverted_327_[x=10051,y=7289,w=146,h=352].tif,sector-sector,stripy-stripy
+ECU_919_920_CL_inverted_348_[x=1089,y=7685,w=334,h=220].tif,sector-sector,stripy-stripy
+ECU_919_920_CL_inverted_380_[x=14377,y=8130,w=388,h=133].tif,sector-sector,oscillatory-sector op
+ECU_919_920_CL_inverted_388_[x=12947,y=8254,w=261,h=139].tif,sector-sector,oscillatory-sector op
+ECU_919_920_CL_inverted_389_[x=9569,y=8260,w=339,h=275].tif,sector-sector,oscillatory-sector op
+ECU_919_920_CL_inverted_428_[x=10991,y=8798,w=130,h=188].tif,sector-sector,oscillatory-sector op
+ECU_919_920_CL_inverted_437_[x=9495,y=8896,w=299,h=399].tif,sector-sector,oscillatory-sector op
+ECU_919_920_CL_inverted_464_[x=14181,y=9364,w=206,h=129].tif,sector-sector,stripy-stripy
+ECU_919_920_CL_inverted_491_[x=5589,y=9781,w=173,h=222].tif,sector-sector,oscillatory-sector op
+ECU_919_920_CL_inverted_524_[x=14467,y=10250,w=157,h=171].tif,sector-sector,stripy-stripy
+ECU_919_920_CL_inverted_545_[x=4444,y=10543,w=188,h=147].tif,sector-sector,oscillatory-sector op
+ECU_919_920_CL_inverted_575_[x=14062,y=11012,w=382,h=187].tif,sector-sector,oscillatory-sector op
+ECU_919_920_CL_inverted_585_[x=9275,y=11138,w=268,h=223].tif,sector-sector,oscillatory-sector op
+ECU_919_920_CL_inverted_618_[x=4016,y=11738,w=247,h=272].tif,sector-sector,oscillatory-sector op
+ECU_919_920_CL_inverted_634_[x=5403,y=11930,w=99,h=162].tif,sector-sector,stripy-stripy
+ECU_919_920_CL_inverted_635_[x=11362,y=11953,w=199,h=335].tif,sector-sector,stripy-stripy
+ECU_919_920_CL_inverted_71_[x=2223,y=3560,w=121,h=236].tif,sector-sector,oscillatory-sector op
+ECU_919_920_CL_inverted_79_[x=12713,y=3757,w=432,h=384].tif,sector-sector,stripy-stripy
+ECU_919_920_CL_inverted_819_[x=10669,y=15091,w=366,h=311].tif,sector-sector,stripy-stripy
+ECU_919_920_CL_inverted_838_[x=10724,y=15536,w=285,h=269].tif,sector-sector,stripy-stripy
+ECU_919_920_CL_inverted_850_[x=11885,y=15817,w=287,h=551].tif,sector-sector,stripy-stripy
+ECU_927_928_CL_inverted_131_[x=4974,y=3481,w=136,h=122].tif,sector-sector,oscillatory-sector op
+ECU_927_928_CL_inverted_148_[x=4802,y=3812,w=178,h=190].tif,sector-sector,oscillatory-sector op
+ECU_927_928_CL_inverted_16_[x=7741,y=959,w=217,h=246].tif,sector-sector,oscillatory-sector op
+ECU_927_928_CL_inverted_202_[x=4726,y=4673,w=128,h=185].tif,sector-sector,oscillatory-sector op
+ECU_927_928_CL_inverted_229_[x=3244,y=5028,w=196,h=147].tif,sector-sector,oscillatory-sector op
+ECU_927_928_CL_inverted_273_[x=8375,y=5737,w=118,h=138].tif,sector-sector,oscillatory-sector op
+ECU_927_928_CL_inverted_336_[x=5328,y=6632,w=165,h=207].tif,sector-sector,oscillatory-sector op
+ECU_927_928_CL_inverted_341_[x=2012,y=6671,w=381,h=316].tif,sector-sector,oscillatory-sector op
+ECU_927_928_CL_inverted_344_[x=6427,y=6751,w=209,h=132].tif,sector-sector,metamict
+ECU_927_928_CL_inverted_357_[x=4868,y=6933,w=274,h=206].tif,sector-sector,oscillatory-sector op
+ECU_927_928_CL_inverted_359_[x=2260,y=6946,w=238,h=125].tif,sector-sector,oscillatory-sector op
+ECU_927_928_CL_inverted_369_[x=6426,y=7067,w=221,h=198].tif,sector-sector,oscillatory-sector op
+ECU_927_928_CL_inverted_373_[x=3294,y=7120,w=231,h=160].tif,sector-sector,oscillatory-sector op
+ECU_927_928_CL_inverted_394_[x=16356,y=7374,w=102,h=114].tif,sector-sector,oscillatory-sector op
+ECU_927_928_CL_inverted_395_[x=4699,y=7380,w=293,h=191].tif,sector-sector,oscillatory-sector op
+ECU_927_928_CL_inverted_39_[x=6141,y=1570,w=241,h=235].tif,sector-sector,oscillatory-sector op
+ECU_927_928_CL_inverted_428_[x=7562,y=7795,w=200,h=229].tif,sector-sector,oscillatory-sector op
+ECU_927_928_CL_inverted_43_[x=6034,y=1675,w=153,h=175].tif,sector-sector,oscillatory-sector op
+ECU_927_928_CL_inverted_492_[x=5860,y=8524,w=124,h=132].tif,sector-sector,metamict
+ECU_927_928_CL_inverted_493_[x=4060,y=8545,w=250,h=242].tif,sector-sector,oscillatory-sector op
+ECU_927_928_CL_inverted_521_[x=4131,y=8914,w=207,h=335].tif,sector-sector,oscillatory-sector op
+ECU_927_928_CL_inverted_527_[x=12120,y=8978,w=129,h=302].tif,sector-sector,oscillatory-sector op
+ECU_927_928_CL_inverted_528_[x=5303,y=9001,w=166,h=239].tif,sector-sector,oscillatory-sector op
+ECU_927_928_CL_inverted_538_[x=6858,y=9194,w=319,h=232].tif,sector-sector,oscillatory-sector op
+ECU_927_928_CL_inverted_54_[x=8503,y=1936,w=105,h=139].tif,sector-sector,oscillatory-sector op
+ECU_927_928_CL_inverted_661_[x=13433,y=10685,w=146,h=161].tif,sector-sector,oscillatory-sector op
+ECU_927_928_CL_inverted_700_[x=13049,y=11340,w=173,h=133].tif,sector-sector,oscillatory-sector op
+ECU_927_928_CL_inverted_712_[x=14242,y=11556,w=132,h=74].tif,sector-sector,metamict
+ECU_927_928_CL_inverted_717_[x=15661,y=11635,w=207,h=205].tif,sector-sector,oscillatory-sector op
+ECU_927_928_CL_inverted_745_[x=14158,y=12057,w=136,h=104].tif,sector-sector,oscillatory-sector op
+ECU_927_928_CL_inverted_770_[x=13647,y=12577,w=105,h=116].tif,sector-sector,oscillatory-sector op
+ECU_927_928_CL_inverted_772_[x=14968,y=12601,w=450,h=281].tif,sector-sector,oscillatory-sector op
+ECU_927_928_CL_inverted_774_[x=11573,y=12703,w=206,h=229].tif,sector-sector,oscillatory-sector op
+ECU_927_928_CL_inverted_7_[x=5284,y=623,w=211,h=248].tif,sector-sector,oscillatory-sector op
+ECU_927_928_CL_inverted_809_[x=10299,y=13334,w=87,h=190].tif,sector-sector,oscillatory-sector op
+ECU_927_928_CL_inverted_80_[x=4343,y=2537,w=277,h=262].tif,sector-sector,oscillatory-sector op
+ECU_927_928_CL_inverted_813_[x=12186,y=13392,w=146,h=173].tif,sector-sector,stripy-stripy
+ECU_927_928_CL_inverted_9_[x=6535,y=766,w=316,h=232].tif,sector-sector,oscillatory-sector op
+ECU_933_934_CL_inverted_100_[x=9056,y=1844,w=237,h=200].tif,sector-sector,stripy-stripy
+ECU_933_934_CL_inverted_1050_[x=12328,y=14818,w=246,h=305].tif,sector-sector,oscillatory-sector op
+ECU_933_934_CL_inverted_1055_[x=10835,y=14851,w=168,h=256].tif,sector-sector,oscillatory-sector op
+ECU_933_934_CL_inverted_1099_[x=6631,y=15744,w=97,h=165].tif,sector-sector,oscillatory-sector op
+ECU_933_934_CL_inverted_1138_[x=7415,y=15962,w=252,h=117].tif,sector-sector,stripy-stripy
+ECU_933_934_CL_inverted_1169_[x=4992,y=16096,w=127,h=139].tif,sector-sector,oscillatory-sector op
+ECU_933_934_CL_inverted_127_[x=9044,y=2093,w=252,h=116].tif,sector-sector,stripy-stripy
+ECU_933_934_CL_inverted_143_[x=4129,y=2766,w=261,h=286].tif,sector-sector,oscillatory-sector op
+ECU_942_943_CL_inverted_525_[x=13115,y=5118,w=252,h=208].tif,sector-sector,stripy-stripy
+ECU_942_943_CL_inverted_738_[x=7800,y=9751,w=357,h=171].tif,sector-sector,oscillatory-sector op
+ECU_942_943_CL_inverted_78_[x=5860,y=1734,w=158,h=229].tif,sector-sector,oscillatory-sector op
+ECU_968_969_CL_inverted_43_[x=5250,y=995,w=204,h=328].tif,sector-sector,oscillatory-sector op
+ECU_968_969_CL_inverted_510_[x=4099,y=5942,w=194,h=249].tif,sector-sector,oscillatory-sector op
+ECU_968_969_CL_inverted_538_[x=5500,y=6058,w=274,h=164].tif,sector-sector,stripy-stripy
+ECU_968_969_CL_inverted_543_[x=7726,y=6080,w=211,h=132].tif,sector-sector,oscillatory-sector op
+ECU_968_969_CL_inverted_57_[x=6032,y=1157,w=115,h=149].tif,sector-sector,metamict
+ECU_968_969_CL_inverted_796_[x=10725,y=11636,w=412,h=466].tif,sector-sector,oscillatory-sector op
+ECU_968_969_CL_inverted_805_[x=14673,y=11773,w=244,h=142].tif,sector-sector,stripy-stripy
+ECU_974_975_CL_inverted_146_[x=8095,y=1747,w=168,h=151].tif,sector-sector,oscillatory-sector op
+ECU_990_991_CL_inverted_286_[x=6149,y=3822,w=177,h=141].tif,sector-sector,oscillatory-sector op
+ECU_990_991_CL_inverted_959_[x=2809,y=12996,w=188,h=207].tif,sector-sector,oscillatory-sector op
+ECU_992_993_CL_inverted_479_[x=13373,y=8736,w=391,h=195].tif,sector-sector,stripy-stripy
+ECU_998_999_CL_inverted_283_[x=8441,y=3382,w=136,h=111].tif,sector-sector,oscillatory-sector op
+ECU_998_999_CL_inverted_351_[x=7601,y=7162,w=202,h=212].tif,sector-sector,oscillatory-sector op
+ECU_998_999_CL_inverted_38_[x=3897,y=1317,w=351,h=404].tif,sector-sector,stripy-stripy
+ECU_998_999_CL_inverted_502_[x=5652,y=8772,w=205,h=206].tif,sector-sector,stripy-stripy
+ECU_998_999_CL_inverted_628_[x=1698,y=9748,w=82,h=187].tif,sector-sector,stripy-stripy
+ECU_998_999_CL_inverted_8_[x=1080,y=674,w=173,h=397].tif,sector-sector,oscillatory-sector op
+ECU_1087_1088_CL_inverted_206_[x=12617,y=4708,w=203,h=370].tif,sector-sector,oscillatory-sector op
+ECU_1087_1088_CL_inverted_271_[x=2358,y=5884,w=145,h=210].tif,sector-sector,metamict
+ECU_1087_1088_CL_inverted_291_[x=8159,y=6203,w=273,h=359].tif,sector-sector,stripy-stripy
+ECU_1087_1088_CL_inverted_370_[x=3546,y=9599,w=276,h=133].tif,sector-sector,oscillatory-sector op
+ECU_1087_1088_CL_inverted_442_[x=1839,y=10804,w=196,h=354].tif,sector-sector,stripy-stripy
+ECU_1087_1088_CL_inverted_50_[x=9073,y=2422,w=192,h=241].tif,sector-sector,blank-blank
+ECU_1087_1088_CL_inverted_565_[x=9372,y=12988,w=267,h=317].tif,sector-sector,sector-oscillatory sector op
+ECU_1087_1088_CL_inverted_650_[x=5244,y=15003,w=182,h=234].tif,sector-sector,metamict
+ECU_1164_1166_CL_inverted_107_[x=4967,y=5575,w=312,h=190].tif,sector-sector,oscillatory-sector op
+ECU_1164_1166_CL_inverted_220_[x=10996,y=6676,w=99,h=114].tif,sector-sector,oscillatory-sector op
+ECU_1164_1166_CL_inverted_300_[x=9064,y=7275,w=132,h=150].tif,sector-sector,oscillatory-sector op
+ECU_1164_1166_CL_inverted_362_[x=8098,y=7965,w=123,h=231].tif,sector-sector,oscillatory-sector op
+ECU_1164_1166_CL_inverted_405_[x=4119,y=8539,w=151,h=310].tif,sector-sector,stripy-stripy
+ECU_1164_1166_CL_inverted_444_[x=5270,y=8886,w=100,h=162].tif,sector-sector,oscillatory-sector op
+ECU_1164_1166_CL_inverted_471_[x=4702,y=9539,w=249,h=94].tif,sector-sector,oscillatory-sector op
+ECU_1164_1166_CL_inverted_499_[x=8807,y=9837,w=173,h=108].tif,sector-sector,oscillatory-sector op
+ECU_1164_1166_CL_inverted_9_[x=1102,y=926,w=207,h=354].tif,sector-sector,oscillatory-sector op
+ECU_1776_1777_CL_inverted_127_[x=4524,y=1630,w=161,h=229].tif,sector-sector,metamict
+ECU_1776_1777_CL_inverted_151_[x=2590,y=1880,w=116,h=153].tif,sector-sector,metamict
+ECU_1776_1777_CL_inverted_181_[x=3998,y=2084,w=196,h=214].tif,sector-sector,metamict
+ECU_1776_1777_CL_inverted_200_[x=2286,y=2263,w=170,h=184].tif,sector-sector,stripy-stripy
+ECU_1776_1777_CL_inverted_274_[x=5365,y=2741,w=149,h=189].tif,sector-sector,metamict
+ECU_1776_1777_CL_inverted_453_[x=6673,y=8022,w=349,h=480].tif,sector-sector,stripy-stripy
+ECU_1776_1777_CL_inverted_467_[x=8189,y=8265,w=403,h=346].tif,sector-sector,stripy-stripy
+ECU_1776_1777_CL_inverted_468_[x=2529,y=8267,w=162,h=207].tif,sector-sector,metamict
+ECU_1776_1777_CL_inverted_566_[x=4301,y=9527,w=228,h=295].tif,sector-sector,stripy-stripy
+ECU_1776_1777_CL_inverted_652_[x=7393,y=10432,w=204,h=259].tif,sector-sector,sector-oscillatory sector op
+ECU_1776_1777_CL_inverted_704_[x=3501,y=11003,w=182,h=121].tif,sector-sector,metamict
+ECU_1776_1777_CL_inverted_748_[x=5816,y=11367,w=235,h=159].tif,sector-sector,stripy-stripy
+ECU_1776_1777_CL_inverted_865_[x=9694,y=12962,w=176,h=175].tif,sector-sector,metamict
+ECU_353_357_CL_inverted_115_[x=3234,y=1912,w=196,h=281].tif,sector-sector,oscillatory-sector op
+ECU_353_357_CL_inverted_123_[x=1947,y=2009,w=175,h=153].tif,sector-sector,oscillatory-sector op
+ECU_353_357_CL_inverted_186_[x=6364,y=2287,w=179,h=327].tif,sector-sector,oscillatory-sector op
+ECU_353_357_CL_inverted_200_[x=5237,y=2366,w=178,h=287].tif,sector-sector,oscillatory-sector op
+ECU_353_357_CL_inverted_205_[x=1767,y=2723,w=188,h=253].tif,sector-sector,oscillatory-sector op
+ECU_353_357_CL_inverted_213_[x=7162,y=2971,w=206,h=211].tif,sector-sector,oscillatory-sector op
+ECU_353_357_CL_inverted_290_[x=3591,y=3270,w=158,h=121].tif,sector-sector,sector-oscillatory sector op
+ECU_353_357_CL_inverted_304_[x=5975,y=3444,w=227,h=173].tif,sector-sector,oscillatory-sector op
+ECU_353_357_CL_inverted_339_[x=12335,y=4008,w=171,h=196].tif,sector-sector,oscillatory-sector op
+ECU_353_357_CL_inverted_33_[x=8974,y=1044,w=73,h=58].tif,sector-sector,stripy-stripy
+ECU_353_357_CL_inverted_381_[x=5151,y=4164,w=212,h=195].tif,sector-sector,oscillatory-sector op
+ECU_353_357_CL_inverted_412_[x=1458,y=4703,w=134,h=161].tif,sector-sector,oscillatory-sector op
+ECU_353_357_CL_inverted_42_[x=10672,y=1083,w=159,h=165].tif,sector-sector,oscillatory-sector op
+ECU_353_357_CL_inverted_433_[x=4535,y=4817,w=75,h=108].tif,sector-sector,oscillatory-sector op
+ECU_353_357_CL_inverted_495_[x=8922,y=4995,w=268,h=201].tif,sector-sector,oscillatory-sector op
+ECU_353_357_CL_inverted_51_[x=5694,y=1115,w=189,h=234].tif,sector-sector,oscillatory-sector op
+ECU_353_357_CL_inverted_560_[x=7902,y=8656,w=115,h=74].tif,sector-sector,oscillatory-sector op
+ECU_353_357_CL_inverted_562_[x=10959,y=8658,w=104,h=181].tif,sector-sector,oscillatory-sector op
+ECU_353_357_CL_inverted_567_[x=7714,y=8667,w=133,h=122].tif,sector-sector,oscillatory-sector op
+ECU_353_357_CL_inverted_826_[x=5496,y=11078,w=178,h=130].tif,sector-sector,oscillatory-sector op
+ECU_353_357_CL_inverted_836_[x=9824,y=11141,w=194,h=341].tif,sector-sector,oscillatory-sector op
+ECU_353_357_CL_inverted_885_[x=4348,y=11423,w=166,h=92].tif,sector-sector,oscillatory-sector op
+ECU_909_910_CL_inverted_1016_[x=5406,y=15818,w=171,h=154].tif,sector-sector,metamict
+ECU_909_910_CL_inverted_1027_[x=5454,y=16068,w=279,h=195].tif,sector-sector,oscillatory-sector op
+ECU_909_910_CL_inverted_105_[x=10928,y=2374,w=207,h=115].tif,sector-sector,oscillatory-sector op
+ECU_909_910_CL_inverted_119_[x=13037,y=2563,w=191,h=248].tif,sector-sector,stripy-stripy
+ECU_909_910_CL_inverted_21_[x=5818,y=1144,w=197,h=195].tif,sector-sector,oscillatory-sector op
+ECU_909_910_CL_inverted_224_[x=12689,y=3646,w=153,h=152].tif,sector-sector,oscillatory-sector op
+ECU_909_910_CL_inverted_229_[x=2046,y=3696,w=94,h=100].tif,sector-sector,metamict
+ECU_909_910_CL_inverted_250_[x=6111,y=3851,w=186,h=168].tif,sector-sector,blank-oscillatory
+ECU_909_910_CL_inverted_255_[x=7074,y=3896,w=122,h=112].tif,sector-sector,oscillatory-sector op
+ECU_909_910_CL_inverted_270_[x=7056,y=4008,w=146,h=246].tif,sector-sector,oscillatory-sector op
+ECU_909_910_CL_inverted_300_[x=8992,y=4288,w=140,h=189].tif,sector-sector,oscillatory-sector op
+ECU_909_910_CL_inverted_350_[x=11114,y=4774,w=229,h=132].tif,sector-sector,oscillatory-sector op
+ECU_909_910_CL_inverted_359_[x=2030,y=4846,w=183,h=122].tif,sector-sector,oscillatory-sector op
+ECU_909_910_CL_inverted_382_[x=2993,y=4977,w=83,h=149].tif,sector-sector,oscillatory-sector op
+ECU_909_910_CL_inverted_397_[x=13212,y=5068,w=88,h=132].tif,sector-sector,oscillatory-sector op
+ECU_909_910_CL_inverted_405_[x=8003,y=5122,w=134,h=103].tif,sector-sector,stripy-stripy
+ECU_909_910_CL_inverted_537_[x=9729,y=7053,w=149,h=109].tif,sector-sector,oscillatory-sector op
+ECU_909_910_CL_inverted_622_[x=8663,y=10136,w=272,h=156].tif,sector-sector,oscillatory-sector op
+ECU_909_910_CL_inverted_638_[x=5314,y=10400,w=155,h=190].tif,sector-sector,oscillatory-sector op
+ECU_909_910_CL_inverted_643_[x=9878,y=10487,w=214,h=165].tif,sector-sector,oscillatory-sector op
+ECU_909_910_CL_inverted_650_[x=9122,y=10554,w=188,h=152].tif,sector-sector,oscillatory-sector op
+ECU_909_910_CL_inverted_713_[x=8847,y=11490,w=126,h=165].tif,sector-sector,oscillatory-sector op
+ECU_909_910_CL_inverted_724_[x=3858,y=11699,w=187,h=166].tif,sector-sector,oscillatory-sector op
+ECU_909_910_CL_inverted_793_[x=12097,y=12634,w=354,h=210].tif,sector-sector,oscillatory-sector op
+ECU_909_910_CL_inverted_799_[x=3954,y=12687,w=210,h=228].tif,sector-sector,metamict
+ECU_909_910_CL_inverted_810_[x=8940,y=12893,w=309,h=166].tif,sector-sector,oscillatory-sector op
+ECU_909_910_CL_inverted_819_[x=4645,y=13075,w=131,h=161].tif,sector-sector,oscillatory-sector op
+ECU_909_910_CL_inverted_878_[x=2310,y=13915,w=284,h=104].tif,sector-sector,stripy-stripy
+ECU_909_910_CL_inverted_907_[x=4312,y=14212,w=189,h=155].tif,sector-sector,oscillatory-sector op
+ECU_909_910_CL_inverted_935_[x=1192,y=14626,w=176,h=199].tif,sector-sector,metamict
+ECU_909_910_CL_inverted_941_[x=6166,y=14726,w=327,h=182].tif,sector-sector,oscillatory-sector op
+ECU_909_910_CL_inverted_958_[x=7789,y=14954,w=298,h=242].tif,sector-sector,stripy-stripy
+ECU_909_910_CL_inverted_989_[x=4232,y=15394,w=143,h=108].tif,sector-sector,oscillatory-sector op
+ECU_911_912_CL_inverted_10_[x=12669,y=682,w=136,h=117].tif,sector-sector,oscillatory-sector op
+ECU_911_912_CL_inverted_463_[x=5688,y=9506,w=320,h=149].tif,sector-sector,oscillatory-sector op
+ECU_911_912_CL_inverted_668_[x=5804,y=11564,w=134,h=129].tif,sector-sector,oscillatory-sector op
+ECU_911_912_CL_inverted_698_[x=12903,y=11736,w=164,h=250].tif,sector-sector,oscillatory-sector op
+ECU_911_912_CL_inverted_704_[x=7488,y=11757,w=188,h=141].tif,sector-sector,oscillatory-sector op
+ECU_911_912_CL_inverted_739_[x=5457,y=11891,w=141,h=177].tif,sector-sector,oscillatory-sector op
+ECU_911_912_CL_inverted_74_[x=9040,y=1133,w=239,h=172].tif,sector-sector,oscillatory-sector op
+ECU_911_912_CL_inverted_788_[x=7579,y=12816,w=234,h=122].tif,sector-sector,oscillatory-sector op
+ECU_917_918_CL_inverted_133_[x=7754,y=7127,w=276,h=123].tif,sector-sector,stripy-stripy
+ECU_917_918_CL_inverted_201_[x=5970,y=7866,w=123,h=125].tif,sector-sector,stripy-stripy
+ECU_917_918_CL_inverted_243_[x=7140,y=8276,w=107,h=114].tif,sector-sector,stripy-stripy
+ECU_917_918_CL_inverted_26_[x=8482,y=5746,w=156,h=263].tif,sector-sector,oscillatory-sector op
+ECU_917_918_CL_inverted_29_[x=7572,y=5778,w=98,h=147].tif,sector-sector,stripy-stripy
+ECU_917_918_CL_inverted_318_[x=14229,y=9137,w=199,h=86].tif,sector-sector,stripy-stripy
+ECU_917_918_CL_inverted_333_[x=9256,y=9282,w=149,h=229].tif,sector-sector,oscillatory-sector op
+ECU_917_918_CL_inverted_421_[x=9566,y=10217,w=139,h=197].tif,sector-sector,stripy-stripy
+ECU_917_918_CL_inverted_463_[x=8469,y=10644,w=90,h=91].tif,sector-sector,stripy-stripy
+ECU_917_918_CL_inverted_500_[x=8457,y=11027,w=157,h=153].tif,sector-sector,stripy-stripy
+ECU_917_918_CL_inverted_545_[x=5953,y=11557,w=194,h=235].tif,sector-sector,stripy-stripy
+ECU_917_918_CL_inverted_558_[x=6106,y=11683,w=194,h=269].tif,sector-sector,stripy-stripy
+ECU_917_918_CL_inverted_588_[x=7743,y=11995,w=111,h=103].tif,sector-sector,stripy-stripy
+ECU_917_918_CL_inverted_920_[x=9380,y=15783,w=211,h=96].tif,sector-sector,stripy-stripy
+ECU_921_922_CL_inverted_297_[x=4750,y=7737,w=199,h=193].tif,sector-sector,stripy-stripy
+ECU_937_938_CL_inverted_187_[x=12736,y=4195,w=276,h=158].tif,sector-sector,oscillatory-sector op
+ECU_937_938_CL_inverted_542_[x=4737,y=8056,w=265,h=178].tif,sector-sector,stripy-stripy
+ECU_944_945_CL_highres_inverted_1053_[x=5066,y=13415,w=260,h=167].tif,sector-sector,oscillatory-sector op
+ECU_944_945_CL_highres_inverted_412_[x=10536,y=4565,w=170,h=234].tif,sector-sector,stripy-stripy
+ECU_944_945_CL_highres_inverted_484_[x=2652,y=5251,w=161,h=140].tif,sector-sector,stripy-stripy
+ECU_944_945_CL_highres_inverted_523_[x=1712,y=5337,w=70,h=150].tif,sector-sector,stripy-stripy
+ECU_944_945_CL_highres_inverted_782_[x=9411,y=11510,w=151,h=178].tif,sector-sector,oscillatory-sector op
+ECU_944_945_CL_highres_inverted_842_[x=4880,y=11798,w=226,h=228].tif,sector-sector,oscillatory-sector op
+ECU_966_967_CL_inverted_331_[x=10038,y=3738,w=212,h=218].tif,sector-sector,stripy-stripy
+ECU_966_967_CL_inverted_354_[x=2048,y=4139,w=105,h=183].tif,sector-sector,stripy-stripy
+ECU_966_967_CL_inverted_622_[x=5493,y=9954,w=179,h=266].tif,sector-sector,stripy-stripy
+ECU_970_971_CL_inverted_1045_[x=6514,y=10135,w=404,h=177].tif,sector-sector,stripy-stripy
+ECU_970_971_CL_inverted_1050_[x=11802,y=10153,w=125,h=261].tif,sector-sector,stripy-stripy
+ECU_970_971_CL_inverted_1132_[x=3971,y=11115,w=444,h=177].tif,sector-sector,stripy-stripy
+ECU_970_971_CL_inverted_395_[x=7126,y=3769,w=169,h=304].tif,sector-sector,oscillatory-sector op
+ECU_970_971_CL_inverted_726_[x=11761,y=7793,w=191,h=127].tif,sector-sector,oscillatory-sector op
+ECU_978_979_CL_inverted_1037_[x=1276,y=12792,w=107,h=79].tif,sector-sector,wavy-wavy
+ECU_978_979_CL_inverted_1100_[x=3850,y=13566,w=98,h=96].tif,sector-sector,wavy-wavy
+ECU_978_979_CL_inverted_128_[x=6515,y=2482,w=84,h=107].tif,sector-sector,metamict
+ECU_978_979_CL_inverted_16_[x=9490,y=1063,w=122,h=74].tif,sector-sector,stripy-stripy
+ECU_978_979_CL_inverted_174_[x=8858,y=2933,w=133,h=161].tif,sector-sector,metamict
+ECU_978_979_CL_inverted_266_[x=4152,y=3706,w=159,h=160].tif,sector-sector,oscillatory-sector op
+ECU_978_979_CL_inverted_30_[x=8636,y=1254,w=59,h=72].tif,sector-sector,metamict
+ECU_978_979_CL_inverted_361_[x=2482,y=4608,w=63,h=76].tif,sector-sector,metamict
+ECU_978_979_CL_inverted_418_[x=7131,y=5098,w=162,h=158].tif,sector-sector,metamict
+ECU_978_979_CL_inverted_648_[x=11015,y=9681,w=405,h=168].tif,sector-sector,stripy-stripy
+ECU_978_979_CL_inverted_725_[x=4400,y=10624,w=288,h=125].tif,sector-sector,oscillatory-sector op
+ECU_978_979_CL_inverted_936_[x=4493,y=12233,w=207,h=73].tif,sector-sector,stripy-stripy
+ECU_980_981_CL_inverted_103_[x=4571,y=1884,w=156,h=196].tif,sector-sector,oscillatory-sector op
+ECU_980_981_CL_inverted_112_[x=6318,y=1956,w=143,h=218].tif,sector-sector,oscillatory-sector op
+ECU_980_981_CL_inverted_116_[x=6057,y=1995,w=165,h=170].tif,sector-sector,metamict
+ECU_980_981_CL_inverted_118_[x=9384,y=2006,w=158,h=119].tif,sector-sector,oscillatory-sector op
+ECU_980_981_CL_inverted_140_[x=13578,y=2721,w=173,h=142].tif,sector-sector,metamict
+ECU_980_981_CL_inverted_147_[x=13297,y=2771,w=108,h=84].tif,sector-sector,stripy-stripy
+ECU_980_981_CL_inverted_158_[x=11590,y=2863,w=186,h=153].tif,sector-sector,oscillatory-sector op
+ECU_980_981_CL_inverted_22_[x=7444,y=587,w=178,h=299].tif,sector-sector,stripy-stripy
+ECU_980_981_CL_inverted_254_[x=13584,y=3792,w=228,h=142].tif,sector-sector,oscillatory-sector op
+ECU_980_981_CL_inverted_452_[x=1666,y=5245,w=118,h=265].tif,sector-sector,stripy-stripy
+ECU_980_981_CL_inverted_483_[x=3175,y=5490,w=199,h=184].tif,sector-sector,oscillatory-sector op
+ECU_980_981_CL_inverted_518_[x=14239,y=6143,w=207,h=122].tif,sector-sector,oscillatory-sector op
+ECU_980_981_CL_inverted_546_[x=12176,y=6259,w=156,h=323].tif,sector-sector,stripy-stripy
+ECU_980_981_CL_inverted_625_[x=12795,y=9403,w=354,h=239].tif,sector-sector,oscillatory-sector op
+ECU_980_981_CL_inverted_675_[x=6058,y=9633,w=177,h=95].tif,sector-sector,stripy-stripy
+ECU_980_981_CL_inverted_724_[x=11150,y=10478,w=185,h=214].tif,sector-sector,oscillatory-sector op
+ECU_980_981_CL_inverted_773_[x=1790,y=10673,w=233,h=325].tif,sector-sector,oscillatory-sector op
+ECU_980_981_CL_inverted_777_[x=11106,y=10680,w=234,h=206].tif,sector-sector,oscillatory-sector op
+ECU_980_981_CL_inverted_882_[x=9613,y=11699,w=169,h=133].tif,sector-sector,oscillatory-sector op
+ECU_988_989_CL_inverted_137_[x=2491,y=3518,w=108,h=84].tif,sector-sector,metamict
+ECU_988_989_CL_inverted_157_[x=1825,y=3876,w=127,h=112].tif,sector-sector,oscillatory-sector op
+ECU_988_989_CL_inverted_174_[x=10715,y=9232,w=208,h=195].tif,sector-sector,oscillatory-sector op
+ECU_988_989_CL_inverted_208_[x=7511,y=10019,w=129,h=159].tif,sector-sector,oscillatory-sector op
+ECU_988_989_CL_inverted_94_[x=10273,y=2988,w=84,h=71].tif,sector-sector,oscillatory-sector op
+ECU_994_995_CL_inverted_217_[x=10252,y=1909,w=94,h=70].tif,sector-sector,oscillatory-sector op
+ECU_994_995_CL_inverted_302_[x=6085,y=2758,w=138,h=206].tif,sector-sector,stripy-stripy
+ECU_030_032_CL_inverted_160_[x=3386,y=2525,w=338,h=166].tif,stripy-stripy,sector-sector
+ECU_030_032_CL_inverted_237_[x=3446,y=3423,w=220,h=271].tif,stripy-stripy,oscillatory-sector op
+ECU_030_032_CL_inverted_486_[x=8122,y=8223,w=192,h=216].tif,stripy-stripy,oscillatory-sector op
+ECU_030_032_CL_inverted_505_[x=380,y=8628,w=199,h=354].tif,stripy-stripy,sector-sector
+ECU_030_032_CL_inverted_615_[x=7419,y=11947,w=127,h=415].tif,stripy-stripy,sector-sector
+ECU_030_032_CL_inverted_678_[x=10464,y=12239,w=121,h=136].tif,stripy-stripy,oscillatory-oscillatory
+ECU_030_032_CL_inverted_809_[x=2003,y=13424,w=302,h=321].tif,stripy-stripy,sector-sector
+ECU_030_032_CL_inverted_879_[x=2852,y=15444,w=210,h=452].tif,stripy-stripy,oscillatory-sector op
+ECU_1154_1155_1167_CL_inverted_174_[x=3224,y=12872,w=267,h=330].tif,stripy-stripy,sector-sector
+ECU_1160_1161_CL_inverted_156_[x=9430,y=2121,w=221,h=102].tif,stripy-stripy,sector-sector
+ECU_1160_1161_CL_inverted_158_[x=11722,y=2158,w=108,h=141].tif,stripy-stripy,metamict
+ECU_1160_1161_CL_inverted_248_[x=5645,y=3208,w=122,h=183].tif,stripy-stripy,sector-sector
+ECU_1160_1161_CL_inverted_26_[x=7333,y=892,w=88,h=74].tif,stripy-stripy,metamict
+ECU_1160_1161_CL_inverted_369_[x=10805,y=4631,w=51,h=85].tif,stripy-stripy,metamict
+ECU_1160_1161_CL_inverted_422_[x=9878,y=5264,w=143,h=77].tif,stripy-stripy,sector-sector
+ECU_1160_1161_CL_inverted_635_[x=3767,y=9921,w=182,h=284].tif,stripy-stripy,sector-sector
+ECU_1160_1161_CL_inverted_693_[x=5929,y=10262,w=275,h=325].tif,stripy-stripy,sector-sector
+ECU_1160_1161_CL_inverted_704_[x=9427,y=10350,w=136,h=225].tif,stripy-stripy,sector-sector
+ECU_1160_1161_CL_inverted_765_[x=3609,y=11061,w=109,h=154].tif,stripy-stripy,metamict
+ECU_1160_1161_CL_inverted_855_[x=3497,y=11911,w=81,h=141].tif,stripy-stripy,sector-sector
+ECU_903_904_CL_inverted_149_[x=12429,y=3899,w=152,h=108].tif,stripy-stripy,metamict
+ECU_905_906_CL_inverted_101_[x=11963,y=2054,w=122,h=133].tif,stripy-stripy,metamict
+ECU_905_906_CL_inverted_142_[x=7952,y=2330,w=133,h=141].tif,stripy-stripy,sector-sector
+ECU_905_906_CL_inverted_30_[x=11124,y=824,w=197,h=118].tif,stripy-stripy,oscillatory-sector op
+ECU_905_906_CL_inverted_34_[x=8232,y=914,w=109,h=62].tif,stripy-stripy,metamict
+ECU_905_906_CL_inverted_353_[x=8937,y=4526,w=173,h=124].tif,stripy-stripy,sector-sector
+ECU_905_906_CL_inverted_383_[x=14444,y=5103,w=254,h=267].tif,stripy-stripy,metamict
+ECU_905_906_CL_inverted_3_[x=12823,y=481,w=214,h=124].tif,stripy-stripy,oscillatory-sector op
+ECU_905_906_CL_inverted_430_[x=9523,y=5697,w=115,h=69].tif,stripy-stripy,metamict
+ECU_905_906_CL_inverted_43_[x=4207,y=972,w=94,h=111].tif,stripy-stripy,metamict
+ECU_905_906_CL_inverted_492_[x=12465,y=9266,w=101,h=148].tif,stripy-stripy,oscillatory-sector op
+ECU_905_906_CL_inverted_540_[x=4603,y=10244,w=79,h=74].tif,stripy-stripy,sector-sector
+ECU_905_906_CL_inverted_562_[x=11177,y=10604,w=235,h=152].tif,stripy-stripy,sector-sector
+ECU_905_906_CL_inverted_607_[x=8955,y=11137,w=176,h=146].tif,stripy-stripy,oscillatory-sector op
+ECU_913_914_CL_inverted_101_[x=6773,y=1950,w=109,h=111].tif,stripy-stripy,sector-sector
+ECU_913_914_CL_inverted_776_[x=5119,y=13458,w=133,h=141].tif,stripy-stripy,sector-sector
+ECU_913_914_CL_inverted_793_[x=4439,y=13674,w=122,h=120].tif,stripy-stripy,sector-sector
+ECU_913_914_CL_inverted_813_[x=11170,y=13827,w=81,h=99].tif,stripy-stripy,wavy-wavy
+ECU_919_920_CL_inverted_194_[x=6436,y=5241,w=83,h=194].tif,stripy-stripy,oscillatory-sector op
+ECU_919_920_CL_inverted_226_[x=9667,y=5822,w=147,h=357].tif,stripy-stripy,sector-sector
+ECU_919_920_CL_inverted_338_[x=12352,y=7415,w=191,h=301].tif,stripy-stripy,sector-sector
+ECU_919_920_CL_inverted_409_[x=14517,y=8564,w=149,h=253].tif,stripy-stripy,sector-sector
+ECU_919_920_CL_inverted_430_[x=14492,y=8838,w=314,h=253].tif,stripy-stripy,sector-sector
+ECU_919_920_CL_inverted_566_[x=9002,y=10876,w=449,h=261].tif,stripy-stripy,sector-sector
+ECU_919_920_CL_inverted_570_[x=13795,y=10940,w=216,h=436].tif,stripy-stripy,sector-sector
+ECU_919_920_CL_inverted_812_[x=3739,y=14978,w=232,h=510].tif,stripy-stripy,sector-sector
+ECU_919_920_CL_inverted_841_[x=9442,y=15656,w=375,h=215].tif,stripy-stripy,sector-sector
+ECU_919_920_CL_inverted_851_[x=9796,y=15834,w=205,h=180].tif,stripy-stripy,oscillatory-sector op
+ECU_919_920_CL_inverted_856_[x=9713,y=15955,w=130,h=114].tif,stripy-stripy,sector-sector
+ECU_927_928_CL_inverted_13_[x=5483,y=806,w=57,h=75].tif,stripy-stripy,metamict
+ECU_927_928_CL_inverted_165_[x=14443,y=4098,w=72,h=105].tif,stripy-stripy,sector-sector
+ECU_927_928_CL_inverted_199_[x=2791,y=4633,w=474,h=253].tif,stripy-stripy,sector-sector
+ECU_927_928_CL_inverted_318_[x=6768,y=6422,w=56,h=122].tif,stripy-stripy,metamict
+ECU_927_928_CL_inverted_390_[x=14150,y=7313,w=254,h=261].tif,stripy-stripy,sector-sector
+ECU_927_928_CL_inverted_667_[x=11488,y=10801,w=183,h=128].tif,stripy-stripy,sector-sector
+ECU_927_928_CL_inverted_675_[x=13434,y=10902,w=215,h=272].tif,stripy-stripy,sector-sector
+ECU_927_928_CL_inverted_692_[x=14571,y=11191,w=119,h=210].tif,stripy-stripy,sector-sector
+ECU_927_928_CL_inverted_719_[x=12950,y=11642,w=106,h=176].tif,stripy-stripy,sector-sector
+ECU_927_928_CL_inverted_740_[x=10822,y=11980,w=319,h=228].tif,stripy-stripy,sector-sector
+ECU_927_928_CL_inverted_751_[x=11659,y=12185,w=142,h=326].tif,stripy-stripy,sector-sector
+ECU_927_928_CL_inverted_755_[x=11802,y=12215,w=144,h=180].tif,stripy-stripy,oscillatory-sector op
+ECU_927_928_CL_inverted_855_[x=10875,y=14388,w=229,h=155].tif,stripy-stripy,sector-sector
+ECU_942_943_CL_inverted_811_[x=5026,y=10617,w=60,h=101].tif,stripy-stripy,metamict
+ECU_992_993_CL_inverted_529_[x=7161,y=9178,w=218,h=245].tif,stripy-stripy,sector-sector
+ECU_1087_1088_CL_inverted_161_[x=9229,y=4202,w=253,h=153].tif,stripy-stripy,metamict
+ECU_1087_1088_CL_inverted_162_[x=2707,y=4219,w=109,h=188].tif,stripy-stripy,metamict
+ECU_1087_1088_CL_inverted_210_[x=2511,y=4790,w=130,h=211].tif,stripy-stripy,metamict
+ECU_1087_1088_CL_inverted_244_[x=4150,y=5271,w=171,h=118].tif,stripy-stripy,metamict
+ECU_1087_1088_CL_inverted_285_[x=9523,y=6063,w=183,h=88].tif,stripy-stripy,metamict
+ECU_1776_1777_CL_inverted_251_[x=4471,y=2615,w=174,h=264].tif,stripy-stripy,sector-sector
+ECU_1776_1777_CL_inverted_398_[x=12181,y=3793,w=212,h=164].tif,stripy-stripy,metamict
+ECU_1776_1777_CL_inverted_409_[x=10253,y=4003,w=145,h=157].tif,stripy-stripy,oscillatory-sector op
+ECU_1776_1777_CL_inverted_603_[x=2710,y=9894,w=70,h=85].tif,stripy-stripy,metamict
+ECU_1776_1777_CL_inverted_647_[x=2789,y=10327,w=132,h=226].tif,stripy-stripy,metamict
+ECU_1776_1777_CL_inverted_655_[x=7870,y=10487,w=211,h=330].tif,stripy-stripy,sector-sector
+ECU_1776_1777_CL_inverted_662_[x=3679,y=10553,w=206,h=201].tif,stripy-stripy,sector-sector
+ECU_1776_1777_CL_inverted_92_[x=6035,y=1388,w=238,h=247].tif,stripy-stripy,oscillatory-sector op
+ECU_353_357_CL_inverted_242_[x=3327,y=3103,w=148,h=211].tif,stripy-stripy,sector-sector
+ECU_353_357_CL_inverted_280_[x=11285,y=3226,w=145,h=144].tif,stripy-stripy,oscillatory-sector op
+ECU_353_357_CL_inverted_359_[x=6738,y=4077,w=101,h=141].tif,stripy-stripy,sector-sector
+ECU_353_357_CL_inverted_410_[x=10534,y=4696,w=158,h=242].tif,stripy-stripy,sector-sector
+ECU_353_357_CL_inverted_558_[x=5210,y=8655,w=119,h=128].tif,stripy-stripy,oscillatory-sector op
+ECU_353_357_CL_inverted_62_[x=3482,y=1156,w=216,h=193].tif,stripy-stripy,sector-sector
+ECU_353_357_CL_inverted_827_[x=3862,y=11081,w=163,h=389].tif,stripy-stripy,sector-sector
+ECU_353_357_CL_inverted_925_[x=10407,y=12021,w=91,h=143].tif,stripy-stripy,oscillatory-sector op
+ECU_909_910_CL_inverted_23_[x=5154,y=1172,w=136,h=147].tif,stripy-stripy,oscillatory-sector op
+ECU_909_910_CL_inverted_262_[x=3395,y=3942,w=181,h=118].tif,stripy-stripy,oscillatory-sector op
+ECU_909_910_CL_inverted_268_[x=8044,y=3983,w=149,h=204].tif,stripy-stripy,sector-sector
+ECU_909_910_CL_inverted_294_[x=9954,y=4224,w=214,h=129].tif,stripy-stripy,oscillatory-sector op
+ECU_909_910_CL_inverted_334_[x=938,y=4630,w=161,h=83].tif,stripy-stripy,sector-sector
+ECU_909_910_CL_inverted_343_[x=6264,y=4709,w=206,h=184].tif,stripy-stripy,sector-sector
+ECU_909_910_CL_inverted_415_[x=8178,y=5259,w=305,h=133].tif,stripy-stripy,oscillatory-sector op
+ECU_909_910_CL_inverted_438_[x=10028,y=5535,w=140,h=109].tif,stripy-stripy,metamict
+ECU_909_910_CL_inverted_444_[x=5175,y=5590,w=106,h=188].tif,stripy-stripy,oscillatory-sector op
+ECU_909_910_CL_inverted_445_[x=5847,y=5594,w=117,h=77].tif,stripy-stripy,sector-sector
+ECU_909_910_CL_inverted_452_[x=10572,y=5704,w=225,h=111].tif,stripy-stripy,oscillatory-sector op
+ECU_909_910_CL_inverted_545_[x=1361,y=8355,w=273,h=231].tif,stripy-stripy,sector-sector
+ECU_909_910_CL_inverted_54_[x=2359,y=1733,w=206,h=143].tif,stripy-stripy,sector-sector
+ECU_909_910_CL_inverted_662_[x=6235,y=10753,w=326,h=257].tif,stripy-stripy,sector-sector
+ECU_909_910_CL_inverted_678_[x=12924,y=11046,w=298,h=313].tif,stripy-stripy,sector-sector
+ECU_909_910_CL_inverted_692_[x=7629,y=11223,w=238,h=203].tif,stripy-stripy,sector-sector
+ECU_909_910_CL_inverted_694_[x=2032,y=11229,w=173,h=227].tif,stripy-stripy,sector-sector
+ECU_909_910_CL_inverted_737_[x=3947,y=11883,w=228,h=131].tif,stripy-stripy,sector-sector
+ECU_909_910_CL_inverted_774_[x=2594,y=12439,w=281,h=194].tif,stripy-stripy,sector-sector
+ECU_909_910_CL_inverted_843_[x=6492,y=13406,w=364,h=256].tif,stripy-stripy,oscillatory-sector op
+ECU_909_910_CL_inverted_900_[x=2895,y=14139,w=179,h=169].tif,stripy-stripy,oscillatory-sector op
+ECU_909_910_CL_inverted_987_[x=9244,y=15341,w=291,h=178].tif,stripy-stripy,oscillatory-sector op
+ECU_911_912_CL_inverted_196_[x=10947,y=3020,w=146,h=110].tif,stripy-stripy,oscillatory-sector op
+ECU_911_912_CL_inverted_751_[x=11475,y=12050,w=116,h=86].tif,stripy-stripy,sector-sector
+ECU_911_912_CL_inverted_759_[x=3728,y=12668,w=247,h=287].tif,stripy-stripy,oscillatory-sector op
+ECU_911_912_CL_inverted_761_[x=6403,y=12697,w=134,h=176].tif,stripy-stripy,oscillatory-sector op
+ECU_911_912_CL_inverted_825_[x=5312,y=12968,w=206,h=179].tif,stripy-stripy,oscillatory-sector op
+ECU_911_912_CL_inverted_828_[x=11535,y=12972,w=204,h=156].tif,stripy-stripy,oscillatory-sector op
+ECU_917_918_CL_inverted_105_[x=7790,y=6824,w=140,h=103].tif,stripy-stripy,sector-sector
+ECU_917_918_CL_inverted_195_[x=7786,y=7798,w=190,h=127].tif,stripy-stripy,sector-sector
+ECU_917_918_CL_inverted_21_[x=11350,y=5613,w=149,h=252].tif,stripy-stripy,sector-sector
+ECU_917_918_CL_inverted_268_[x=9108,y=8519,w=114,h=205].tif,stripy-stripy,sector-sector
+ECU_917_918_CL_inverted_415_[x=7378,y=10155,w=226,h=163].tif,stripy-stripy,sector-sector
+ECU_917_918_CL_inverted_445_[x=8451,y=10439,w=141,h=128].tif,stripy-stripy,sector-sector
+ECU_917_918_CL_inverted_457_[x=8320,y=10556,w=89,h=186].tif,stripy-stripy,sector-sector
+ECU_917_918_CL_inverted_478_[x=9533,y=10835,w=146,h=128].tif,stripy-stripy,sector-sector
+ECU_917_918_CL_inverted_536_[x=15436,y=11475,w=204,h=339].tif,stripy-stripy,sector-sector
+ECU_917_918_CL_inverted_548_[x=8617,y=11593,w=214,h=203].tif,stripy-stripy,sector-sector
+ECU_917_918_CL_inverted_586_[x=6892,y=11977,w=98,h=179].tif,stripy-stripy,sector-sector
+ECU_931_932_CL_inverted_444_[x=1224,y=6522,w=171,h=361].tif,stripy-stripy,sector-sector
+ECU_931_932_CL_inverted_819_[x=9596,y=10698,w=469,h=304].tif,stripy-stripy,sector-sector
+ECU_944_945_CL_highres_inverted_1057_[x=2369,y=13435,w=262,h=385].tif,stripy-stripy,sector-sector
+ECU_966_967_CL_inverted_329_[x=11923,y=3723,w=76,h=129].tif,stripy-stripy,metamict
+ECU_966_967_CL_inverted_680_[x=12552,y=10547,w=121,h=246].tif,stripy-stripy,oscillatory-sector op
+ECU_970_971_CL_inverted_1087_[x=4090,y=10935,w=159,h=161].tif,stripy-stripy,sector-sector
+ECU_970_971_CL_inverted_1151_[x=7019,y=11197,w=137,h=123].tif,stripy-stripy,sector-sector
+ECU_970_971_CL_inverted_436_[x=10152,y=3887,w=139,h=171].tif,stripy-stripy,oscillatory-sector op
+ECU_970_971_CL_inverted_551_[x=3116,y=4648,w=97,h=272].tif,stripy-stripy,sector-sector
+ECU_970_971_CL_inverted_600_[x=13414,y=4858,w=113,h=143].tif,stripy-stripy,sector-sector
+ECU_970_971_CL_inverted_605_[x=11418,y=4878,w=105,h=141].tif,stripy-stripy,sector-sector
+ECU_970_971_CL_inverted_608_[x=4684,y=4888,w=180,h=171].tif,stripy-stripy,metamict
+ECU_970_971_CL_inverted_62_[x=5587,y=1053,w=94,h=97].tif,stripy-stripy,oscillatory-sector op
+ECU_970_971_CL_inverted_719_[x=4592,y=7771,w=94,h=156].tif,stripy-stripy,sector-sector
+ECU_970_971_CL_inverted_727_[x=11262,y=7800,w=188,h=176].tif,stripy-stripy,sector-sector
+ECU_970_971_CL_inverted_732_[x=12358,y=7811,w=468,h=210].tif,stripy-stripy,oscillatory-sector op
+ECU_970_971_CL_inverted_772_[x=9801,y=7918,w=173,h=362].tif,stripy-stripy,sector-sector
+ECU_970_971_CL_inverted_778_[x=7337,y=7943,w=137,h=264].tif,stripy-stripy,sector-sector
+ECU_970_971_CL_inverted_868_[x=6778,y=8964,w=83,h=195].tif,stripy-stripy,sector-sector
+ECU_970_971_CL_inverted_913_[x=11018,y=9107,w=192,h=284].tif,stripy-stripy,sector-sector
+ECU_978_979_CL_inverted_140_[x=4885,y=2590,w=166,h=168].tif,stripy-stripy,metamict
+ECU_978_979_CL_inverted_238_[x=3472,y=3552,w=185,h=148].tif,stripy-stripy,metamict
+ECU_978_979_CL_inverted_277_[x=3158,y=3777,w=90,h=164].tif,stripy-stripy,oscillatory-sector op
+ECU_978_979_CL_inverted_743_[x=8146,y=10750,w=181,h=128].tif,stripy-stripy,sector-sector
+ECU_978_979_CL_inverted_751_[x=8755,y=10807,w=126,h=200].tif,stripy-stripy,oscillatory-sector op
+ECU_978_979_CL_inverted_906_[x=7460,y=12002,w=73,h=139].tif,stripy-stripy,oscillatory-sector op
+ECU_978_979_CL_inverted_941_[x=5136,y=12249,w=107,h=93].tif,stripy-stripy,oscillatory-sector op
+ECU_980_981_CL_inverted_184_[x=10625,y=3004,w=164,h=220].tif,stripy-stripy,sector-sector
+ECU_980_981_CL_inverted_235_[x=13835,y=3575,w=164,h=79].tif,stripy-stripy,oscillatory-sector op
+ECU_980_981_CL_inverted_245_[x=13313,y=3740,w=97,h=188].tif,stripy-stripy,sector-sector
+ECU_980_981_CL_inverted_516_[x=8617,y=6132,w=243,h=151].tif,stripy-stripy,sector-sector
+ECU_980_981_CL_inverted_91_[x=6180,y=1839,w=152,h=195].tif,stripy-stripy,sector-sector
+ECU_988_989_CL_inverted_296_[x=7858,y=11007,w=127,h=85].tif,stripy-stripy,oscillatory-sector op
+ECU_994_995_CL_inverted_235_[x=6963,y=2002,w=103,h=103].tif,stripy-stripy,oscillatory-sector op
+ECU_994_995_CL_inverted_343_[x=5229,y=2877,w=135,h=212].tif,stripy-stripy,oscillatory-sector op
+ECU_030_032_CL_inverted_168_[x=8637,y=2581,w=149,h=225].tif,wavy-wavy,oscillatory-sector op
+ECU_030_032_CL_inverted_1_[x=5628,y=297,w=288,h=397].tif,wavy-wavy,oscillatory-sector op
+ECU_030_032_CL_inverted_240_[x=6098,y=3451,w=186,h=138].tif,wavy-wavy,stripy-stripy
+ECU_030_032_CL_inverted_544_[x=8905,y=9826,w=153,h=143].tif,wavy-wavy,metamict
+ECU_030_032_CL_inverted_697_[x=3569,y=12288,w=69,h=119].tif,wavy-wavy,oscillatory-sector op
+ECU_030_032_CL_inverted_722_[x=13080,y=12395,w=180,h=92].tif,wavy-wavy,metamict
+ECU_030_032_CL_inverted_807_[x=2256,y=13422,w=53,h=87].tif,wavy-wavy,metamict
+ECU_1154_1155_1167_CL_inverted_114_[x=2010,y=11968,w=77,h=90].tif,wavy-wavy,oscillatory-sector op
+ECU_1154_1155_1167_CL_inverted_122_[x=2626,y=12078,w=77,h=70].tif,wavy-wavy,metamict
+ECU_1154_1155_1167_CL_inverted_261_[x=6127,y=14282,w=191,h=217].tif,wavy-wavy,oscillatory-sector op
+ECU_1154_1155_1167_CL_inverted_46_[x=1516,y=5606,w=83,h=127].tif,wavy-wavy,oscillatory-sector op
+ECU_1160_1161_CL_inverted_10_[x=5967,y=828,w=125,h=126].tif,wavy-wavy,oscillatory-sector op
+ECU_1160_1161_CL_inverted_130_[x=5777,y=1932,w=150,h=104].tif,wavy-wavy,sector-sector
+ECU_1160_1161_CL_inverted_163_[x=4906,y=2357,w=177,h=197].tif,wavy-wavy,sector-sector
+ECU_1160_1161_CL_inverted_207_[x=10921,y=2690,w=120,h=136].tif,wavy-wavy,oscillatory-sector op
+ECU_1160_1161_CL_inverted_278_[x=8258,y=3409,w=83,h=156].tif,wavy-wavy,oscillatory-sector op
+ECU_1160_1161_CL_inverted_27_[x=8717,y=897,w=127,h=257].tif,wavy-wavy,oscillatory-sector op
+ECU_1160_1161_CL_inverted_290_[x=11858,y=3464,w=129,h=148].tif,wavy-wavy,sector-sector
+ECU_1160_1161_CL_inverted_496_[x=4467,y=8571,w=167,h=163].tif,wavy-wavy,oscillatory-sector op
+ECU_1160_1161_CL_inverted_627_[x=6632,y=9559,w=108,h=123].tif,wavy-wavy,stripy-stripy
+ECU_1160_1161_CL_inverted_69_[x=6351,y=1119,w=185,h=101].tif,wavy-wavy,oscillatory-sector op
+ECU_903_904_CL_inverted_335_[x=5264,y=6456,w=287,h=182].tif,wavy-wavy,sector-sector
+ECU_905_906_CL_inverted_131_[x=12315,y=2277,w=141,h=100].tif,wavy-wavy,metamict
+ECU_905_906_CL_inverted_855_[x=1290,y=13836,w=225,h=272].tif,wavy-wavy,oscillatory-sector op
+ECU_913_914_CL_inverted_963_[x=7581,y=16547,w=288,h=153].tif,wavy-wavy,oscillatory-sector op
+ECU_933_934_CL_inverted_1159_[x=4603,y=16054,w=166,h=194].tif,wavy-wavy,sector-sector
+ECU_1087_1088_CL_inverted_489_[x=2093,y=11562,w=166,h=142].tif,wavy-wavy,metamict
+ECU_1164_1166_CL_inverted_100_[x=7174,y=5542,w=197,h=188].tif,wavy-wavy,oscillatory-sector op
+ECU_1164_1166_CL_inverted_115_[x=7898,y=5633,w=133,h=153].tif,wavy-wavy,oscillatory-sector op
+ECU_1164_1166_CL_inverted_120_[x=11581,y=5674,w=122,h=168].tif,wavy-wavy,sector-sector
+ECU_1164_1166_CL_inverted_170_[x=1031,y=6246,w=90,h=105].tif,wavy-wavy,oscillatory-sector op
+ECU_1164_1166_CL_inverted_175_[x=2685,y=6276,w=60,h=71].tif,wavy-wavy,metamict
+ECU_1164_1166_CL_inverted_181_[x=1195,y=6307,w=81,h=69].tif,wavy-wavy,oscillatory-sector op
+ECU_1164_1166_CL_inverted_18_[x=706,y=996,w=170,h=162].tif,wavy-wavy,oscillatory-sector op
+ECU_1164_1166_CL_inverted_196_[x=5827,y=6359,w=88,h=146].tif,wavy-wavy,sector-sector
+ECU_1164_1166_CL_inverted_236_[x=3185,y=6991,w=235,h=203].tif,wavy-wavy,oscillatory-sector op
+ECU_1164_1166_CL_inverted_280_[x=7436,y=7159,w=108,h=108].tif,wavy-wavy,sector-sector
+ECU_1164_1166_CL_inverted_441_[x=7752,y=8846,w=196,h=199].tif,wavy-wavy,oscillatory-sector op
+ECU_1164_1166_CL_inverted_46_[x=5082,y=5230,w=103,h=96].tif,wavy-wavy,sector-sector
+ECU_1164_1166_CL_inverted_491_[x=8160,y=9739,w=121,h=128].tif,wavy-wavy,oscillatory-sector op
+ECU_1776_1777_CL_inverted_100_[x=5732,y=1434,w=94,h=122].tif,wavy-wavy,metamict
+ECU_1776_1777_CL_inverted_136_[x=3695,y=1708,w=163,h=153].tif,wavy-wavy,sector-sector
+ECU_1776_1777_CL_inverted_174_[x=12762,y=2033,w=177,h=275].tif,wavy-wavy,metamict
+ECU_1776_1777_CL_inverted_574_[x=8484,y=9634,w=158,h=151].tif,wavy-wavy,sector-sector
+ECU_1776_1777_CL_inverted_617_[x=486,y=10004,w=629,h=471].tif,wavy-wavy,oscillatory-sector op
+ECU_1776_1777_CL_inverted_698_[x=11234,y=10885,w=182,h=108].tif,wavy-wavy,metamict
+ECU_1776_1777_CL_inverted_837_[x=5859,y=12406,w=102,h=63].tif,wavy-wavy,metamict
+ECU_1776_1777_CL_inverted_96_[x=10397,y=1419,w=143,h=292].tif,wavy-wavy,metamict
+ECU_353_357_CL_inverted_262_[x=5938,y=3179,w=108,h=106].tif,wavy-wavy,sector-sector
+ECU_353_357_CL_inverted_306_[x=2989,y=3751,w=170,h=274].tif,wavy-wavy,oscillatory-sector op
+ECU_353_357_CL_inverted_457_[x=11206,y=4882,w=76,h=78].tif,wavy-wavy,sector-sector
+ECU_353_357_CL_inverted_502_[x=6379,y=5022,w=187,h=197].tif,wavy-wavy,oscillatory-sector op
+ECU_353_357_CL_inverted_926_[x=4422,y=12024,w=164,h=176].tif,wavy-wavy,oscillatory-sector op
+ECU_909_910_CL_inverted_1003_[x=9558,y=15589,w=189,h=287].tif,wavy-wavy,sector-sector
+ECU_909_910_CL_inverted_468_[x=6608,y=5977,w=118,h=114].tif,wavy-wavy,oscillatory-sector op
+ECU_909_910_CL_inverted_522_[x=8767,y=6673,w=65,h=84].tif,wavy-wavy,metamict
+ECU_909_910_CL_inverted_924_[x=9287,y=14405,w=81,h=83].tif,wavy-wavy,sector-sector
+ECU_909_910_CL_inverted_929_[x=9224,y=14497,w=93,h=83].tif,wavy-wavy,sector-sector
+ECU_911_912_CL_inverted_251_[x=4381,y=3333,w=195,h=122].tif,wavy-wavy,sector-sector
+ECU_911_912_CL_inverted_291_[x=12017,y=4042,w=86,h=117].tif,wavy-wavy,sector-sector
+ECU_911_912_CL_inverted_352_[x=5876,y=4387,w=79,h=78].tif,wavy-wavy,sector-sector
+ECU_911_912_CL_inverted_40_[x=12366,y=894,w=141,h=114].tif,wavy-wavy,sector-sector
+ECU_923_924_CL_inverted_436_[x=4953,y=8092,w=152,h=134].tif,wavy-wavy,sector-sector
+ECU_937_938_CL_inverted_931_[x=10856,y=11782,w=141,h=235].tif,wavy-wavy,oscillatory-sector op
+ECU_944_945_CL_highres_inverted_129_[x=2669,y=2601,w=69,h=102].tif,wavy-wavy,oscillatory-sector op
+ECU_966_967_CL_inverted_425_[x=4062,y=4403,w=139,h=110].tif,wavy-wavy,oscillatory-sector op
+ECU_970_971_CL_inverted_219_[x=1054,y=2774,w=108,h=154].tif,wavy-wavy,stripy-stripy
+ECU_970_971_CL_inverted_421_[x=7311,y=3843,w=432,h=376].tif,wavy-wavy,oscillatory-sector op
+ECU_978_979_CL_inverted_554_[x=6639,y=6355,w=174,h=95].tif,wavy-wavy,metamict

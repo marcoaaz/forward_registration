@@ -1,0 +1,1 @@
+run("Set Scale...", "distance=0 known=0 pixel=1 unit=pixel"); //Removes the predifined scale if any

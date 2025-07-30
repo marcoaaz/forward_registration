@@ -1,0 +1,11 @@
+;index;label
+0;0;blank-blank
+1;1;blank-oscillatory
+2;2;metamict
+3;3;oscillatory-oscillatory
+4;4;oscillatory-sector op
+5;5;sector-oscillatory
+6;6;sector-oscillatory sector op
+7;7;sector-sector
+8;8;stripy-stripy
+9;9;wavy-wavy

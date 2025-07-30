@@ -1,0 +1,88 @@
+{
+    "name": "ResNet50_cyclic_test7",
+    "description": "ResNet50_cyclic_test7: resnet50 model trained on data from E:\\Feb-March_2024_zircon imaging\\02_John Caulfield_files\\classified_14-sep-24\\John-Kate_04_10_2024\\project_exported.xml (11776 images in 10 classes).\nAccuracy: 77.5 (P: 48.7, R: 51.8, F1 49.8)",
+    "cnn": {
+        "id": "resnet50",
+        "img_shape": [
+            224,
+            224,
+            3
+        ],
+        "img_type": "rgb",
+        "use_cyclic": true,
+        "use_cyclic_gain": false,
+        "filters": 4,
+        "blocks": null,
+        "dense": null,
+        "use_batch_norm": true,
+        "global_pooling": true,
+        "activation": "relu",
+        "use_asoftmax": false
+    },
+    "dataset": {
+        "num_classes": 10,
+        "source": "E:\\Feb-March_2024_zircon imaging\\02_John Caulfield_files\\classified_14-sep-24\\John-Kate_04_10_2024\\project_exported.xml",
+        "min_count": 80,
+        "train_split": null,
+        "val_split": 0.2,
+        "map_others": false,
+        "random_seed": 0,
+        "memmap_directory": "C:\\Users\\N10832~1\\AppData\\Local\\Temp\\miso_8865199344422563705"
+    },
+    "training": {
+        "batch_size": 64,
+        "max_epochs": 10000,
+        "alr_epochs": 10,
+        "alr_drops": 4,
+        "monitor_val_loss": false,
+        "use_class_weights": true,
+        "use_class_undersampling": false,
+        "use_augmentation": true,
+        "use_transfer_learning": false,
+        "transfer_learning_augmentation_factor": 0
+    },
+    "augmentation": {
+        "rotation": [
+            0.0,
+            360.0
+        ],
+        "gain": [
+            0.8,
+            1.0,
+            1.2
+        ],
+        "gamma": [
+            0.5,
+            1.0,
+            2.0
+        ],
+        "bias": null,
+        "zoom": [
+            0.9,
+            1.0,
+            1.1
+        ],
+        "gaussian_noise": [
+            0.01,
+            0.1
+        ],
+        "random_crop": null,
+        "orig_img_shape": [
+            224,
+            224,
+            3
+        ]
+    },
+    "output": {
+        "save_dir": "E:\\Feb-March_2024_zircon imaging\\ParticleTrieur_trial_cl_zircon_annotated\\trained model_8-Oct-24",
+        "save_model": true,
+        "save_mislabeled": true
+    },
+    "optimizer": {
+        "name": "adam",
+        "learning_rate": 0.001,
+        "momentum": 0.9,
+        "decay": 0.0,
+        "nesterov": false
+    }
+}
