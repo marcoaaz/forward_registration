@@ -4,13 +4,17 @@ Repository with the image analysis pipeline to study minerals with combined micr
 
 ## Workflow
 
-Schematic workflow:
+Schematic workflow to study zircon mounts using state-of-the-art microscopy and laser ablation ICP-MS:
 
-<img width=80% height=80% alt="Image" src="https://github.com/user-attachments/assets/d87ff7c5-099b-4279-becf-e6422532c90a" />
+<img width=70% height=70% alt="Image" src="https://github.com/user-attachments/assets/d87ff7c5-099b-4279-becf-e6422532c90a" />
 
-Data and script flow:
+Data and script flows (denoted by arrows):
 
-<img width=80% height=80% alt="Image" src="https://github.com/user-attachments/assets/e5909253-59ff-4a98-b6b4-ff35b3087008" />
+<img width=70% height=70% alt="Image" src="https://github.com/user-attachments/assets/e5909253-59ff-4a98-b6b4-ff35b3087008" />
+
+Software sequence (programming languages) and output of Step 5 (master table). The plug-in symbol represents the external software that can be streamlined to the pipeline:
+
+<img width=60% height=60% alt="Image" src="https://github.com/user-attachments/assets/6af06a1f-2b06-4a16-b90a-160c984401a7" />
 
 ## Installation and required libraries
 
