@@ -37,15 +37,19 @@ Java Version: Java 1.8.0_202-b08 with Oracle Corporation Java HotSpot(TM) 64-Bit
 - Symbolic Math Toolbox                                 Version 24.2        (R2024b)
 - Wavelet Toolbox                                       Version 24.2        (R2024b)
 
-The Python scripts require environments to be set up. You can use the nearby requirements.txt files. I recommend deploying in VSCode IDE.
+The Python scripts require environments to be set up. You can use the nearby requirements.txt files. I recommend deploying Python environments in VSCode IDE.
 
 The R scripts require R version 4.4.3 (2025-02-28 ucrt) -- "Trophy Case" for x86_64-w64-mingw32/x64 platform. You can use RStudio 2024 to visualise/edit them according to your needs.
+
+Step 1 used [Fiji](https://imagej.net/software/fiji/) distribution (ImageJ 1.54f) macros and plugins ([registration](https://imagej.net/plugins/bigwarp), [segmentation](https://imagej.net/plugins/biovoxxel-toolbox)). Step 1a involved using [pyvips](https://github.com/libvips/pyvips) library. 
+
+Steps 1 and 3 worked using [QuPath](https://qupath.github.io/) version 0.5.1 (Build time: 2024-03-04). 
 
 #### Supplementary Data
 
 Uploading to Zenodo..
 
-After downloading all the data, you need to update the filepaths (within your system) to every required input file/image/folder.
+After downloading all the data, you need to edit the downloaded scripts and update the filepaths (within your system) mapping every required input file/image/folder to achieve the same results. The parameters are given in the paper Supplementary Material B.
 
 #### Cite
 
