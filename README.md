@@ -1,10 +1,20 @@
 # forward_registration
 
-Repository with the image analysis pipeline to register micro-analytical spots into microscopy images and do correlative microscopy documentation. 
+Repository with the image analysis pipeline to study minerals with combined microscopy techniques and micro-analytical spots. 
+
+## Workflow
+
+Schematic workflow:
+
+<img width=80% height=80% alt="Image" src="https://github.com/user-attachments/assets/d87ff7c5-099b-4279-becf-e6422532c90a" />
+
+Data and script flow:
+
+<img width=80% height=80% alt="Image" src="https://github.com/user-attachments/assets/e5909253-59ff-4a98-b6b4-ff35b3087008" />
 
 ## Installation and required libraries
 
-The MatLab scripts can be run with '24.2.0.2740171 (R2024b) Update 1' installation containing:
+The MatLab scripts can be run with:
 
 MATLAB Version: 24.2.0.2740171 (R2024b) Update 1
 MATLAB License Number: 31
@@ -29,9 +39,13 @@ Java Version: Java 1.8.0_202-b08 with Oracle Corporation Java HotSpot(TM) 64-Bit
 
 The Python scripts require environments to be set up. You can use the nearby requirements.txt files. I recommend deploying in VSCode IDE.
 
+The R scripts require R version 4.4.3 (2025-02-28 ucrt) -- "Trophy Case" for x86_64-w64-mingw32/x64 platform. You can use RStudio 2024 to visualise/edit them according to your needs.
+
 #### Supplementary Data
 
 Uploading to Zenodo..
+
+After downloading all the data, you need to update the filepaths (within your system) to every required input file/image/folder.
 
 #### Cite
 
