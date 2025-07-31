@@ -12,7 +12,7 @@ Data and script flows (denoted by arrows):
 
 <img width=70% height=70% alt="Image" src="https://github.com/user-attachments/assets/e5909253-59ff-4a98-b6b4-ff35b3087008" />
 
-Software sequence (programming languages) and output of Step 5 (master table). The plug-in symbol represents the external software that can be streamlined to the pipeline:
+The slide below shows the programming languages sequence for all the Steps. Step 5 (master table) in bold font is the main MatLab script (merge_grids_v9.m) that orchestrates the data flow that comes in the master table and is shown as grid displays. The plug-in cartoon represents the external software that can be streamlined to the pipeline:
 
 <img width=60% height=60% alt="Image" src="https://github.com/user-attachments/assets/6af06a1f-2b06-4a16-b90a-160c984401a7" />
 
@@ -45,9 +45,9 @@ The Python scripts require environments to be set up. You can use the nearby req
 
 The R scripts require R version 4.4.3 (2025-02-28 ucrt) -- "Trophy Case" for x86_64-w64-mingw32/x64 platform. You can use RStudio 2024 to visualise/edit them according to your needs.
 
-Step 1 used [Fiji](https://imagej.net/software/fiji/) distribution (ImageJ 1.54f) macros and plugins ([registration](https://imagej.net/plugins/bigwarp), [segmentation](https://imagej.net/plugins/biovoxxel-toolbox)). Step 1a involved using [pyvips](https://github.com/libvips/pyvips) library. 
+Step 1 used [Fiji](https://imagej.net/software/fiji/) distribution (ImageJ 1.54f) macros and plugins ([tile stitching](https://imagej.net/plugins/trakem2/), [montage registration](https://imagej.net/plugins/bigwarp), [segmentation](https://imagej.net/plugins/biovoxxel-toolbox)). Step 1a involved using [pyvips](https://github.com/libvips/pyvips) library. Steps 1 and 3 worked using [QuPath](https://qupath.github.io/) version 0.5.1 (Build time: 2024-03-04). 
 
-Steps 1 and 3 worked using [QuPath](https://qupath.github.io/) version 0.5.1 (Build time: 2024-03-04). 
+If there are any omissions in terms of software and citations. Please, let me know to my personal email. Thanks for your understanding.
 
 #### Supplementary Data
 
