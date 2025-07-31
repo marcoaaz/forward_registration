@@ -1,6 +1,6 @@
 # forward_registration
 
-Repository with the image analysis pipeline to study minerals with combined microscopy techniques and micro-analytical spots. 
+Repository with the image analysis pipeline to study mineral mounts with combined microscopy techniques and micro-analytical spots. The case study are hand-picked zircon epoxy mounts from a location in Australia (Murray River Basin). More details in the manuscript (currently under review).
 
 ## Workflow
 
@@ -55,9 +55,13 @@ Uploading to Zenodo..
 
 After downloading all the data, you need to edit the downloaded scripts and update the filepaths (within your system) mapping every required input file/image/folder to achieve the same results. The parameters are given in the paper Supplementary Material B.
 
+#### Documentation
+
+See paper Supplementary Material A.
+
 #### Cite
 
-Please cite the following publication (currently under review) describing the present software (see Supplementary Material A):
+If using the software pipeline or an independent module script, please cite:
 
 "Forward image registration for higher level interpretation of zircon provenance based on combined CL, U/Pb age and geochemical data"
 
