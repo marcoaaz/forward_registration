@@ -4,11 +4,13 @@ Repository with the image analysis pipeline to study mineral mounts with combine
 
 ## Workflow
 
-Schematic workflow to study zircon mounts using state-of-the-art microscopy and laser ablation ICP-MS:
+The steps of the pipeline are: 1) image processing including image stitching (full version), grain segmentation, and montage registration, (2) grain image processing into grids, (3) desktop computer spot placement, (4) two-step image registration, microanalysis, and data reduction, (5) data source fusion into a master table, and (6) documentation of correlative microscopy findings including imagery, geochemistry, and U-Pb ages.
+
+The figure below shows the schematic workflow to study zircon mounts using state-of-the-art microscopy and laser ablation ICP-MS:
 
 <img width=70% height=70% alt="Image" src="https://github.com/user-attachments/assets/d87ff7c5-099b-4279-becf-e6422532c90a" />
 
-Data and script flows (denoted by arrows):
+Details of the steps routines, data and script flows (denoted by arrows):
 
 <img width=70% height=70% alt="Image" src="https://github.com/user-attachments/assets/e5909253-59ff-4a98-b6b4-ff35b3087008" />
 
