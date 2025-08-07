@@ -1,6 +1,10 @@
 # forward_registration
 
-Repository with the image analysis pipeline to study mineral mounts with combined microscopy techniques and micro-analytical spots. The case study are hand-picked zircon epoxy mounts from a location in Australia (Murray River Basin). More details in the manuscript (currently under review).
+Repository with the forward registration image analysis pipeline to study mineral mounts with combined microscopy techniques and micro-analytical spots. The case study were hand-picked zircon epoxy mounts from a location in Australia (Murray River Basin). More details in the manuscript (currently under review) that is listed below.
+
+Forward registration graphical abstract:
+
+<img width=65% height=65% alt="Image" src="https://github.com/user-attachments/assets/b3ccfcdd-6b5c-4a2a-9b99-78a7663588b4" />
 
 ## Workflow
 
