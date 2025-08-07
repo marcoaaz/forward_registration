@@ -1,5 +1,6 @@
-function [table_calculations] = geochemistry_calculation1b(input_table)
-%Following Charlotte Allen guiding
+function [table_calculations] = geochemistry_calculation1b(input_table, age_table)
+%Following Charlotte Allen tables
+%Note: the current version plugs in isoplot ages for convenience.
 
 idx_fail = false([size(input_table, 1), 1]); %please, do not delete
 n_rows = size(input_table, 1);
@@ -141,12 +142,17 @@ idx_metamict(idx_condition5) = 1; %ruined
 
 %% Geochemical calculations
 
+Zr_ppm = input_table.("Zr91_ppm_mean");
 Hf_ppm = input_table.("Hf177_ppm_mean");
 Yb_ppm = input_table.("Yb172_ppm_mean");
 Ce_ppm = input_table.("Ce140_ppm_mean");
 Ti_ppm = input_table.("Ti49_ppm_mean");
 Lu_ppm = input_table.("Lu175_ppm_mean");
 Dy_ppm = input_table.("Dy163_ppm_mean");
+
+%Magmatic differentiation indicator
+%Claiborne et al. (2006) Tracking magmatic processes through Zr-Hf ratios
+ratio_Zr_Hf = Zr_ppm./Hf_ppm;
 
 %Continental/Oceanic zircon
 Hf_ppm_modified = Hf_ppm;
@@ -163,20 +169,49 @@ tectonic_indicator(~idx_use) = "";
 tectonic_indicator(idx_condition6) = "continental";
 tectonic_indicator(idx_use & ~idx_condition6) = "oceanic";
 
-% U range
+%Uranium condition
 U_ppm_less100 = NaN([n_rows, 1]);
 idx_condition7 = idx_use & (U_ppm < 100);
 U_ppm_less100(idx_condition7) = U_ppm(idx_condition7);
 
-% Ce/U*Ti
-ratio_CeUTi = NaN([n_rows, 1]);
-idx_condition8 = (Ti_ppm < 0.01); %no Ti (Note: check for mistake. Ti~35ppm)
-idx_condition9 = idx_use & ~idx_condition8;
-temp_output = Ce_ppm./sqrt(U_ppm.*Ti_ppm);
-ratio_CeUTi(idx_condition9) = temp_output(idx_condition9);
+%% Hydrobarometer 
+%Bob Loucks et al., 2020
+
+age_isoplot = age_table.("age_isoplot");
+
+var_pressure = 175; %MPa, assumptions
+a_TiO = .54; %activity TiO2
+a_SiO = 1; %SiO2 
+
+Ti_temperature_K = ( (-4800 + (0.4748*(var_pressure - 1000)) ) ./ (log10(Ti_ppm) - 5.711 - log10(a_TiO) + log10(a_SiO)) );
+
+log_fO = ( (-587474 + (1584.427.* Ti_temperature_K) - ...
+    (203.3164*Ti_temperature_K.*log(Ti_temperature_K)) + ...
+    (0.09271*(Ti_temperature_K.^2)))./(8.314511*Ti_temperature_K*log(10)) ); %log fO2@FMQ 
+
+%age-corrected initial U (uses U238 ppm) and Th
+initial_U = U_ppm.*( exp(age_isoplot*lambda1) + 0.0072*exp(age_isoplot*lambda2) ); 
+initial_Th = Th_ppm.*exp(age_isoplot*lambda3);
+
+ratio_iTh_iU = initial_Th./initial_U; 
+
+%(Ce/U)*(U/Ti)^0.5
+ratio1 = Ce_ppm./initial_U; 
+ratio2 = initial_U./Ti_ppm;
+ratio_CeUTi = ratio1.*(ratio2.^0.5); 
+
+deltaFMQ = (3.998*log10(ratio_CeUTi)) + 2.284;
+
+log_fO_sample = deltaFMQ + log_fO; %log fO2(sample)
+
+%old snippet
+% ratio_CeUTi = NaN([n_rows, 1]);
+% idx_condition8 = (Ti_ppm < 0.01); %no Ti (Note: check for mistake. Ti~35ppm)
+% idx_condition9 = idx_use & ~idx_condition8;
+% ratio_CeUTi(idx_condition9) = ratio3(idx_condition9); 
 
 % Fayalite-Magnetite-Quartz mineral redox buffer
-idx_condition10 = idx_use & ~idx_condition8 & (ratio_CeUTi > 0.3);
+idx_condition10 = idx_use & (ratio_CeUTi > 0.3) & (Ti_ppm > 0.01); %from Fig.9 (Loucks et al., 2020)
 above_FMQ = zeros([n_rows, 1]);
 above_FMQ(idx_condition10) = 1;
 
@@ -201,8 +236,9 @@ table_calculations = table(...
     concord_calc207_235, concord_calc_3Ma, ...
     age206_238_fromRatio, age207_235_fromRatio, idx_use, ...
     alpha_age, U238_atomsG, U235_atomsG, Th232_atomsG, He4_G_fromPb, idx_metamict, ...
-    Hf_ppm_modified, ratio_U_Yb_modified, ...
-    tectonic_indicator, U_ppm_less100, ratio_CeUTi, above_FMQ, ...
+    ratio_Zr_Hf, Hf_ppm_modified, ratio_U_Yb_modified, ...
+    tectonic_indicator, U_ppm_less100, ...
+    Ti_temperature_K, initial_U, ratio_iTh_iU, ratio_CeUTi, deltaFMQ, log_fO, log_fO_sample, above_FMQ, ...
     ratio_UTh, ratio_YbLu, Lu_ppm_less10, ratio_LuDy_normalised, garnet_signal ...
     );
 

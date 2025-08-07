@@ -56,7 +56,7 @@ expert_coordinates = {
     };
 
 workingDir = "E:\Feb-March_2024_zircon imaging\00_Paper 4_Forward image registration\puck 1 and 2\merge_grid_test";
-destinationFolder = 'project_22-Jul_apfu1'; %output folder
+destinationFolder = 'project_6-Aug-25'; %output folder
 
 trial_n = 1; %counter to avoid overwriting
 
@@ -135,7 +135,7 @@ BB_merged1 = BB_merged1(idx_zircon, :);
 basename2 = strcat(basename1, ext1);
 DB_merged2 = addvars(DB_merged2, basename2, 'NewVariableNames', 'path_basename', 'After', 'filename');
 
-%% Geochemistry calculations
+%% Master table geochemistry calculations
 
 %Pre-requisite: setting up Python environment and OS environment variable paths.
 path_python = "E:\Alienware_March 22\scripts_Marco\updated MatLab scripts\WMI\update_14-Jan-25\step6_documentation\geochemistry_code\geochemistry_python\trial1";
@@ -157,18 +157,19 @@ BB_merged2_master0 = BB_merged1(sort_idx2, :); %follows
 %Database
 file_db1 = fullfile(dbDir1, 'mcdonough_and_sun_1995.txt'); %chondrite normalisation
 
+%R
+[table_calculations2] = geochemistry_isoplot_1(DB_sorted_age, destDir, script_path1); %Vermeesch, KDE and age
+[table_calculations5] = geochemistry_calculation4(DB_sorted_age, destDir, script_path2); %Carrasco-Godoy, impute REE
+%Python
+[table_calculations4] = geochemistry_calculation3(DB_sorted_age, destDir, path_python); %Anenburg and Williams, lambdas, Ti-temp, ratios
+[table_calculations6] = geochemistry_calculation5(DB_sorted_age, destDir, path_python); %Aitchison, pyrolite CLR
 %MatLab
 [table_calculations3] = geochemistry_calculation2(DB_sorted_age, file_db1); %Pizarro
-[table_calculations1a] = geochemistry_calculation1a(DB_sorted_age); %Charlotte Allen
-[table_calculations1b] = geochemistry_calculation1b(DB_sorted_age);
-table_temp = [DB_sorted_age, table_calculations1b]; %input for mineral inclusion filter
-[table_calculations1c, table_AND] = geochemistry_calculation1c(table_temp);
-%R
-[table_calculations2] = geochemistry_isoplot_1(DB_sorted_age, destDir, script_path1); %Vermeesch
-[table_calculations5] = geochemistry_calculation4(DB_sorted_age, destDir, script_path2); %Carrasco-Godoy
-%Python
-[table_calculations4] = geochemistry_calculation3(DB_sorted_age, destDir, path_python); %Anenburg and Williams
-[table_calculations6] = geochemistry_calculation5(DB_sorted_age, destDir, path_python); %Aitchison
+[table_calculations1a] = geochemistry_calculation1a(DB_sorted_age); %Allen C., apfu
+[table_calculations1b] = geochemistry_calculation1b(DB_sorted_age, table_calculations2); %Allen C., ratio ages and geochemistry
+
+table_temp = [DB_sorted_age, table_calculations1b]; 
+[table_calculations1c, table_AND] = geochemistry_calculation1c(table_temp); %Allen C., mineral inclusion filters
 
 %Appending
 DB_sorted_in_master0 = [DB_sorted_age, ...
@@ -185,7 +186,7 @@ DB_sorted_in_master0 = [DB_sorted_age, ...
 DB_sorted_in_master = DB_sorted_in_master0(sort_idx_prime, :); %sorting 1
 BB_merged2_master = BB_merged2_master0(sort_idx_prime, :); %follows
 
-%% Fiftyone link
+%% Optional: Fiftyone link (in development..)
 
 %User input
 path_dictionary = "C:\Users\acevedoz\OneDrive - Queensland University of Technology\Desktop\appended_DB_dictionary_v2_Marco.xlsx";
@@ -205,7 +206,12 @@ mkdir(newFolder3)
 
 %% User input: Custom merged grids (second part of script)
 
-age_intervals = [-Inf, Inf]; %default, 1200 talk 1
+age_intervals = [...
+     [-Inf, 142.7]; %Population 1: Youngest
+     [201.4, 301.4]; %Population 2: Permo-Triassic
+     [980, 1300]; %Population 3: Grenville
+     [1827.66, Inf] %Population 4: Oldest
+     ]; 
 
 %Pre-classification 
 n_classes = 1; %default= 4; equal populations
@@ -230,21 +236,21 @@ spotSize= 25; %in microns
 sample_str = ''; %edit (folder name)
 
 %Filter database (puck 1 = 1; puck 2 = 2, 3, 4, 5)
-idx_sample = ~(DB_sorted_in_master.Database == 1);
+idx_sample = (DB_sorted_in_master.Database == 1);
 DB_sorted_in = DB_sorted_in_master(idx_sample, :); %overwrite
 BB_merged2 = BB_merged2_master(idx_sample, :);
 
 %% Image processing loop
 
-% DB_sorted_in = DB_sorted_in_master; %overwrite
+% DB_sorted_in = DB_sorted_in_master; %overwrite for all
 % BB_merged2 = BB_merged2_master;
 
 spot_diameter = 2*spotSize/pixel_size; 
 
 %For fast computation:
-% burnOption = 0;
-% labelOption = 0;
-% spotOption = 0; 
+burnOption = 0;
+labelOption = 0;
+spotOption = 0; 
 
 temp_values = DB_sorted_in{:, sort1_variable}; %for filtering
 
@@ -325,7 +331,7 @@ for ii = 1:n_bins %1:n_bins
     save(destinationFile4_full, 'bbXYtable_merged', '-mat','-v7.3')
 
     %Optional: Save isoplot plots 
-    [~] = geochemistry_isoplot_1(DB_sorted, gridFolder2); %optional
+    [~] = geochemistry_isoplot_1(DB_sorted, gridFolder2, script_path1); %optional
     % similar_interval = [222.9, 247];
     % similar_idx = (data_table4.)
 
@@ -363,25 +369,25 @@ end
 beep
 
 %% Calculate statistics
+DB_sorted.initial_U
 
-%Balz - one
 interrogation_columns = {
     'Convexity', 'MeanIntensity_V',...
-    'Zr91_ppm_mean', 'Hf177_ppm_mean', 'P31_ppm_mean',...
-    'Y89_ppm_mean', 'Yb172_ppm_mean', 'U238_ppm_mean',...
+    'ratio_Zr_Hf', 'Hf177_ppm_mean', 'P31_ppm_mean',...
+    'Y89_ppm_mean', 'Yb172_ppm_mean', 'initial_U',...
     'Ti49_ppm_mean', ...
-    'Th_U_ratio', 'Dy_Yb_ratio', 'ratio_P_REE', ...
+    'ratio_iTh_iU', 'Dy_Yb_ratio', 'ratio_totalREE_P_mol', ...
     'Eu_ratio', 'Ce_Nd_ratio', 'ratio_CeUTi', 'lambda_3', ...
     }; 
 
-% formal naming for publication
+%Naming for Figure (latex interpreter)
 formal_name = {
     'Shape convexity', 'CL intensity (HSV)', ...
-    'Zr (ppm)', 'Hf (ppm)', 'P (ppm)',...
-    'Y (ppm)', 'Yb (ppm)', 'U (ppm)',...
+    'Zr/Hf', 'Hf (ppm)', 'P (ppm)',...
+    'Y (ppm)', 'Yb (ppm)', 'initial U (ppm)',...
     'Ti (ppm)', ...
-    'Th/U', 'Dy/Yb', 'P/(REE)', ...
-    'Eu anomaly', 'Ce anomaly', 'CeUTi ratio', 'Lambda 3'
+    'initial Th/U', 'Dy/Yb', '(REE+Y)/P mol', ...
+    'Eu anomaly', 'Ce anomaly', 'Ce/$\sqrt{initial\ U*Ti}$', 'Lambda 3'
     };
 
 %Geochemical interrogation
@@ -427,5 +433,6 @@ for ii = 1:n_bins  %1:n_bins
 
 end
 
+%Note: save them as SVG
 plot_population_histograms(age_populations, population_stats, population_kde, formal_name)
 plot_population_KDEs(interrogation_columns, age_populations, population_stats, population_kde, formal_name)

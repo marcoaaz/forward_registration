@@ -55,7 +55,7 @@ temp_mtx2 = temp_mtx./atomicWeights; %atoms or molarity
 
 P_molarity = temp_mtx2(:, 1);
 sum_REE = sum(temp_mtx2(:, 2:end), 2);
-ratio_P_REE = P_molarity./sum_REE;
+ratio_P_REE = P_molarity./sum_REE; %xenotime substitution slope proxy (x/y)
 
 %Limiting output (may be an issue if idx_use is mostly =0)
 sum_REE(~idx_use) = NaN; %this limits output (if idx_use is mostly =0)
@@ -75,10 +75,10 @@ temp_mtx2(:, participating_input) = temp_1;
 table_molarity0 = array2table(temp_mtx2, "VariableNames", tags2);
 table_molarity = addvars(table_molarity0, sum_REE, ratio_P_REE);
 
-%% Atoms per formula unit (apfu) and xenotime substitution
+%% Atoms per formula unit (apfu) and xenotime substitution slope
 %Note: Dedicated to zircon. Modify for other mineral.
-%Note: QUT CARF experimental data with 1 pt calibration to NIST-610 std
 
+%Laboratory experimental data with 1 pt calibration to NIST-610 std (QUT CARF)
 val_1 = 152200; %Si of 15.22 wt% based on stoichiometric zircon with 1 wt % Hf
 val_2 = val_1/atomicWeights_db(1); %assumes that Si apfu = 1
 
@@ -114,19 +114,24 @@ total_apfu = sum(table_apfu{:, :}, 2);
 total_REE_Al_apfu = sum(table_apfu{:, [4, 9:n_cols_apfu]}, 2);
 ratio_Si_ZrHf_apfu = Si_apfu./(Zr_apfu + Hf_apfu); 
 ratio_Si_all_apfu = Si_apfu./total_apfu;
-ratio_totalREE_P_apfu = total_REE_Al_apfu./P_apfu;
+ratio_totalREE_P_apfu = total_REE_Al_apfu./P_apfu; 
 
-%Calculations 3
+%Calculations 3 
+%Yang et al., 2016. P-controlled TE distribution in zircon revealed by NanoSIMS
+
 zircon_molarMass = 183.31; %gr/mol
-P_atom = (10^6)*P_apfu/zircon_molarMass;
-total_REE_Al_atom = (10^6)*total_REE_Al_apfu/zircon_molarMass;
 
-table_apfu2 = addvars(table_apfu, ...
-    total_apfu, total_REE_Al_apfu, ...
-    ratio_Si_ZrHf_apfu, ratio_Si_all_apfu, ratio_totalREE_P_apfu, ...
-    P_atom, total_REE_Al_atom);
+%10^-6 mol/g
+P_mol = (10^6)*P_apfu/zircon_molarMass;
+total_REE_Al_mol = (10^6)*total_REE_Al_apfu/zircon_molarMass;
+ratio_totalREE_P_mol = total_REE_Al_mol./P_mol; %xenotime substitution slope (y/x)
 
-%%
+table_apfu2 = addvars(table_apfu, total_apfu, ...
+    ratio_Si_ZrHf_apfu, ratio_Si_all_apfu, ...
+    total_REE_Al_apfu, ratio_totalREE_P_apfu, ...
+    P_mol, total_REE_Al_mol, ratio_totalREE_P_mol);
+
+%% Append
 
 table_calculations = [table_molarity, table_apfu2];
 
