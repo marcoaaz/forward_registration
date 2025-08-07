@@ -10,7 +10,7 @@ Forward registration graphical abstract:
 
 The steps of the pipeline are: 1) image processing including image stitching (full version), grain segmentation, and montage registration, (2) grain image processing into grids, (3) desktop computer spot placement, (4) two-step image registration, microanalysis, and data reduction, (5) data source fusion into a master table, and (6) documentation of correlative microscopy findings including imagery, geochemistry, and U-Pb ages.
 
-The figure below shows the schematic workflow to study zircon mounts using state-of-the-art microscopy and laser ablation ICP-MS:
+Schematic workflow to study zircon mounts using state-of-the-art microscopy and laser ablation ICP-MS:
 
 <img width=70% height=70% alt="Image" src="https://github.com/user-attachments/assets/d87ff7c5-099b-4279-becf-e6422532c90a" />
 
@@ -57,7 +57,13 @@ If there are any omissions in terms of software and citations. Please, let me kn
 
 #### Supplementary Data
 
-Uploading to Zenodo..
+For trialling Step 3, the manual spot placement dataset can be downloaded from [Zenodo](https://zenodo.org/records/16750323) and opened in QuPath. The folder also contains the full resolution versions of Figure 5 and 10.
+For reproducibility, the original dataset can be downloaded in four parts (total ~200 GB) containing: 
+-	[Part 1](https://zenodo.org/records/16625000): CA-24MR-1 Puck 1 image analysis intermediate files and outputs from Step 5 (merge_script_v9.m). Iolite version 4 chemical data for pucks 1 and 2 and Iolite v4 projects. Ruby Creek imagery by Geoscience Australia. Data for Figure 9 and Table 1. Master table data dictionary with variable description (‘appended_DB_dictionary_v2_Marco.xlsx’). SEM experimental metadata in puck 1 TIMA and puck 2 Apreo 2 (similar to puck 1) experiments. 
+-	[Part 2](https://zenodo.org/records/16625000): Puck 1 image analysis inputs, intermediate files, and outputs.
+- [Part 3](https://zenodo.org/records/16653718): Puck 2 image analysis inputs, intermediate files, and outputs.
+-	[Part 4](https://zenodo.org/records/16655509): Puck 2 image stitching (Step 1) inputs and intermediate files.
+
 
 After downloading all the data, you need to edit the downloaded scripts and update the filepaths (within your system) mapping every required input file/image/folder to achieve the same results. The parameters are given in the paper Supplementary Material B.
 
@@ -75,7 +81,7 @@ Marco A. Acevedo Zamora1*, Balz S. Kamber1, John T. Caulfield1, Charlotte M. All
 
 1 Queensland University of Technology, School of Earth and Atmospheric Sciences, Brisbane, QLD, Australia.
 2 Queensland University of Technology, Central Analytical Research Facility
-3 SEM Applications Scientist, Thermo Fisher Scientific, Brisbane, QLD, Australia; justin.freeman@thermofisher.com
+3 SEM Applications Scientist, Thermo Fisher Scientific, Brisbane, QLD, Australia;
 
 * Corresponding author: marco.acevedozamora@qut.edu.au 
 https://orcid.org/0000-0003-3330-3828
