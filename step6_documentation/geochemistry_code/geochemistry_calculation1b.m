@@ -17,6 +17,7 @@ array5 = input_table.("Final Pb206-U238 age_2SE(prop)");
 array6 = input_table.("Final Pb207-U235 age_2SE(prop)");
 
 %Calculation parameters
+%lambdas 
 val = 0.00049; %lower age limit (very young 206/238)
 val_1 = 0.000155125; %denominator for 206Pb/238U
 val_2 = 0.00098485; %denominator for 207Pb/235U
@@ -136,9 +137,16 @@ He4_G_fromPb = ( ...
     7*U235_atomsG.*(exp(lambda2*alpha_age) - 1) + ...
     6*Th232_atomsG.*(exp(lambda3*alpha_age) - 1) );
 
-idx_condition5 = (He4_G_fromPb > 1*10^18);
+%Reiners et al. (2005): (U-Th)/(He-Pb) DOUBLE DATING OF DETRITAL ZIRCONS
+%Allen and Campbell (2012), see Fig.2: Identification and elimination of a
+%matrix-induced systematic error in LA–ICP–MS 206Pb/238U dating of zircon
+idx_condition5 = (He4_G_fromPb > 1*10^18); %natural annealing criteria
+
 idx_metamict = zeros([n_rows, 1]);
 idx_metamict(idx_condition5) = 1; %ruined
+
+%future work (alternative to find metamict zircon): Nasdala et al.
+%(2004):Incomplete retention of radiation damage in zircon from Sri Lanka
 
 %% Geochemical calculations
 
@@ -162,6 +170,7 @@ ratio_U_Yb = U_ppm./Yb_ppm;
 ratio_U_Yb_modified = ratio_U_Yb;
 ratio_U_Yb_modified(~idx_use) = 0;
 
+%Grimes et al. (2007): TE chemistry of zir from oceanic crust
 idx_condition6 = (ratio_U_Yb_modified > 0.023*exp(0.0001552*Hf_ppm_modified)); %formula
 
 tectonic_indicator = strings([n_rows, 1]);
@@ -169,7 +178,7 @@ tectonic_indicator(~idx_use) = "";
 tectonic_indicator(idx_condition6) = "continental";
 tectonic_indicator(idx_use & ~idx_condition6) = "oceanic";
 
-%Uranium condition
+%Uranium condition (low U zircon criteria)
 U_ppm_less100 = NaN([n_rows, 1]);
 idx_condition7 = idx_use & (U_ppm < 100);
 U_ppm_less100(idx_condition7) = U_ppm(idx_condition7);
@@ -179,9 +188,10 @@ U_ppm_less100(idx_condition7) = U_ppm(idx_condition7);
 
 age_isoplot = age_table.("age_isoplot");
 
+%Granite assumption
 var_pressure = 175; %MPa, assumptions
-a_TiO = .54; %activity TiO2
-a_SiO = 1; %SiO2 
+a_TiO = .54; %activity TiO2 (no rutile present)
+a_SiO = 1; %SiO2 (qtz in Eq.)
 
 Ti_temperature_K = ( (-4800 + (0.4748*(var_pressure - 1000)) ) ./ (log10(Ti_ppm) - 5.711 - log10(a_TiO) + log10(a_SiO)) );
 
@@ -215,13 +225,22 @@ idx_condition10 = idx_use & (ratio_CeUTi > 0.3) & (Ti_ppm > 0.01); %from Fig.9 (
 above_FMQ = zeros([n_rows, 1]);
 above_FMQ(idx_condition10) = 1;
 
+%future work: Loucks and Fiorentini (2023):
+%Oxidation of magmas during gain and loss of h2o recorded by TE in zir
+%(see hydration and hydrobarometer formula)
+
 % Garnet signal
+%Zhu et al.(2022): The temporal distribution of Earth's supermountains and
+%their potential link to the rise of atmospheric oxygen and biological
+%evolution
+
 ratio_UTh = U_ppm./Th_ppm;
 ratio_YbLu = Yb_ppm./Lu_ppm;
 Lu_ppm_less10 = double(Lu_ppm < 10);
-ratio_LuDy = Lu_ppm./Dy_ppm;
+ratio_LuDy = Lu_ppm./Dy_ppm; %normalised
 ratio_LuDy_normalised = double(10*ratio_LuDy < 3.5); %not normalised (header mistake?)
 garnet_signal = Lu_ppm_less10 + ratio_LuDy_normalised;
+
 
 ratio_UTh(~idx_use) = NaN;
 ratio_YbLu(~idx_use) = NaN;
