@@ -57,9 +57,9 @@ If there are any omissions in terms of software and citations. Please, let me kn
 
 #### Supplementary Data
 
-For trialling Step 3, the manual spot placement dataset can be downloaded from [Zenodo](https://zenodo.org/records/16750323) and opened in QuPath. The folder also contains the full resolution versions of Figure 5 and 10.
+For trialling Step 3, the manual spot placement dataset can be downloaded from [Zenodo](https://zenodo.org/records/16750323) and opened in QuPath. The folder also contains the full resolution versions of Figure 4 and 9.
 For reproducibility, the original dataset can be downloaded in four parts (total ~200 GB) containing: 
--	[Part 1](https://zenodo.org/records/16625000): CA-24MR-1 Puck 1 image analysis intermediate files and outputs from Step 5 (merge_script_v9.m). Iolite version 4 chemical data for pucks 1 and 2 and Iolite v4 projects. Ruby Creek imagery by Geoscience Australia. Data for Figure 9 and Table 1. Master table data dictionary with variable description (‘appended_DB_dictionary_v2_Marco.xlsx’). SEM experimental metadata in puck 1 TIMA and puck 2 Apreo 2 (similar to puck 1) experiments. 
+-	[Part 1](https://zenodo.org/records/16625000): CA-24MR-1 Puck 1 image analysis intermediate files and outputs from Step 5 (merge_script_v9.m). Iolite version 4 chemical data for pucks 1 and 2 and Iolite v4 projects. Ruby Creek imagery by Geoscience Australia. Data for Figure 8 and Table 1. Master table data dictionary with variable description (‘appended_DB_dictionary_v2_Marco.xlsx’). SEM experimental metadata in puck 1 TIMA and puck 2 Apreo 2 (similar to puck 1) experiments. 
 -	[Part 2](https://zenodo.org/records/16625000): Puck 1 image analysis inputs, intermediate files, and outputs.
 - [Part 3](https://zenodo.org/records/16653718): Puck 2 image analysis inputs, intermediate files, and outputs.
 -	[Part 4](https://zenodo.org/records/16655509): Puck 2 image stitching (Step 1) inputs and intermediate files.
@@ -75,9 +75,7 @@ See paper Supplementary Material A.
 
 If using the software pipeline or an independent module script, please cite:
 
-"Forward image registration for higher level interpretation of zircon provenance based on combined CL, U/Pb age and geochemical data"
-
-Marco A. Acevedo Zamora1*, Balz S. Kamber1, John T. Caulfield1, Charlotte M. Allen1,2, and Justin S. Freeman3
+"Forward image registration for higher level interpretation of zircon provenance based on combined CL, U/Pb age and geochemical data" Marco A. Acevedo Zamora1*, Balz S. Kamber1, John T. Caulfield1, Charlotte M. Allen1,2, and Justin S. Freeman3. Manuscript submitted to Geochemistry, Geophysics, Geosystems journal.
 
 1 Queensland University of Technology, School of Earth and Atmospheric Sciences, Brisbane, QLD, Australia.
 2 Queensland University of Technology, Central Analytical Research Facility
