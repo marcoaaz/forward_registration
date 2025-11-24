@@ -1,12 +1,24 @@
 # forward_registration
 
-Repository with the forward registration image analysis pipeline to study mineral mounts with combined microscopy techniques and micro-analytical spots. The case study were hand-picked zircon epoxy mounts from a location in Australia (Murray River Basin). More details in the manuscript (currently under review) that is listed below.
+The forward registration image analysis pipeline is useful to study mineral mounts with combined microscopy techniques and micro-analytical spots. In the research article we present the case study of hand-picked zircon epoxy mounts from a location in Australia (Murray River Basin).
 
-Forward registration graphical abstract:
+Manuscript graphical abstract:
 
 <img width=65% height=65% alt="Image" src="https://github.com/user-attachments/assets/b3ccfcdd-6b5c-4a2a-9b99-78a7663588b4" />
 
-## Workflow
+
+## Scientific citation
+
+If using the full or part of the software pipeline (or an independent module), please cite: ***"Forward image registration for higher level interpretation of zircon provenance based on combined CL, U/Pb age and geochemical data"*** Marco A. Acevedo Zamora1*, Balz S. Kamber1, John T. Caulfield1, Charlotte M. Allen1,2, and Justin S. Freeman3. Manuscript submitted to Geochemistry, Geophysics, Geosystems journal.
+* Corresponding author: marco.acevedozamora@qut.edu.au (https://orcid.org/0000-0003-3330-3828)
+
+The preliminary citations are (until the full paper gets published):
+- "A Step Change in Multi-Dimensional Zircon Provenance Analysis from Forward Registered CL, U/Pb Age, and Trace Element Data." Acevedo Zamora MA, Kamber BS, Caulfield JT & Allen CM (2025). https://goldschmidtabstracts.info/abstracts/abstractView?doi=10.7185/gold2025.26671
+-	"Forward Image Registration for Higher Level Interpretation of Zircon Provenance Based on Combined CL, U/Pb Age and Geochemical Data." Acevedo Zamora MA, Kamber BS, Caulfield JT & Allen CM (2025). https://goldschmidtabstracts.info/abstracts/abstractView?id=2020016303
+-	"Mineral Separate Microanalysis with Intelligent Spot Placement, Manual Edition, and Simulation: Two Correlative Microscopy Prototypes for Relating Zircon Texture, Age, and Geochemistry."  Marco A. Acevedo Zamora 1 , , John T. Caulfield 1 , Elise Laupland 1 , Balz S. Kamber 1 , Charlotte M. Allen 1 (2025). https://www.scienceopen.com/hosted-document?doi=10.14293/APMC13-2025-0280
+
+
+## Image analysis pipeline
 
 The steps of the pipeline are: 1) image processing including image stitching (full version), grain segmentation, and montage registration, (2) grain image processing into grids, (3) desktop computer spot placement, (4) two-step image registration, microanalysis, and data reduction, (5) data source fusion into a master table, and (6) documentation of correlative microscopy findings including imagery, geochemistry, and U-Pb ages.
 
@@ -21,6 +33,7 @@ Details of the steps routines, data and script flows (denoted by arrows):
 The slide below shows the programming languages sequence for all the Steps. Step 5 (master table) in bold font is the main MatLab script (merge_grids_v9.m) that orchestrates the data flow that comes in the master table and is shown as grid displays. The plug-in cartoon represents the external software that can be streamlined to the pipeline:
 
 <img width=60% height=60% alt="Image" src="https://github.com/user-attachments/assets/6af06a1f-2b06-4a16-b90a-160c984401a7" />
+
 
 ## Installation and required libraries
 
@@ -55,6 +68,7 @@ Step 1 used [Fiji](https://imagej.net/software/fiji/) distribution (ImageJ 1.54f
 
 If there are any omissions in terms of software and citations. Please, let me know to my personal email. Thanks for your understanding.
 
+
 #### Supplementary Data
 
 For trialling Step 3, the manual spot placement dataset can be downloaded from [Zenodo](https://zenodo.org/records/16750323) and opened in QuPath. The folder also contains the full resolution versions of Figure 4 and 9.
@@ -64,26 +78,15 @@ For reproducibility, the original dataset can be downloaded in four parts (total
 - [Part 3](https://zenodo.org/records/16653718): Puck 2 image analysis inputs, intermediate files, and outputs.
 -	[Part 4](https://zenodo.org/records/16655509): Puck 2 image stitching (Step 1) inputs and intermediate files.
 
-
 After downloading all the data, you need to edit the downloaded scripts and update the filepaths (within your system) mapping every required input file/image/folder to achieve the same results. The parameters are given in the paper Supplementary Material B.
 
-#### Documentation
+#### Software documentation
 
-See paper Supplementary Material A.
+Description in full paper (Supplementary Material A).
 
-#### Cite
 
-If using the software pipeline or an independent module script, please cite:
+Thanks for your support.
 
-"Forward image registration for higher level interpretation of zircon provenance based on combined CL, U/Pb age and geochemical data" Marco A. Acevedo Zamora1*, Balz S. Kamber1, John T. Caulfield1, Charlotte M. Allen1,2, and Justin S. Freeman3. Manuscript submitted to Geochemistry, Geophysics, Geosystems journal.
+Cordially,
+Marco
 
-1 Queensland University of Technology, School of Earth and Atmospheric Sciences, Brisbane, QLD, Australia.
-2 Queensland University of Technology, Central Analytical Research Facility
-3 SEM Applications Scientist, Thermo Fisher Scientific, Brisbane, QLD, Australia;
-
-* Corresponding author: marco.acevedozamora@qut.edu.au 
-https://orcid.org/0000-0003-3330-3828
-
-Keywords: image analysis, forward registration, grid display, colour cathodoluminescence, correlative microscopy
-
-Thank you.
