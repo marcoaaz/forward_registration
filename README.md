@@ -1,18 +1,19 @@
 # forward_registration
 
-The forward registration image analysis pipeline is useful to study mineral mounts with combined microscopy techniques and micro-analytical spots. In the research article we present the case study of hand-picked zircon epoxy mounts from a location in Australia (Murray River Basin).
+The forward registration image analysis pipeline can be deployed to study mineral mounts with combined microscopy techniques and micro-analysis using spots. 
 
 Manuscript graphical abstract:
 
 <img width=65% height=65% alt="Image" src="https://github.com/user-attachments/assets/b3ccfcdd-6b5c-4a2a-9b99-78a7663588b4" />
 
-
 ## Scientific citation
 
-If using the full or part of the software pipeline (or an independent module), please cite: ***"Forward image registration for higher level interpretation of zircon provenance based on combined CL, U/Pb age and geochemical data"*** Marco A. Acevedo Zamora1*, Balz S. Kamber1, John T. Caulfield1, Charlotte M. Allen1,2, and Justin S. Freeman3. Manuscript submitted to Geochemistry, Geophysics, Geosystems journal.
+We studied a hand-picked zircon epoxy mount from a location in Murray River Basin (Australia) in a research article using the approach. If using the full or part of the software pipeline (or an independent module), please cite: 
+
+**"Forward image registration for higher level interpretation of zircon provenance based on combined CL, U/Pb age and geochemical data"** Marco A. Acevedo Zamora1*, Balz S. Kamber1, John T. Caulfield1, Charlotte M. Allen1,2, and Justin S. Freeman3. Manuscript submitted to Geochemistry, Geophysics, Geosystems journal.
 * Corresponding author: marco.acevedozamora@qut.edu.au (https://orcid.org/0000-0003-3330-3828)
 
-The preliminary citations are (until the full paper gets published):
+The citations to use until the full publication are:
 - "A Step Change in Multi-Dimensional Zircon Provenance Analysis from Forward Registered CL, U/Pb Age, and Trace Element Data." Acevedo Zamora MA, Kamber BS, Caulfield JT & Allen CM (2025). https://goldschmidtabstracts.info/abstracts/abstractView?doi=10.7185/gold2025.26671
 -	"Forward Image Registration for Higher Level Interpretation of Zircon Provenance Based on Combined CL, U/Pb Age and Geochemical Data." Acevedo Zamora MA, Kamber BS, Caulfield JT & Allen CM (2025). https://goldschmidtabstracts.info/abstracts/abstractView?id=2020016303
 -	"Mineral Separate Microanalysis with Intelligent Spot Placement, Manual Edition, and Simulation: Two Correlative Microscopy Prototypes for Relating Zircon Texture, Age, and Geochemistry."  Marco A. Acevedo Zamora 1 , , John T. Caulfield 1 , Elise Laupland 1 , Balz S. Kamber 1 , Charlotte M. Allen 1 (2025). https://www.scienceopen.com/hosted-document?doi=10.14293/APMC13-2025-0280
@@ -40,7 +41,6 @@ The slide below shows the programming languages sequence for all the Steps. Step
 The MatLab scripts can be run with:
 
 MATLAB Version: 24.2.0.2740171 (R2024b) Update 1
-MATLAB License Number: 31
 Operating System: Microsoft Windows 11 Enterprise Version 10.0 (Build 22631)
 Java Version: Java 1.8.0_202-b08 with Oracle Corporation Java HotSpot(TM) 64-Bit Server VM mixed mode
 
@@ -60,7 +60,7 @@ Java Version: Java 1.8.0_202-b08 with Oracle Corporation Java HotSpot(TM) 64-Bit
 - Symbolic Math Toolbox                                 Version 24.2        (R2024b)
 - Wavelet Toolbox                                       Version 24.2        (R2024b)
 
-The Python scripts require environments to be set up. You can use the nearby requirements.txt files. I recommend deploying Python environments in VSCode IDE.
+The Python scripts require environments to be set up. You can use the nearby requirements.txt files (see folder and sub-folders). I recommend deploying Python environments in VSCode IDE.
 
 The R scripts require R version 4.4.3 (2025-02-28 ucrt) -- "Trophy Case" for x86_64-w64-mingw32/x64 platform. You can use RStudio 2024 to visualise/edit them according to your needs.
 
@@ -71,21 +71,20 @@ If there are any omissions in terms of software and citations. Please, let me kn
 
 #### Supplementary Data
 
-For trialling Step 3, the manual spot placement dataset can be downloaded from [Zenodo](https://zenodo.org/records/16750323) and opened in QuPath. The folder also contains the full resolution versions of Figure 4 and 9.
-For reproducibility, the original dataset can be downloaded in four parts (total ~200 GB) containing: 
+For trialling Step 3, the manual spot placement dataset can be downloaded from [Zenodo](https://zenodo.org/records/16750323) and opened in QuPath. 
+
+For full reproducibility of the paper results (and figures), the original dataset can be downloaded in four parts (total ~200 GB) containing: 
 -	[Part 1](https://zenodo.org/records/16625000): CA-24MR-1 Puck 1 image analysis intermediate files and outputs from Step 5 (merge_script_v9.m). Iolite version 4 chemical data for pucks 1 and 2 and Iolite v4 projects. Ruby Creek imagery by Geoscience Australia. Data for Figure 8 and Table 1. Master table data dictionary with variable description (‘appended_DB_dictionary_v2_Marco.xlsx’). SEM experimental metadata in puck 1 TIMA and puck 2 Apreo 2 (similar to puck 1) experiments. 
 -	[Part 2](https://zenodo.org/records/16625000): Puck 1 image analysis inputs, intermediate files, and outputs.
 - [Part 3](https://zenodo.org/records/16653718): Puck 2 image analysis inputs, intermediate files, and outputs.
 -	[Part 4](https://zenodo.org/records/16655509): Puck 2 image stitching (Step 1) inputs and intermediate files.
 
-After downloading all the data, you need to edit the downloaded scripts and update the filepaths (within your system) mapping every required input file/image/folder to achieve the same results. The parameters are given in the paper Supplementary Material B.
+After download, the user needs the scripts within this repository (follow Step subfolders) and update the filepaths within your system mapping every required input file/image/folder to achieve the same results. 
 
-#### Software documentation
-
-Description in full paper (Supplementary Material A).
+The full explanation of the workflow is in Supporting information Text 1. The exact script metadata to reproduce the manuscript figures are given in the Supporting information Text 2.
 
 
-Thanks for your support.
+Thanks.
 
 Cordially,
 Marco
