@@ -25,6 +25,8 @@ scriptsFolder2 = fullfile(scriptsFolder1, 'step2_grids');
 scriptsFolder3 = fullfile(scriptsFolder1, 'step3_planning');
 scriptsFolder4 = fullfile(scriptsFolder1, 'step3b_semi-automatic');
 scriptsFolder5 = fullfile(scriptsFolder1, 'step4_registration');
+scriptsFolder6 = fullfile(scriptsFolder1, 'plots_in_matlab');
+scriptsFolder7 = fullfile(scriptsFolder1, 'step6_documentation'); %spot interrogation
 
 addpath(scriptsFolder);
 addpath(scriptsFolder1) 
@@ -32,69 +34,48 @@ addpath(scriptsFolder2)
 addpath(scriptsFolder3) 
 addpath(scriptsFolder4) 
 addpath(scriptsFolder5) 
+addpath(scriptsFolder6) 
+addpath(scriptsFolder7)
 addpath(fullfile(scriptsFolder, "bfmatlab/")) 
 
 %% User input
 
-destinationFolder = 'review_19-Dec-25'; %output folder
+
+destinationFolder = 'project_24-Dec-25'; %output folder
 
 %Registered reference images to interrogate
-folderWithMontages = 'D:\Justin Freeman collab\Marco Zircon_16bit\prototype2_work';
-sourceFile1 = fullfile(folderWithMontages, 'Fused_BSE_CL(RGB)_16-bit.tif'); %interrogation
-source_path1 = fullfile(folderWithMontages, "Fused_BSE_CL(RGB)_16-bit.tif"); %slicing
+folderWithMontages = 'E:\Feb-March_2024_zircon imaging\00_Paper 4_Forward image registration\Ruby Creek_db_imagery\GA6248_Chisholm\registered';
+sourceFile1 = fullfile(folderWithMontages, 'CL_GA6248 2164940.tif'); %interrogation
+source_path1 = fullfile(folderWithMontages, "CL_GA6248 2164940.tif"); %slicing
 
-folderWithOutputs = 'D:\Justin Freeman collab\Marco Zircon_16bit\prototype2_work\qupath_project\output_test2';
-sourceFile2 = fullfile(folderWithOutputs, 'wsi.tif'); %Labelled whole-slide image (QuPath export collaged in Python)
+folderWithOutputs = 'E:\Feb-March_2024_zircon imaging\00_Paper 4_Forward image registration\Ruby Creek_db_imagery\GA6248_Chisholm\registered\segmentation\RL_GA6248 2164940_1';
+sourceFile2 = fullfile(folderWithOutputs, 'wsi_labelled.tif'); %Labelled whole-slide image (QuPath export collaged in Python)
 
 %Peripheral files
-qupath_dir = 'D:\Justin Freeman collab\Marco Zircon_16bit\prototype2_work\qupath_project\output_test2\John_spots'; %point annotated grids (QuPath new project)
-filename_9 = 'D:\Justin Freeman collab\Marco Zircon_16bit\prototype2_work\qupath_project\CL_31-Jan-25\Fused_BSE_CL(RGB)_greyscale\PT_patches\Fused_BSE_CL(RGB)_greyscale_vector-knn.csv'; %CNN feature vectors
-filename_11 = "E:\Feb-March_2024_zircon imaging\02_John Caulfield_files\CA-24MR_chemical data\puck 1\scan_list_output.xlsx"; %merged laser data
+filename_9 = "E:\Feb-March_2024_zircon imaging\00_Paper 4_Forward image registration\Ruby Creek_db_imagery\GA6248_Chisholm\registered\segmentation\RL_GA6248 2164940_1\CL_GA6248 2164940\PT_patches\CL_GA6248 2164940_vector-knn.csv"; %CNN feature vectors
+qupath_dir = ''; %point annotated grids (QuPath new project)
+filename_11 = ""; %merged laser data
+
 
 %Watershed segmentation import (grain size threshold)
-spatialResolution = 1; %microns/px
+spatialResolution = 0.417; %microns/px
 minSpotSize = 25; %microns
 
 %Pre-select grains getting centroids x-y (after manual QA/QC QuPath for lost grains).
-lost_grains = [
-    62, 107, 123, 95, 184, 434, 191, 248, 310, 448,... 
-    289, 119, 416, 223, 383, 8, 7, 115, 159, 17,...
-    534, 515, 514, 418, 385, 138, 348, 406, 273, 150,...
-    72, 163, 31, 493, 502, 100, 370, 439, 336, 22, ...
-    474, 175, 524, 525, 301, 144, 389, 281, 526, 396, ...
-    112, 29, 15, 487, 82, 478, 465, 110, 94, 277, ...
-    151, 194, 87, 408, 317, 92, 288, 518, 57, 346, ...
-    5, 232, 84, 533, 127, 449, 134, 467, 432, 388, ...
-    152, 140, 404, 468, 30, 409, 195, 444, 74, 28, ...
-    233, 147, 254, 319, 354, 464, 161, 146, 459, 360, ...
-    240, 293, 491, 20, 511, 414, 124, 412, 476, 156, ...
-    334, 479, 386, 168, 512, 24, 531, 501, 16, 10, ...
-    437, 291, 415, 186, 66, 322, 529, 221, 9, 103, ...
-    475, 13, 3, 262, 393, 6, 343, 105, 344, 294, ...
-    259, 192, 302, 400, 498, 353, 471, 267, 188, 456, ...
-    405, 419, 225, 490, 517, 239, 101, 441, 455, 130, ...
-    81, 160, 299, 473, 202, 139, 116, 77, 480, 428, ...
-    193, 326, 421, 46, 333, 258, 309, 64, 382, 208, ...
-    284, 280, 219, 274, 264, 104, 394, 305, 338, 304, ...
-    306, 508, 249, 296, 271, 496, 201, 390, 420, 174, ...
-    234, 494, 243, 198, 154, 325, 206, 69, 1, 91, ...
-    102, 422, 522, 136, 251, 433, 268     
+lost_grains = [        
     ];
-
 
 %Pre-classification (follows 'classifying_variable' defined in script section)
 %Note: ascend sorting within grids (defined by topSize)
 n_classes = 1; %default= 4; equal populations
 plotOption = 1;
-sel_grain = 63; %by grain label, number in MatLab convention
-classifying_variable = 'aspectRatio';
+sel_grain = 100; %by grain label, number in MatLab convention
+classifying_variable = 'knn'; %knn for ResNet50
 display_variable = 'age_isoplot'; %for burning text; classifying_variable
 sort_direction = 'descend'; %'ascend', 'descend'
 
 %Grid slicing, saving, and collaging settings (grids)
-% canvas_aspectR = 1; %W/H = 16/9 power point
-% topSize = 16000;  %20500
-nrows = 15;
+nrows = 5;
 nGrids = 1;
 chosen_bb_variable = 'MaxFeretDiameter';
 scale = 75; %default= 75; pct of largest grain dim (bounding box calculation)
@@ -104,20 +85,28 @@ sel_pattern = [4, 1];
 pctOut = .5; %optional: auto-contrast (percentile out on both histogram sides)
 brightnessOption = 1; %brightness rescaling on/off
 
-burnOption = 0; %grain tags on/off
-labelOption = 0; %spots tags on/off (time consuming)
+burnOption = 1; %grain tags on/off
+labelOption = 1; %for spots (time consuming)
 pixel_size = spatialResolution; %microns/px
-spotSize= 25; %in microns
+spotSize= 30; %in microns
 
 sample_str = ''; %edit (folder name)
 trial_n = 0; %counter
 
+%standard destination cell 'bounding box'
+bb_width_microns = 125; %microns
+bb_height_microns = bb_width_microns*2;
+bb_width = floor(bb_width_microns/spatialResolution);
+bb_height = floor(bb_height_microns/spatialResolution);
+
+
+
 
 %% Script
 
-%defaults:
-% %standard destination cell 'bounding box'
-% bb_width_microns = 125; %microns
+%manual defaults:
+% %destination cell 'bounding box'
+% bb_width_microns = 125; %microns, 
 % bb_height_microns = bb_width_microns*2;
 % bb_width = floor(bb_width_microns/spatialResolution);
 % bb_height = floor(bb_height_microns/spatialResolution);
@@ -151,38 +140,25 @@ destinationFile2 = fullfile( rootFolder, fileName2); %foreground
 destinationFile3 = fullfile( intermediateFolder, fileName3); %reference image modified (masked)
 filepath_10 = fullfile(intermediateFolder, 'coord_output_grid.xlsx'); %centroids TSV
 
-%Optional:
-%data from 'classifyFolder_wVectors_v4.ipynb'
+%Conditional:
 [sorting_table4, status_resnet] = load_resnetSimilarity(filename_9);
+%data from 'classifyFolder_wVectors_v4.ipynb'
 
-%data from 'imageRegistration_v7.m' script and Iolite
-try
-    laser_data = readtable(filename_11, 'VariableNamingRule','preserve');
-    status_laser = 1;
-    
-    % Option: Parse sample name
-    if strcmp(sample_str, '')
-        laser_data_sub = laser_data;
-    else
-        idx_sample = contains(laser_data.sampleName, sample_str);
-        laser_data_sub = laser_data(idx_sample, :);
-    end
-    
-catch ME    
-    display(ME.message);
-    status_laser = 0;
-end
+[laser_data_sub, status_laser] = load_stepFour_output(filename_11, sample_str);
+%data from Iolite
 
-%% Loading images (time-consuming)
-%Note: a future update should allow using 16-bit multi-channel image
+%% Load images
+disp('Loading images. This takes long..')
+
+%Note 1: a future update should allow using 16-bit multi-channel image
 %pyramids that do not fit in memory
-disp('Loading images. Please, wait..')
 
+%Loading registered images
 labelled_map = imread(sourceFile2); %whole-mount image grains (Pyvips script)
-img_ref = imread(sourceFile1); %registered reference image
-img_foreign0 = imread(source_path1); %Image to slice into grids (re-run)
+img_ref = imread(sourceFile1); %reference image
+img_foreign0 = imread(source_path1); %image to slice into grids (usually for re-run)
 
-%medicine
+%Medicine: read as always with 3-channels
 if size(img_foreign0, 3) == 1
     img_foreign = repmat(img_foreign0, [1, 1, 3]);
 else
@@ -197,24 +173,15 @@ inputType = class(img_foreign); %8 or 16-bit
 size_TH = ( minSpotSize*(1/spatialResolution) )^2; %min. grain size threshold (px^2)
 
 [labelled_map2, BW3, stats2] = imported_Watershed(labelled_map, img_ref, size_TH, ...
-    destinationFile1, destinationFile2, destinationFile3); %interrogation 
+    destinationFile1, destinationFile2, destinationFile3); %grain interrogation 
 
 %masking input
 img_foreign_fg = img_foreign; %to slice
 img_foreign_fg(~BW3) = 0;
 img_ref_fg2 = img_foreign_fg; %pre-allocating
 
-% Appending new data
-if status_resnet == 1 & status_laser == 0
-
-    %Append segmentation data to ResNet50 vectors
-    stats3 = outerjoin(stats2, sorting_table4, ...
-        'LeftKeys', {'Label'},'RightKeys',{'grain'}, 'MergeKeys',true);
-    stats3 = renamevars(stats3, "Label_grain", 'Label'); %medicine (without laser)
-
-    stats6 = stats3;
-
-elseif status_resnet == 1 & status_laser == 1   
+% Appending tables with segmentation
+if status_resnet == 1 && status_laser == 1   
     
     stats3 = outerjoin(stats2, sorting_table4, ...
     'LeftKeys', {'Label'},'RightKeys',{'grain'}, 'MergeKeys', true);       
@@ -226,24 +193,40 @@ elseif status_resnet == 1 & status_laser == 1
         
     stats6 = stats5;
 
-elseif status_resnet == 0 & status_laser == 0 %No change
+    % %Uncomment lines below (optional):
+     
+    % %Medicine 1: filtering artefact ages (not using isoplot, old routine)
+    % %Only for: D:\Justin Freeman collab\Marco Zircon_16bit\prototype2_work\qupath_project\output_test2\project_22-Apr-25    
+    % filtering_variable = 'Final Pb206-U238 age_mean';
+    % values = stats6{:, filtering_variable};
+    % idx_real = (values > 0) & (values < 4543);
+    % stats6 = stats6(idx_real, :);
+
+    % %Medicine 2: filtering other minerals (not zircon)
+    % idx_zircon1 = (DB_sorted_in.Ti49_ppm_mean < 3000); %
+    % idx_zircon2 = (DB_sorted_in.Zr91_ppm_mean > 300000);
+    % idx_zircon = idx_zircon1 & idx_zircon2;
+    % DB_sorted_in = DB_sorted_in(idx_zircon, :);
+    % 
+    % %Medicine 3 (optional): Appending isoplot calculations and plot saving
+    % [isoplot_table] = geochemistry_isoplot_1(DB_sorted_in, gridFolder);
+    % DB_sorted_in = [DB_sorted_in, isoplot_table]; 
+
+elseif status_resnet == 1 && status_laser == 0
+
+    %Append segmentation data to ResNet50 vectors
+    stats3 = outerjoin(stats2, sorting_table4, ...
+        'LeftKeys', {'Label'},'RightKeys',{'grain'}, 'MergeKeys',true);
+    stats3 = renamevars(stats3, "Label_grain", 'Label'); %medicine (without laser)
+
+    stats6 = stats3;
+
+elseif status_resnet == 0 && status_laser == 0 %No change
 
     stats6 = stats2;
+
 end
-
-%Comment below to reproduce old results:
-% %Medicine: filtering artefact ages
-% filtering_variable = 'Final Pb206-U238 age_mean';
-% values = stats6{:, filtering_variable};
-% idx_real = (values > 0) & (values < 4543);
-% stats6 = stats6(idx_real, :);
-
 %% Sorting grains by criteria (prepare for next section)
-
-% %Optional: User secondary input (manual to avoid reloading images)
-% sel_grain = 238; %by grain label, number in MatLab convention
-% classifying_variable = 'knn'; %knn for ResNet50
-% sort_direction = 'descend'; %'ascend', 'descend'
 
 %Find sorting index
 all_grains = stats6.Label;
@@ -286,29 +269,12 @@ destinationFile11 = strrep(destinationFile10, '_burned.tif', '_burned_CL.tif'); 
 destinationFile12 = fullfile(gridFolder, 'option2_spot_table.xlsx');
 destinationFile13 = fullfile(gridFolder, 'option2_zone_table.mat');
 
-%Sorting and pre-classifying
+%Sorting and pre-classifying (several grids)
 DB_sorted_in0 = stats6(sort_idx2, :); %untouched
 
 idx_removed_WSgrains = isnan(DB_sorted_in0.centroid_x);
 DB_sorted_in = DB_sorted_in0(~idx_removed_WSgrains, :);
 
-% %Optional (only available with geochemistry):
-% %Medicine 1: filtering artefact ages from merged grid database
-% filtering_variable = 'Final Pb206-U238 age_mean';
-% values = DB_sorted_in{:, filtering_variable};
-% idx_real = (values > 0) & (values < 4543);
-% DB_sorted_in = DB_sorted_in(idx_real, :);
-% 
-% %Medicine 2: filtering other minerals (not zircon)
-% idx_zircon1 = (DB_sorted_in.Ti49_ppm_mean < 3000); %
-% idx_zircon2 = (DB_sorted_in.Zr91_ppm_mean > 300000);
-% idx_zircon = idx_zircon1 & idx_zircon2;
-% DB_sorted_in = DB_sorted_in(idx_zircon, :);
-% 
-% %Medicine 3 (optional): Appending isoplot calculations and plot saving
-% [isoplot_table] = geochemistry_isoplot_1(DB_sorted_in, gridFolder);
-% DB_sorted_in = [DB_sorted_in, isoplot_table]; 
-%
 [DB_sorted, populationBand] = sorting_grainDB_importedIdx(DB_sorted_in, n_classes);
 
 %Auxiliary calculations
@@ -328,7 +294,7 @@ coord_input = [input_table.centroid_x, input_table.centroid_y];
 
 [coord_labelled] = centroid_labelling(coord_input, labelled_map2, r);
 
-%Grid configuration
+%Grid configuration metadata
 grid_info = struct;
 grid_info.dim_wmi = dim_wmi_slice;
 grid_info.inputType = inputType;
@@ -341,7 +307,6 @@ grid_info.bb_height = bb_height;
 grid_info.bb_width = bb_width;
 grid_info.sel_pattern = sel_pattern;
 
-% [grid_info, logSheet] = grid_configuration(grid_info, topSize, canvas_aspectR);
 [grid_info, logSheet] = grid_configuration_custom(grid_info, nrows, nGrids);
 
 %Slice whole-mount image with affine transformation (~1 min)
@@ -360,31 +325,65 @@ save(destinationFile4_full, 'bbXYtable_full', '-mat','-v7.3')
 [mountImage] = collaging_WMI_affine(gridCells, bbXYtable_full, grid_info, 'linear'); 
 imwrite(mountImage, destinationFile6); 
 
-%centroids in grid (for QuPath)
+%Save: grain montage centroids as grid centroids (for QuPath)
 [~, b] = ismember(lost_grains, coord_labelled(:, 1)); %filtering out pre-selected grains
 c = setdiff(1:size(coord_labelled, 1), b);
 coord_labelled2 = coord_labelled(c, :);
 coord_labelled2 = unique(coord_labelled2, 'rows'); %medicine
-[coord_output] = slice_WMI_affine_coord(coord_labelled2, bbXYtable_full); %grain 164 in row1 repeated
+[coord_output] = slice_WMI_affine_coord(coord_labelled2, bbXYtable_full); %grid coordinates
 
 coord_output_grid2 = array2table(coord_output, "VariableNames", ...
     {'class', 'grid', 'label', 'x', 'y'});
 writetable(coord_output_grid2, filepath_10); %required
-writeQupathPoints(filepath_10);
+disp('"step2_grids" finished here. Please, run "step3_planning" with QuPath interaction.')
 
-%Centroids in original image (quality-checks inverse transformation)
-coord_labelled_grid = coord_output(:, 3:5);
-[coord_output2] = collaging_WMI_affine_coord(coord_labelled_grid, bbXYtable_full);
+writeQupathPoints(filepath_10); %Step 3
+disp('An expert need to place spots in QuPath. The centroids can be used to pre-populate grains.')
+return
 
-winopen(gridFolder); %important for 'data_science_v2.m' script
-
-%% Prepare for attending analytical session
-%Pre-requisite: Expert has worked in QuPath placing spots (editing pre-populated centroids)
-%Output: To be opened in 'imageRegistration_v7.m' script
+%% Two-step registration of stage coordinates (preparing for analytical session X-Y)
+disp('"step4_registration" begins here..')
 
 [coord_output3] = retrieve_optionA(qupath_dir, bbXYtable_full, destinationFile14);
 
-%% Optional: forward registration, planned spots in grid
+%Run 'imageRegistration_v7.m' script here.
+
+%Interrogate spots 
+table1_labelled = array2table(coord_output3(:, 3:5), ...
+    'VariableNames', {'Grain', 'X_reg', 'Y_reg'});
+img_cell = {img_ref};
+img_basename_cell = {'CL'};
+r = ceil(spot_diameter/2); %px
+
+[intensity_table] = interrogate_spot_area( ...
+    table1_labelled, labelled_map2, img_cell, img_basename_cell, r);
+
+intensity_table2 = removevars([table1_labelled, intensity_table], ...
+    {'X_reg', 'Y_reg'});
+
+%Append spot intensity data
+DB_sorted = grid_info.DB_sorted;
+
+colnames = DB_sorted.Properties.VariableNames;
+expression_check = '.*_ch\d+_mean';
+test0 = regexp(colnames, expression_check, "match");
+test1 = any(~cellfun('isempty', test0), 2);
+
+if ~test1 %avoids recursivity
+    [DB_sorted2, ileft, iright] = outerjoin(DB_sorted, intensity_table2, ...
+        'LeftKeys', {'Label'},'RightKeys', {'Grain'}, 'MergeKeys',true);
+    DB_sorted2 = renamevars(DB_sorted2, "Label_Grain", 'Label'); %medicine
+    
+    [~, sortInds] = sort(ileft); %ensure unsorted outcome
+    DB_sorted3 = DB_sorted2(sortInds, :);
+    
+    grid_info.DB_sorted = DB_sorted3;
+    save(destinationFile8, 'grid_info', '-mat', '') %heavy for saving
+end
+
+%% Visualisation 1: planned/analysed spots in grid (forward registration)
+labelOption = 1
+spot_fontSize = 15; %35, 60 (for paper Figures)
 
 idx_content = ~any(ismissing(DB_sorted), 2);
 planned_spots = DB_sorted(idx_content, {'X', 'Y', 'Label'});  %classifying_variable
@@ -392,10 +391,6 @@ planned_spots = DB_sorted(idx_content, {'X', 'Y', 'Label'});  %classifying_varia
 planned_spot_info = DB_sorted{idx_content, display_variable}; %text   
 temp_val = strsplit(sprintf('%.01f,', planned_spot_info), ',')';  %rounding text value
 planned_spot_info2 = temp_val(1:end-1);
-
-% planned_spots0 = stats6(:, {'X', 'Y', 'Label', display_variable}); %stats5
-% planned_spots = planned_spots0( all(~ismissing(planned_spots0), 2), :);
-% planned_spot_info = planned_spots{:, display_variable}; %text
 
 %building input
 planned_coord_input = [planned_spots.X, planned_spots.Y];
@@ -407,9 +402,9 @@ planned_coord_labelled2 = [...
 [planned_coord_output] = slice_WMI_affine_coord(planned_coord_labelled2, bbXYtable_full);
 
 [grid_info] = save_burned_grids(grid_info, class_grids, ...
-    planned_coord_output, planned_spot_info2, spot_diameter, prev_suffix, labelOption);
+    planned_coord_output, planned_spot_info2, spot_diameter, prev_suffix, labelOption, spot_fontSize);
 
-%% Optional: backward registration, previously analysed spots in grid
+%% Visualisation 2 (optional): previously analysed spots in grid (backwards registration)
 
 % [A, ~, ~] = fileparts(folderWithOutputs); %backward registration data
 % filename_10 = fullfile(A, 'processed_files', 'merged_7-apr.xlsx');
@@ -427,12 +422,36 @@ prev_coord_labelled2 = [double(prev_coord_labels), prev_coord_input];
 
 %% Optional: Quality check plots
 
-%check centroids
-plot_original_check1(img_ref_fg2, coord_labelled2, 7) %n_std
+%Check labelled centroids
+plot_original_check1(img_ref_fg2, coord_labelled2, 7) %adjust contrast= 7
 plot_grid_check1(class_grids, coord_output, 1, 1) %class, grid
 
-%check centroids/expert spots 
-plot_original_check2(mountImage, coord_output3)%coord_output3 (if quPath)
+%Check labelled points (after Step 3) on reconstructed image
+plot_original_check2(mountImage, coord_output3) %follows quPath annotation order
+
+% %Check unlabelled centroids in original image (to quality-check inverse transformation)
+% coord_labelled_grid = coord_output(:, 3:5);
+% [coord_output2] = collaging_WMI_affine_coord(coord_labelled_grid, bbXYtable_full);
 
 
+%% Plot grain-spot intensity comparison
+
+X1 = DB_sorted.MeanIntensity_ch1; %2, 3
+Y1 = DB_sorted.CL_ch01_mean;
+
+X2 = DB_sorted.MeanIntensity_ch2; %2, 3
+Y2 = DB_sorted.CL_ch02_mean;
+
+X3 = DB_sorted.MeanIntensity_ch3; %2, 3
+Y3 = DB_sorted.CL_ch03_mean;
+
+% Define colors and data containers for the loop
+channels = {'Red', 'Green', 'Blue'};
+colors = [1 0 0;  % Red-ish
+          0 1 0;  % Green-ish
+          0 0 1]; % Blue-ish
+data_x = {X1, X2, X3};
+data_y = {Y1, Y2, Y3};
+
+plot_spot_RGB_comparison(data_x, data_y, colors, channels)
 

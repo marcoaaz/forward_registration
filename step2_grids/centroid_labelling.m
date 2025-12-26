@@ -1,6 +1,9 @@
 function [coord_labelled] = centroid_labelling(coord_input, labelled_map2, r)
 %function to label coordinate inputs (X, Y) from labelled image
 
+%Note 1: Since we are working with the calculated centroids, this function
+%should never fail.
+
 %find point labels
 coord_input2 = ceil(coord_input - 0.5); 
 coord_labels = labelled_map2(sub2ind( size(labelled_map2), ...

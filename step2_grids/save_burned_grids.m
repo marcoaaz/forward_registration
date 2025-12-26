@@ -1,13 +1,13 @@
 
 function [grid_info] = save_burned_grids(grid_info, class_grids, ...
-    prev_coord_output, prev_spot_info, spot_diameter, suffix, labelOption)
+    prev_coord_output, prev_spot_info, spot_diameter, suffix, labelOption, spot_fontSize)
 
-%ImageJ > Cannot be re-saved in JPG if topSize > 65500
+%Note 1: About spot_fontSize, auto-determine fontSize would be desirable here
+%Note 2: maybe checking slide_WMI_affine.m
+%Note 3: ImageJ > Cannot be re-saved in JPG if topSize > 65500
 
 format = '.tiff';
-spot_radius = spot_diameter/2;
-fontSize = 15; %35, 60 (paper)
-%Note: fontSize improvement opportunity checking slide_WMI_affine.m
+spot_radius = spot_diameter/2; %px
 
 n_classes = grid_info.n_classes;
 nGrids = grid_info.nGrids;
@@ -48,7 +48,7 @@ for i = 1:n_classes
             x_temp = output_table(k, 4);
             y_temp = output_table(k, 5);                       
                 
-            %Spot mask            
+            %Spot mask and circumference (to see interior)            
             theta = linspace(0, -360, n_steps);    
             factor = 0.9; %circumference thickness
             x1 = factor*spot_radius * cosd(theta) + x_temp; %interior
@@ -57,9 +57,9 @@ for i = 1:n_classes
             y2 = spot_radius * sind(theta) + y_temp;  
             mask1 = poly2mask(x1, y1, n_rows1, n_cols1);         
             mask2 = poly2mask(x2, y2, n_rows1, n_cols1);     
-            mask = mask2 & ~mask1;
-            %circumference
-            mask_2D = mask_2D | mask;
+            mask = mask2 & ~mask1;            
+            
+            mask_2D = mask_2D | mask;%circumference
                 
             position = [position; [x_temp, y_temp]];             
         end
@@ -73,7 +73,7 @@ for i = 1:n_classes
         if labelOption == 1 %most time consuming, 3 to 12 min
             box_color = {"black"};
             temp_image2 = insertText( temp_image, position, text_str(1:reach), ...
-                FontSize= fontSize, TextColor= "white", ...
+                FontSize= spot_fontSize, TextColor= "white", ...
                 TextBoxColor= box_color, BoxOpacity= .7);
 
         elseif labelOption == 0

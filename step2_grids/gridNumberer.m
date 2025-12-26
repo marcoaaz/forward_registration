@@ -1,6 +1,9 @@
 function [referenceGrid, tiling_name] = gridNumberer(dim_tiles, sel_type, sel_order)
+%This function follows ImageJ Stitching plugin (Preibisch et al., 2009)
+%https://imagej.net/plugins/image-stitching
+
 %Created: 8-Dec-2020
-%Updated: 23-Apr-2025
+%Updated: 23-Apr-2025, 19-Dec-25
 
 nrows_tiles = dim_tiles(1);
 ncols_tiles = dim_tiles(2);

@@ -44,7 +44,7 @@ for ii = 1:n_bins
         title(sprintf('n = %.f', sum_population))
         %Axis labels
         if ii == n_bins
-            xlabel(temp_variable, 'FontSize', fontSize*.8, 'Interpreter', "none", 'FontWeight','bold');
+            xlabel(temp_variable, 'FontSize', fontSize*.8, 'Interpreter', "latex", 'FontWeight','bold');
         end
         if p == 1           
             ylabel(str_interval,'FontSize', fontSize*.8, 'Interpreter', "none", 'FontWeight','bold');

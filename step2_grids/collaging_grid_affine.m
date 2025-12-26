@@ -156,9 +156,11 @@ for i = 1:n_classes
                 text_str = [string(label_no)];
                 position = [0, 0];                 
                 box_color = colour_textBox;
-
+                fontSize = 45; %default
+                % fontSize = 140; %m/s Figure 10
+                
                 temp_tile_output2 = insertText(temp_tile_output, position,text_str, ...
-                    FontSize= 45, TextColor= fontColour, TextBoxColor= box_color, ...
+                    FontSize= fontSize, TextColor= fontColour, TextBoxColor= box_color, ...
                     BoxOpacity= 1); %auto-converts to 3-channel
             
         end

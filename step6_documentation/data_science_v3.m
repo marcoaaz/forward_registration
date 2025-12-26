@@ -1,3 +1,11 @@
+
+%data_science_v3.m
+%
+%This script was written to write the data to correlate all variables within a table with WMCNA
+%WMCNA can be done with Gephi software correlation graph
+%
+%Update: 18-Dec-25, Marco Acevedo
+
 clear
 clc
 

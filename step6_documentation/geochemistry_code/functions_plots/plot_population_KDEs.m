@@ -61,17 +61,28 @@ for p = 1:n_interrogation
         grid on        
         
         text_population = sprintf('n = %.f', sum_population);
-        title(temp_variable_short, 'Interpreter','none', 'FontSize', fontSize)
+        title(temp_variable_short, 'Interpreter','latex', 'FontSize', fontSize)
     
         ax = gca;
         ax.XAxis.FontSize = fontSize;
         ax.YAxis.FontSize = fontSize;
     end
     hold off   
-
+    
+    %Truncating plot axes
     XL = get(ax, 'XLim');
-    if XL(1) < 0 & ~strcmp(temp_variable, 'lambda_3')
+    
+    %Manual: quality assess the plots
+    if strcmp(temp_variable, 'Dy_Yb_ratio')
+        xlim([0, 1])
+
+    elseif strcmp(temp_variable, 'ratio_totalREE_P_mol')
+        xlim([0, 4])
+    
+    elseif XL(1) < 0 & ~strcmp(temp_variable, 'lambda_3')
         xlim([0, Inf])
+    
+    %Detault
     else
         xlim([XL(1), XL(2)])
     end
@@ -81,6 +92,6 @@ lg = legend('FontSize', fontSize, 'Interpreter', 'none');
 lg.Layout.Tile = 'East';
 
 title(t, 'Population KDEs', 'FontSize', 1.5*fontSize, 'FontWeight', 'bold')
-ylabel(t, 'Counts', 'FontSize', fontSize, 'FontWeight', 'bold')
+ylabel(t, 'Probability density', 'FontSize', fontSize, 'FontWeight', 'bold')
 
 end

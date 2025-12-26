@@ -1,13 +1,14 @@
 
 %'merge_grids_v9.m'
 
-%Script to import several grids from 'prototype_optionA_v2.m', merge them, and
-%generate custom grids (age populations).
+%Main script to import several grids from 'prototype_optionA_v2.m', merge them, and
+%generate custom grids (age populations) for data science.
 
-%This version gets feedback from the analysis in Fiftyone software.
+%This version can get feedback from the analysis in Fiftyone software (work of next contribution).
 
 %Created: 20-Apr-25, Marco Acevedo
 %Updated: 23-Apr-24, 2-May-25, 12-May-25, 27-June-25, 28-July-25, M.A.
+%Updated (review 1): 18-Dec-25, M.A.
 
 %%
 clear 
@@ -56,7 +57,7 @@ expert_coordinates = {
     };
 
 workingDir = "E:\Feb-March_2024_zircon imaging\00_Paper 4_Forward image registration\puck 1 and 2\merge_grid_test";
-destinationFolder = 'project_6-Aug-25'; %output folder
+destinationFolder = 'project_24-Dec-25'; %output folder
 
 trial_n = 1; %counter to avoid overwriting
 
@@ -141,7 +142,6 @@ DB_merged2 = addvars(DB_merged2, basename2, 'NewVariableNames', 'path_basename',
 path_python = "E:\Alienware_March 22\scripts_Marco\updated MatLab scripts\WMI\update_14-Jan-25\step6_documentation\geochemistry_code\geochemistry_python\trial1";
 path_Rscripts = "E:\Alienware_March 22\scripts_Marco\updated MatLab scripts\WMI\update_14-Jan-25\step6_documentation\geochemistry_code\geochemistry_R";
 
-%Run
 script_path1 = fullfile(path_Rscripts, "script_isoplot_v2.R");
 script_path2 = fullfile(path_Rscripts, "script_Carrasco.R");
 
@@ -186,7 +186,7 @@ DB_sorted_in_master0 = [DB_sorted_age, ...
 DB_sorted_in_master = DB_sorted_in_master0(sort_idx_prime, :); %sorting 1
 BB_merged2_master = BB_merged2_master0(sort_idx_prime, :); %follows
 
-%% Optional: Fiftyone link (in development..)
+%% Do not use yet..: Fiftyone link (in development..)
 
 %User input
 path_dictionary = "C:\Users\acevedoz\OneDrive - Queensland University of Technology\Desktop\appended_DB_dictionary_v2_Marco.xlsx";
@@ -207,10 +207,7 @@ mkdir(newFolder3)
 %% User input: Custom merged grids (second part of script)
 
 age_intervals = [...
-     [-Inf, 142.7]; %Population 1: Youngest
-     [201.4, 301.4]; %Population 2: Permo-Triassic
-     [980, 1300]; %Population 3: Grenville
-     [1827.66, Inf] %Population 4: Oldest
+     [242, 249.1] 
      ]; 
 
 %Pre-classification 
@@ -220,11 +217,11 @@ sort_direction = 'ascend'; %'ascend', 'descend'
 display_variable = sort2_variable; %for burned grids text; sort2_variable
 
 %Grid slicing, saving, and collaging settings (grids)
-nrows = 16; %4
+nrows = 1; %in grid
 nGrids = 1;
 chosen_bb_variable = 'MaxFeretDiameter';
 scale = 75; %default= 75 pct of largest grain dim (bounding box)
-orientation = 'vertical';
+orientation = 'vertical'; %grain c-axis
 sel_pattern = [4, 1]; %snake [4, 1]; MatLab default = [2, 1] 
 sel_interpolation = 'linear';
 
@@ -248,7 +245,7 @@ BB_merged2 = BB_merged2_master(idx_sample, :);
 spot_diameter = 2*spotSize/pixel_size; 
 
 %For fast computation:
-burnOption = 0;
+burnOption = 1;
 labelOption = 0;
 spotOption = 0; 
 
@@ -267,11 +264,10 @@ winopen(gridFolder); %important for 'data_science_v2.m' script
 
 %Auxiliary calculations
 array = DB_sorted_age{:, chosen_bb_variable};
-% [bb_width, bb_height] = generic_bb(array, scale, orientation); %scale in percentage
-bb_width = 50;
-bb_height = 2*bb_width;
-% bb_width = 160; %squared
-% bb_height = bb_width;
+[bb_width, bb_height] = generic_bb(array, scale, orientation); %scale in percentage
+
+% bb_width = 50; %Manual edit (Zoom level)
+% bb_height = 2*bb_width;
 
 %Grid config (common)
 mergedGrid_info = struct;
@@ -319,8 +315,7 @@ for ii = 1:n_bins %1:n_bins
     [mergedGrid_info, ~] = grid_configuration_custom(mergedGrid_info, nrows, nGrids);
     % mergedGrid_info
     
-    %%Generate grids  
-    
+    %%Generate grids      
     [class_grids, bbXYtable_merged] = collaging_grid_affine( merged_gridCells, BB_merged4, ...
         mergedGrid_info, orientation, sel_interpolation, burnOption);
     
@@ -331,9 +326,7 @@ for ii = 1:n_bins %1:n_bins
     save(destinationFile4_full, 'bbXYtable_merged', '-mat','-v7.3')
 
     %Optional: Save isoplot plots 
-    [~] = geochemistry_isoplot_1(DB_sorted, gridFolder2, script_path1); %optional
-    % similar_interval = [222.9, 247];
-    % similar_idx = (data_table4.)
+    [~] = geochemistry_isoplot_1(DB_sorted, gridFolder2, script_path1); %optional 
 
     %info
     [folder_temp, ~, ~] = fileparts(destinationFile8);
@@ -369,7 +362,6 @@ end
 beep
 
 %% Calculate statistics
-DB_sorted.initial_U
 
 interrogation_columns = {
     'Convexity', 'MeanIntensity_V',...
@@ -393,25 +385,39 @@ formal_name = {
 %Geochemical interrogation
 number_bins = 8;
 
+%Subset master table
+populations_cell = cell(n_bins, 1);
 n_interrogation = length(interrogation_columns);
 population_stats = cell(n_bins, n_interrogation);
 population_kde = cell(n_bins, n_interrogation);
 for ii = 1:n_bins  %1:n_bins 
 
     load(grid_files{ii});
-    DB_sorted = mergedGrid_info.DB_sorted;
+    DB_sorted = mergedGrid_info.DB_sorted; %load grid metadata structure    
     
-    %Save for post-processing
-    gridFolder2 = mergedGrid_info.dest_folder_grid;
-    destinationFile9 = fullfile( gridFolder2, 'population_data.xlsx');
-    writetable(DB_sorted, destinationFile9)
-
     %Subsetting (finding inclusion-bearing spots)
     idx_bad1 = all(DB_sorted{:, {'Al27_fail', 'La139_fail', 'Ti49_fail'}}, 2);
     idx_bad2 = DB_sorted{:, {'Ti49_fail'}};
     idx_good = ~(idx_bad1 | idx_bad2);
     DB_sorted2 = DB_sorted(idx_good, :);    
+    
+    %Interrogating
+    % DB_sorted3 = DB_sorted2(:, interrogation_columns);    
+    DB_sorted3 = DB_sorted2;
 
+    %Add bin number
+    new_col = repmat(ii, [size(DB_sorted3, 1), 1]);
+    DB_sorted_temp = addvars(DB_sorted3, new_col, 'NewVariableNames', 'age_bin');
+    populations_cell{ii} = DB_sorted_temp;
+
+    %Save for post-processing
+    gridFolder2 = mergedGrid_info.dest_folder_grid;    
+    [dirname, ~] = fileparts(gridFolder2);
+
+    destinationFile10 = fullfile( gridFolder2, 'population_data.xlsx');    
+    writetable(DB_sorted2, destinationFile10)    
+    
+    %Calculate columns KDEs
     for p = 1:n_interrogation
 
         temp_variable = interrogation_columns{p};
@@ -420,7 +426,7 @@ for ii = 1:n_bins  %1:n_bins
 
         %Histograms
         [N_counts, ~] = histcounts(temp_array, number_bins); %automatic
-        [N, edges] = histcounts(temp_array, number_bins, 'Normalization','pdf');        
+        [N, edges] = histcounts(temp_array, number_bins, 'Normalization', 'pdf');        
         sum_population = sum(N_counts);
         info_histogram = [[0, N]; edges];
 
@@ -429,6 +435,7 @@ for ii = 1:n_bins  %1:n_bins
         
         population_stats{ii, p} = {sum_population, info_histogram};
         population_kde{ii, p} = {f1, xf1};
+
     end
 
 end
@@ -436,3 +443,16 @@ end
 %Note: save them as SVG
 plot_population_histograms(age_populations, population_stats, population_kde, formal_name)
 plot_population_KDEs(interrogation_columns, age_populations, population_stats, population_kde, formal_name)
+
+%Save table for MDS/PCA
+interrogation_metadata = struct;
+interrogation_metadata.interrogation_columns = interrogation_columns;
+interrogation_metadata.formal_name = formal_name;
+
+populations_table = vertcat(populations_cell{:});
+destinationFile11 = fullfile( dirname, 'populations_data_interrogated.xlsx');    
+destinationFile12 = fullfile( dirname, 'interrogation_metadata.mat'); 
+writetable(populations_table, destinationFile11)
+save(destinationFile12, "interrogation_metadata", '-mat','-v7.3')
+
+

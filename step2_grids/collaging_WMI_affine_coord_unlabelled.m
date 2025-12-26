@@ -17,8 +17,8 @@ n_points = size(coord_input, 1);
 coord_output = zeros(n_points, 5, "double");
 
 for i = 1:n_points
-% for i = 112
-    
+% for i = 112    
+
     point_local4 = coord_input(i, 1:2); %double  
     
     %% Estimating label
@@ -58,6 +58,8 @@ for i = 1:n_points
     x2 = double(grain_bb.x2);
     
     coef = [coef_1; coef_2; coef_3; coef_4];
+
+    
     tformInv = invert(tform); %inverse rotation      
 
     %% Class grid coordinates to Local coordinates (WMI bbox)

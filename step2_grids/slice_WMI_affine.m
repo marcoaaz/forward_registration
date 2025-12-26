@@ -166,9 +166,9 @@ for i = 1:n_classes %for each class
                 
                 text_str = [string(label_no)];
                 position = [0, 0];                 
-                box_color = colour_textBox;
-                % fontSize = 25; %px
-                fontSize = floor(0.1*min(dim_grid_tile));
+                box_color = colour_textBox;                
+                fontSize = floor(0.1*min(dim_grid_tile)); %px
+                % fontSize = 90; %edited manually in m/s Figure 10
 
                 temp_tile_adjusted = insertText(temp_tile_adjusted, position,text_str, ...
                     FontSize= fontSize, TextColor= fontColour, TextBoxColor= box_color, ...

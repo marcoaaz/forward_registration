@@ -2,6 +2,8 @@ function plot_original_check1(img_ref_fg2, coord_labelled2, n_std)
 %without class and grid
 
 % n_std = 5; %5
+
+%Adjust contrast 
 Idouble = im2double(img_ref_fg2);
 avg = mean2(Idouble);
 sigma = std2(Idouble);
@@ -9,7 +11,7 @@ a = max(0, avg-n_std*sigma);
 b = min(1, avg+n_std*sigma);
 img2 = imadjust(img_ref_fg2, [a a a; b b b],[]); %[0.2 0.2 0.2; .8 .8 .8],[]
 
-close all
+%Plot
 
 hFig = figure;
 hFig.WindowState = 'maximized'; 
