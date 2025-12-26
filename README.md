@@ -2,21 +2,21 @@
 
 The forward registration image analysis pipeline can be deployed to study mineral mounts with combined microscopy techniques and micro-analysis using spots. 
 
-Manuscript graphical abstract:
+Graphical abstract:
 
-<img width=65% height=65% alt="Image" src="https://github.com/user-attachments/assets/b3ccfcdd-6b5c-4a2a-9b99-78a7663588b4" />
+<img width=65% height=65% alt="Image" src="https://github.com/user-attachments/assets/a891fca7-94fe-4f27-96b2-7e651316a1e1" />
 
 ## Scientific citation
 
 We studied a hand-picked zircon epoxy mount from a location in Murray River Basin (Australia) in a research article using the approach. If using the full or part of the software pipeline (or an independent module), please cite: 
 
-**"Forward image registration for higher level interpretation of zircon provenance based on combined CL, U/Pb age and geochemical data"** Marco A. Acevedo Zamora1*, Balz S. Kamber1, John T. Caulfield1, Charlotte M. Allen1,2, and Justin S. Freeman3. Manuscript submitted to Geochemistry, Geophysics, Geosystems journal.
+**"Forward image registration for higher level interpretation of zircon provenance based on combined CL, U/Pb age and geochemical data" Acevedo Zamora MA, Kamber BS, Caulfield JT, Allen CM, Freeman J. Submitted to Geochemistry, Geophysics, Geosystems journal.**
 * Corresponding author: marco.acevedozamora@qut.edu.au (https://orcid.org/0000-0003-3330-3828)
 
 The citations to use until the full publication are:
 - "A Step Change in Multi-Dimensional Zircon Provenance Analysis from Forward Registered CL, U/Pb Age, and Trace Element Data." Acevedo Zamora MA, Kamber BS, Caulfield JT & Allen CM (2025). https://goldschmidtabstracts.info/abstracts/abstractView?doi=10.7185/gold2025.26671
 -	"Forward Image Registration for Higher Level Interpretation of Zircon Provenance Based on Combined CL, U/Pb Age and Geochemical Data." Acevedo Zamora MA, Kamber BS, Caulfield JT & Allen CM (2025). https://goldschmidtabstracts.info/abstracts/abstractView?id=2020016303
--	"Mineral Separate Microanalysis with Intelligent Spot Placement, Manual Edition, and Simulation: Two Correlative Microscopy Prototypes for Relating Zircon Texture, Age, and Geochemistry."  Marco A. Acevedo Zamora 1 , , John T. Caulfield 1 , Elise Laupland 1 , Balz S. Kamber 1 , Charlotte M. Allen 1 (2025). https://www.scienceopen.com/hosted-document?doi=10.14293/APMC13-2025-0280
+-	"Mineral Separate Microanalysis with Intelligent Spot Placement, Manual Edition, and Simulation: Two Correlative Microscopy Prototypes for Relating Zircon Texture, Age, and Geochemistry."  Acevedo Zamora MA, Caulfield JT, Laupland E, Kamber BS, Allen CM (2025). https://www.scienceopen.com/hosted-document?doi=10.14293/APMC13-2025-0280
 
 
 ## Image analysis pipeline
@@ -25,11 +25,11 @@ The steps of the pipeline are: 1) image processing including image stitching (fu
 
 Schematic workflow to study zircon mounts using state-of-the-art microscopy and laser ablation ICP-MS:
 
-<img width=70% height=70% alt="Image" src="https://github.com/user-attachments/assets/d87ff7c5-099b-4279-becf-e6422532c90a" />
+<img width=70% height=70% alt="Image" src="https://github.com/user-attachments/assets/ecd73f6b-144c-4882-acc4-09fd46a2a8bf" />
 
 Details of the steps routines, data and script flows (denoted by arrows):
 
-<img width=70% height=70% alt="Image" src="https://github.com/user-attachments/assets/e5909253-59ff-4a98-b6b4-ff35b3087008" />
+<img width=70% height=70% alt="Image" src="https://github.com/user-attachments/assets/6237d3d9-6295-4b69-b273-e5e7293da38d" />
 
 The slide below shows the programming languages sequence for all the Steps. Step 5 (master table) in bold font is the main MatLab script (merge_grids_v9.m) that orchestrates the data flow that comes in the master table and is shown as grid displays. The plug-in cartoon represents the external software that can be streamlined to the pipeline:
 
@@ -38,13 +38,11 @@ The slide below shows the programming languages sequence for all the Steps. Step
 
 ## Installation and required libraries
 
-The MatLab scripts can be run with:
+The MatLab scripts require:
 
 MATLAB Version: 24.2.0.2740171 (R2024b) Update 1
 Operating System: Microsoft Windows 11 Enterprise Version 10.0 (Build 22631)
 Java Version: Java 1.8.0_202-b08 with Oracle Corporation Java HotSpot(TM) 64-Bit Server VM mixed mode
-
-- MATLAB                                                Version 24.2        (R2024b)
 - Computer Vision Toolbox                               Version 24.2        (R2024b)
 - Curve Fitting Toolbox                                 Version 24.2        (R2024b)
 - Deep Learning Toolbox                                 Version 24.2        (R2024b)
