@@ -8,15 +8,17 @@ Graphical abstract:
 
 ## Scientific citation
 
-We studied a hand-picked zircon epoxy mount from a location in Murray River Basin (Australia) in a research article using the approach. If using the full or part of the software pipeline (or an independent module), please cite: 
+We studied a hand-picked zircon epoxy mount from a location in Murray River Basin (Australia) in a research article using the approach. If using the forward registration approach, please cite: 
 
-**"Forward image registration for higher level interpretation of zircon provenance based on combined CL, U/Pb age and geochemical data" Acevedo Zamora MA, Kamber BS, Caulfield JT, Allen CM, Freeman J. Submitted to Geochemistry, Geophysics, Geosystems journal.**
+**"Acevedo Zamora, M. A., Kamber, B. S., Caulfield, J. T., Allen, C. M., & Freeman, J. S. (2026). Forward Image Registration for Higher Level Interpretation of Zircon Provenance Based on Combined CL, U/Pb Age, and Geochemical Data. Geochemistry, Geophysics, Geosystems, 27(7), e2025GC012671. https://doi.org/10.1029/2025GC012671**
 * Corresponding author: marco.acevedozamora@qut.edu.au (https://orcid.org/0000-0003-3330-3828)
 
-The citations to use until the full publication are:
+Preliminary work was presented at:
 - "A Step Change in Multi-Dimensional Zircon Provenance Analysis from Forward Registered CL, U/Pb Age, and Trace Element Data." Acevedo Zamora MA, Kamber BS, Caulfield JT & Allen CM (2025). https://goldschmidtabstracts.info/abstracts/abstractView?doi=10.7185/gold2025.26671
 -	"Forward Image Registration for Higher Level Interpretation of Zircon Provenance Based on Combined CL, U/Pb Age and Geochemical Data." Acevedo Zamora MA, Kamber BS, Caulfield JT & Allen CM (2025). https://goldschmidtabstracts.info/abstracts/abstractView?id=2020016303
 -	"Mineral Separate Microanalysis with Intelligent Spot Placement, Manual Edition, and Simulation: Two Correlative Microscopy Prototypes for Relating Zircon Texture, Age, and Geochemistry."  Acevedo Zamora MA, Caulfield JT, Laupland E, Kamber BS, Allen CM (2025). https://www.scienceopen.com/hosted-document?doi=10.14293/APMC13-2025-0280
+
+If using the image analysis workflow code entirely or partially, do not forget to cite the authors of the corresponding software libraries that have been used in this repository as well (see external software repositories). Support open-source.
 
 
 ## Image analysis pipeline
@@ -69,7 +71,7 @@ If there are any omissions in terms of software and citations. Please, let me kn
 
 #### Supplementary Data
 
-For trialling Step 3, the manual spot placement dataset can be downloaded from [Zenodo](https://zenodo.org/records/16750323) and opened in QuPath. 
+For trialling Step 3, the manual spot placement dataset can be downloaded from [Zenodo](https://zenodo.org/records/16750323) and opened in QuPath software. 
 
 For full reproducibility of the paper results (and figures), the original dataset can be downloaded in four parts (total ~200 GB) containing: 
 -	[Part 1](https://zenodo.org/records/16625000): CA-24MR-1 Puck 1 image analysis intermediate files and outputs from Step 5 (merge_script_v9.m). Iolite version 4 chemical data for pucks 1 and 2 and Iolite v4 projects. Ruby Creek imagery by Geoscience Australia. Data for Figure 8 and Table 1. Master table data dictionary with variable description (‘appended_DB_dictionary_v2_Marco.xlsx’). SEM experimental metadata in puck 1 TIMA and puck 2 Apreo 2 (similar to puck 1) experiments. 
@@ -82,8 +84,9 @@ After download, the user needs the scripts within this repository (follow Step s
 The full explanation of the workflow is in Supporting information Text 1. The exact script metadata to reproduce the manuscript figures are given in the Supporting information Text 2.
 
 
-Thanks.
+Thank you.
 
 Cordially,
+
 Marco
 
